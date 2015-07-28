@@ -55,7 +55,7 @@ ROOT_URLCONF = 'voyager.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['voyager/templates/'],
+        'DIRS': ['voyager/templates/', 'voyager/common/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

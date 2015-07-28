@@ -1,0 +1,38 @@
+.background-smolder {
+	background-color: black;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+}
+
+.main-title {
+	color: white;
+	font-size: 500%;
+}
+
+.sub-title {
+	color: white;
+}
+
+.title-divs {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	border: 2px solid black;
+}
+
+.title-container {
+	width: 75%;
+	height: 200px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.title-screen {
+	background-color: black;
+	background-image: url("../images/screen1.jpeg");
+	background-size: cover;
+}
