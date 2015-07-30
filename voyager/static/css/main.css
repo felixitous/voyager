@@ -181,20 +181,23 @@ body {
 .navbar-selectors {
 	position: absolute;
 	right: 0;
-	width: 600px;
 	text-align: center;
 	height: 50px;
 	background-color: black;
 }
 
 .navbar-selector {
-	margin-left: 10px;
-	margin-right: 10px;
 	font-weight: bold;
 	height: 50px;
 	line-height: 50px;
 	color: white;
 	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.navbar-selector:hover {
+	cursor: pointer;
 
 }
 

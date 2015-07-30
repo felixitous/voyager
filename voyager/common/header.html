@@ -1,21 +1,14 @@
 {% load staticfiles %}
+<meta charset="UTF-8">
+
 <script type="text/javascript" src="{% static "js/jquery.min.js" %}"></script>
 <link rel="stylesheet" type="text/css" href="{% static "css/normalize.css" %}" />
 <link rel="stylesheet" type="text/css" href="{% static "css/skeleton.css" %}" />
 <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}" />
 
 <!-- NavBar Personal Design -->
-<div class="navbar">
-	<div class="navbar-container">
-		<div class="navbar-logo"></div>
-		<div class="navbar-selectors">
-			<div class="navbar-selector">Home</div>
-			<div class="navbar-selector">About</div>
-			<div class="navbar-selector">Careers</div>
-			<div class="navbar-selector">Services</div>
-			<div class="navbar-selector">Recruiting</div>
-			<div class="navbar-selector">Contact</div>
-			<div class="navbar-selector">Apply</div>
-		</div>
-	</div>
-</div>
+<div id="navbar-container"></div>
+
+<script type="text/template" id="navbar-template">
+	{% include "header/navbar.html" %}
+</script>
