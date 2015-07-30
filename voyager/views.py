@@ -9,3 +9,6 @@ def index(request):
 
 def about(request):
 	return render(request, 'about.html')
+
+def careers(request):
+	return render(request, 'careers.html')

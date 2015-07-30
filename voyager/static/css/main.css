@@ -72,21 +72,47 @@ body {
 	background-color: white;
 }
 
-.display-picture {
+.career-whitespace {
+	width: 100%;
+	height: 60px;
+}
+
+	/*.career-line-break {
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}*/
+
+.picture {
 	position: relative;
 	height: 450px;
 	width: 100%;
 	background-color: black;
-	background-image: url("../images/team.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0 30%;
+}
+
+.about-picture {
+	background-image: url("../images/team.jpg");
+}
+
+.career-picture {
+	background-image: url("../images/careers.jpeg");
+	opacity: 0.3;
+	position: absolute;
 }
 
 .about-launch {
 	width: 100%;
 	background-color: black;
 	position: relative;
+}
+
+.career-launch {
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	top: 450px;
 }
 
 .about-alumni {
@@ -112,6 +138,10 @@ body {
 	margin: 0 auto;
 }
 
+.table-style {
+	color: white;
+}
+
 .page-container {
 	width: 80%;
 	position: relative;
@@ -127,8 +157,12 @@ body {
 .page-title {
 	position: relative;
 	color: white;
-	font-size: 400%;	
+	font-size: 400%;
 	margin-top: 20px;
+}
+
+.subtitle {
+	font-size: 300%;
 }
 
 .navbar-logo {
@@ -164,6 +198,23 @@ body {
 
 }
 
+.picture-text-overlay {
+	position: absolute;
+	width: 80%;
+	left: 0; right: 0;
+	margin: 0 auto;
+	text-align: center;
+	height: 450px;
+	color: white;
+	overflow: auto;
+}
+
+.picture-text-overlay p {
+	font-size: 200%;
+	position: absolute;
+	top: 30%;
+}
+
 .sub-title {
 	color: white;
 }
@@ -175,6 +226,11 @@ body {
 	border: 2px solid black;
 	background-color: white;
 
+}
+
+.whitespace {
+	width: 100%;
+	height: 100px;
 }
 
 .title-container {
