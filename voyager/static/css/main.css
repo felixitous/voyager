@@ -118,6 +118,69 @@ body {
 	font-size: 20px;
 }
 
+.crystal-picture {
+	background-image: url("../images/members/crystal.jpg");
+}
+
+.ted-picture {
+	background-image: url("../images/members/ted.jpg");
+}
+
+.olivia-picture {
+	background-image: url("../images/members/olivia.jpg");
+}
+
+.margarita-picture {
+	background-image: url("../images/members/margarita.jpg");
+}
+
+.savan-picture {
+	background-image: url("../images/members/savan.jpg");
+}
+
+.felix-picture {
+	background-image: url("../images/members/felix.jpg");
+}
+
+.sumedh-picture {
+	background-image: url("../images/members/sumedh.jpg");
+}
+
+.robbie-picture {
+	background-image: url("../images/members/robbie.jpg");
+}
+
+.natalie-picture {
+	background-image: url("../images/members/natalie.jpg");
+}
+
+.picture-frame {
+	width: 60%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	text-align: center;
+}
+
+.text-frame {
+	width: 40%;
+	height: 100%;
+	right: 0;
+	background-color: black;
+	position: absolute;
+
+}
+
+.member-picture {
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	background-color: gray;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .mission-title {
 	color: white;
 	text-align: center;
