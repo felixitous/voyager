@@ -10,12 +10,72 @@ body {
 	color: black !important;
 }
 
+.arrow-wrapper-left {
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 35px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 70; left: 70;
+	z-index: 1;
+}
+
+.arrow-wrapper-right {
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 35px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 70; right: 70;
+	z-index: 1;
+}
+
+.arrow-wrapper-right:hover {
+	cursor: pointer;
+}
+
+.arrow-wrapper-left:hover {
+	cursor: pointer;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid white;
+	position: relative;
+	margin: auto;
+	margin-right: 22px;
+	margin-top: 14px;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-right: 20px solid white; 
+	position: relative;
+	margin: auto;
+	margin-left: 22px;
+	margin-top: 14px;
+}
+
+
+
 .background-smolder {
 	background-color: black;
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	opacity: 0.5;
+}
+
+.carousel-smolder {
+	opacity: 0.7;
 }
 
 .company {
@@ -245,6 +305,17 @@ body {
 	top: 0; left: 0; bottom: 0; right: 0;
 }
 
+.carousel-container {
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	left: 0; right: 0;
+	padding-top: 50px;
+}
+
+
+
 .relative-wrapper {
 	position: relative;
 }
@@ -254,6 +325,32 @@ body {
 	background-image: url("../images/screen1.jpeg");
 	background-size: cover;
 }
+
+.instagram-screen {
+	background-color: black;
+	background-image: url("../images/clients/instagram.jpg");
+	background-size: cover;
+}
+
+.pinterest-screen {
+	background-color: black;
+	background-image: url("../images/clients/pinterest.jpg");
+	background-size: cover;
+}
+
+.amazon-screen {
+	background-color: black;
+	background-image: url("../images/clients/amazon.jpg");
+	background-size: cover;
+}
+
+.valve-screen {
+	background-color: black;
+	background-image: url("../images/clients/valve.jpg");
+	background-size: cover;
+}
+
+
 
 .goldman {
 	background-image: url("../images/goldman-sachs.png");

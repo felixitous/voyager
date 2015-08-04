@@ -23,5 +23,4 @@ var NavbarView = Backbone.View.extend({
 		window.location.href = window.location.origin + '/careers';
 	}
 
-
 });
