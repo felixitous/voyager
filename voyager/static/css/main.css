@@ -1,9 +1,14 @@
 body {
 	background-color: black;
+	font-family: 'Cabin', sans-serif;
 }
 
 .white {
 	color: white;
+}
+
+.black-background {
+	background-color: black;
 }
 
 .black {
@@ -159,7 +164,7 @@ body {
 	height: 100%;
 	background-color: black;
 	position: absolute;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .text-frame {
@@ -172,11 +177,11 @@ body {
 }
 
 .member-picture {
-	width: 250px;
-	height: 250px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	/*margin: 0 auto;*/
+	float: left;
 	background-color: gray;
-	display: inline-block;
+	/*display: inline-block;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -248,17 +253,39 @@ body {
 }
 
 .navbar {
-	width: 100%;
-	height: 50px;
+	/*width: 12%;*/
+	/*height: 100%;*/
 	position: fixed;
 	background-color: black;
 	z-index: 2;
 }
 
+.navbar-span-list {
+	position: relative;
+	background-color: black;
+	width: 65px;
+	height: 65px;
+	overflow: hidden;
+}
+
+.lines {
+	position: relative;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 1px solid white;
+}
+
+.lines-top {
+	margin-top: 22px;
+}
+
 .navbar-container {
-	width: 88%;
+	width: 100%;
 	position: relative;
 	margin: 0 auto;
+	display: none;
 }
 
 .table-style {
@@ -289,11 +316,11 @@ body {
 }
 
 .navbar-logo {
-	float: left;
-	width: 200px;
+	/*float: left;*/
+	width: 100%;
 	height: 40px;
 	margin-top: 5px;
-	margin-left: 15px;
+	margin-left: 20px;
 	margin-bottom: 5px;
 	position: relative;
 	background-image: url("../images/VClogo.png");
@@ -303,20 +330,21 @@ body {
 
 .navbar-selectors {
 	position: absolute;
-	right: 0;
 	text-align: center;
+	width: 100%;
 	height: 50px;
 	background-color: black;
 }
 
 .navbar-selector {
 	font-weight: bold;
+	width: 100%;
 	height: 50px;
 	line-height: 50px;
 	color: white;
 	display: inline-block;
-	padding-left: 15px;
-	padding-right: 15px;
+	/*padding-left: 15px;*/
+	/*padding-right: 15px;*/
 }
 
 .navbar-selector:hover {

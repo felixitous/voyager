@@ -41,6 +41,46 @@ function buttonFocus() {
     });
 }
 
+function navbarLaunch() {
+    target = $(".navbar-span-list");
+    wholeNavbarTarget = $(".navbar")
+    target.mouseenter(function() {
+        TweenMax.to(wholeNavbarTarget, 0.2, {
+            width: "12%"
+        });
+        TweenMax.to(wholeNavbarTarget, 0.3, {
+            delay: 0.2,
+            height: "100%"
+        });
+        TweenMax.to($(".navbar-container"), 0.3, {
+            delay: 0.3,
+            display: "block"
+        });
+        TweenMax.to(this, 0.3, {
+            opacity: 0,
+            display: "none"
+        });
+    });
+
+    wholeNavbarTarget.mouseleave(function() {
+        TweenMax.to(this, 0.2, {
+            width: "0%"
+        });
+        TweenMax.to(this, 0.3, {
+            delay: 0.2,
+            height: "0%"
+        });
+        TweenMax.to($(".navbar-container"), 0, {
+            display: "none"
+        });
+        TweenMax.to(target, 0.5, {
+            opacity: 1,
+            display: "block"
+        });
+    });
+}
+
+
 var lastScrollTop = 0;
 $(window).scroll(function(event) {
     var st = $(this).scrollTop();
@@ -56,7 +96,19 @@ $(window).scroll(function(event) {
     lastScrollTop = st;
 });
 
+// console.log(window.innerHeight);
+$(".member-picture").css("width", function() {
+    return window.innerHeight / 3 + "px";
+})
+$(".member-picture").css("height", function() {
+    return window.innerHeight / 3 + "px";
+})
+
+
+
+
 companyAnimation();
 buttonAnimation(".about-selector");
 buttonFocus();
 buttonAnimation(".navbar-selector");
+navbarLaunch();
