@@ -13,7 +13,7 @@ body {
 .arrow-wrapper-left {
 	background-color: transparent;
 	border: 2px solid white;
-	border-radius: 35px;
+	border-radius: 36px;
 	width: 70px;
 	height: 70px;
 	position: absolute;
@@ -24,7 +24,7 @@ body {
 .arrow-wrapper-right {
 	background-color: transparent;
 	border: 2px solid white;
-	border-radius: 35px;
+	border-radius: 36px;
 	width: 70px;
 	height: 70px;
 	position: absolute;
@@ -351,7 +351,21 @@ body {
 	width: 100%;
 	border: 2px solid black;
 	background-color: white;
+	overflow: hidden;
+}
 
+.carousel-divs {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.float-left {
+	/*float: left;*/
+}
+
+.float-right {
+	left: 500px;
 }
 
 .whitespace {
@@ -377,10 +391,12 @@ body {
 	padding-top: 50px;
 }
 
-
-
 .relative-wrapper {
 	position: relative;
+}
+
+.carousel-display {
+	display: inline-block;
 }
 
 .title-screen {

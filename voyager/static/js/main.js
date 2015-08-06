@@ -2,4 +2,4 @@ var navbar = new NavbarView();
 navbar.render();
 
 var carousel = new CarouselView();
-carousel.render();
+carousel.render("#instagram-template");
