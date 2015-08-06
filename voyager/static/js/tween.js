@@ -53,7 +53,7 @@ function navbarLaunch() {
             height: "100%"
         });
         TweenMax.to($(".navbar-container"), 0.3, {
-            delay: 0.3,
+            delay: 0.4,
             display: "block"
         });
         TweenMax.to(this, 0.3, {
@@ -71,6 +71,10 @@ function navbarLaunch() {
             height: "0%"
         });
         TweenMax.to($(".navbar-container"), 0, {
+            display: "none"
+        });
+        TweenMax.to($(".navbar-container"), 0, {
+            delay: 0.4,
             display: "none"
         });
         TweenMax.to(target, 0.5, {
