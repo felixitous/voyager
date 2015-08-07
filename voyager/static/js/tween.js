@@ -41,53 +41,62 @@ function buttonFocus() {
     });
 }
 
+function navbarAppear() {
+    TweenMax.to(wholeNavbarTarget, 0.2, {
+        height: window.innerHeight
+    });
+    TweenMax.to(wholeNavbarTarget, 0.3, {
+        delay: 0.2,
+        width: "180px"
+    });
+    TweenMax.to($(".navbar-container"), 0, {
+        delay: 0.3,
+        display: "block"
+    });
+    TweenMax.to($(".navbar-container"), 0.3, {
+        delay: 0.4,
+        opacity: 1
+    });
+
+    TweenMax.to(this, 0.3, {
+        opacity: 0,
+        display: "none"
+    });
+}
+
+function navbarDisappear() {
+    TweenMax.to(this, 0.2, {
+        width: "40px"
+    });
+    TweenMax.to(this, 0.3, {
+        delay: 0.2,
+        height: "40px"
+    });
+    TweenMax.to($(".navbar-container"), 0, {
+        opacity: 0,
+        display: "none"
+    });
+    TweenMax.to(target, 0.5, {
+        opacity: 1,
+        display: "block"
+    });
+
+    /* Making sure the width shrinks to the right size */
+    TweenMax.to(this, 0, {
+        delay: 0.3,
+        width: "40px"
+    });
+    TweenMax.to(".navbar-container", 0, {
+        delay: 0.3,
+        display: "none"
+    });
+}
+
 function navbarLaunch() {
     target = $(".navbar-span-list");
     wholeNavbarTarget = $(".navbar")
-    target.mouseenter(function() {
-        TweenMax.to(wholeNavbarTarget, 0.2, {
-            height: window.innerHeight
-        });
-        TweenMax.to(wholeNavbarTarget, 0.3, {
-            delay: 0.2,
-            width: "180px"
-        });
-        TweenMax.to($(".navbar-container"), 0, {
-            display: "block"
-            // opacity: 1
-        });
-        TweenMax.to($(".navbar-container"), 0.3, {
-            delay: 0.4,
-            opacity: 1
-        });
-
-        TweenMax.to(this, 0.3, {
-            opacity: 0,
-            display: "none"
-        });
-    });
-
-    wholeNavbarTarget.mouseleave(function() {
-        TweenMax.to(this, 0.2, {
-            width: "40px"
-        });
-        TweenMax.to(this, 0.3, {
-            delay: 0.2,
-            height: "40px"
-        });
-        TweenMax.to($(".navbar-container"), 0, {
-            opacity: 0,
-            display: "none"
-        });
-        // TweenMax.to($(".navbar-container"), 0, {
-        //     delay: 0.4,
-        //     display: "none"
-        // });
-        TweenMax.to(target, 0.5, {
-            opacity: 1,
-            display: "block"
-        });
-    });
+    target.mouseenter(navbarAppear);
+    wholeNavbarTarget.mouseleave(navbarDisappear);
 }
 
 
