@@ -10,7 +10,7 @@ var CarouselView = Backbone.View.extend({
     },
 
     nextSlideRight: function(ev) {
-        console.log("going here");
+    	$(".retired").remove();
         var value = $(ev.currentTarget).data('value');
         var target = "#" + value + "-template";
         $(".carousel-divs").removeClass('current-carousel').addClass("retired");
@@ -31,6 +31,7 @@ var CarouselView = Backbone.View.extend({
     },
 
     nextSlideLeft: function(ev) {
+    	$(".retired").remove();
         var value = $(ev.currentTarget).data('value');
         var target = "#" + value + "-template";
         $(".carousel-divs").removeClass('current-carousel').addClass("retired");
