@@ -263,8 +263,8 @@ body {
 .navbar-span-list {
 	position: relative;
 	background-color: black;
-	width: 65px;
-	height: 65px;
+	width: 40px;
+	height: 40px;
 	overflow: hidden;
 }
 
@@ -272,13 +272,13 @@ body {
 	position: relative;
 	width: 40%;
 	margin: 0 auto;
-	margin-top: 8px;
-	margin-bottom: 8px;
+	margin-top: 4px;
+	margin-bottom: 4px;
 	border: 1px solid white;
 }
 
 .lines-top {
-	margin-top: 22px;
+	margin-top: 14px;
 }
 
 .navbar-container {
@@ -286,6 +286,7 @@ body {
 	position: relative;
 	margin: 0 auto;
 	display: none;
+	opacity: 0;
 }
 
 .table-style {
@@ -317,15 +318,12 @@ body {
 
 .navbar-logo {
 	/*float: left;*/
-	width: 100%;
-	height: 40px;
-	margin-top: 5px;
-	margin-left: 20px;
-	margin-bottom: 5px;
-	position: relative;
-	background-image: url("../images/VClogo.png");
-	background-size: contain;
-	background-repeat: no-repeat;
+	max-width: 160px;
+	max-height: 100%;
+	margin: 10px;
+	background-color: black;
+	content: url("../images/VClogo.png");
+
 }
 
 .navbar-selectors {

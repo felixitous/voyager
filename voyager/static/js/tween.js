@@ -46,16 +46,21 @@ function navbarLaunch() {
     wholeNavbarTarget = $(".navbar")
     target.mouseenter(function() {
         TweenMax.to(wholeNavbarTarget, 0.2, {
-            width: "12%"
+            height: window.innerHeight
         });
         TweenMax.to(wholeNavbarTarget, 0.3, {
             delay: 0.2,
-            height: "100%"
+            width: "180px"
+        });
+        TweenMax.to($(".navbar-container"), 0, {
+            display: "block"
+            // opacity: 1
         });
         TweenMax.to($(".navbar-container"), 0.3, {
             delay: 0.4,
-            display: "block"
+            opacity: 1
         });
+
         TweenMax.to(this, 0.3, {
             opacity: 0,
             display: "none"
@@ -64,19 +69,20 @@ function navbarLaunch() {
 
     wholeNavbarTarget.mouseleave(function() {
         TweenMax.to(this, 0.2, {
-            width: "0%"
+            width: "40px"
         });
         TweenMax.to(this, 0.3, {
             delay: 0.2,
-            height: "0%"
+            height: "40px"
         });
         TweenMax.to($(".navbar-container"), 0, {
+            opacity: 0,
             display: "none"
         });
-        TweenMax.to($(".navbar-container"), 0, {
-            delay: 0.4,
-            display: "none"
-        });
+        // TweenMax.to($(".navbar-container"), 0, {
+        //     delay: 0.4,
+        //     display: "none"
+        // });
         TweenMax.to(target, 0.5, {
             opacity: 1,
             display: "block"
