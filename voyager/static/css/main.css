@@ -80,7 +80,7 @@ body {
 }
 
 .carousel-smolder {
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
 .company {
@@ -123,42 +123,6 @@ body {
 	font-size: 20px;
 }
 
-.crystal-picture {
-	background-image: url("../images/members/crystal.jpg");
-}
-
-.ted-picture {
-	background-image: url("../images/members/ted.jpg");
-}
-
-.olivia-picture {
-	background-image: url("../images/members/olivia.jpg");
-}
-
-.margarita-picture {
-	background-image: url("../images/members/margarita.jpg");
-}
-
-.savan-picture {
-	background-image: url("../images/members/savan.jpg");
-}
-
-.felix-picture {
-	background-image: url("../images/members/felix.jpg");
-}
-
-.sumedh-picture {
-	background-image: url("../images/members/sumedh.jpg");
-}
-
-.robbie-picture {
-	background-image: url("../images/members/robbie.jpg");
-}
-
-.natalie-picture {
-	background-image: url("../images/members/natalie.jpg");
-}
-
 .picture-frame {
 	width: 60%;
 	height: 100%;
@@ -167,24 +131,63 @@ body {
 	/*text-align: center;*/
 }
 
-.text-frame {
-	width: 40%;
+.logo-frame {
+	width: 60%;
 	height: 100%;
-	right: 0;
 	background-color: black;
 	position: absolute;
+	right: 0;
+}
+
+
+
+.text-frame {
+	/*height: 50px;*/
+	height: 180px;
+	/*guiding lines to see placement*/
+	/*border: 2px solid white;*/
+	width: 44%;
+	text-align: center;
+	background-color: black;
+	position: absolute;
+	color: white;
+	margin: auto;
+	right: 0; top: 0; bottom: 0;
+}
+
+.text-frame-logo {
+	/*height: 50px;*/
+	height: 220px;
+	/*guiding lines to see placement*/
+	/*border: 2px solid white;*/
+	width: 44%;
+	text-align: center;
+	background-color: black;
+	position: absolute;
+	color: white;
+	margin: auto;
+	left: 0; top: 0; bottom: 0;
 
 }
 
-.member-picture {
+.member-display {
+	background-color: black !important;
+}
+
+.grid-picture {
 	/*border: 1px solid black;*/
 	/*margin: 0 auto;*/
 	float: left;
-	background-color: gray;
+	background-color: white;
 	/*display: inline-block;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.float-right {
+	float: right;
+}
+
 
 .mission-title {
 	color: white;
@@ -442,6 +445,46 @@ body {
 
 .carousel-display {
 	display: inline-block;
+}
+
+.redirect-display {
+	background-color: black;
+}
+
+.redirect-box {
+	height: 200px;
+	width: 400px;
+	border: 2px solid white;
+	position: absolute;
+	margin: auto;
+	color: white;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.redirect-topleft {
+	top: 150;
+	left: 250;
+	bottom: auto;
+	right: auto;
+}
+
+.redirect-bottomleft {
+	top: auto;
+	left: 250;
+	bottom: 150;
+	right: auto;
+}
+.redirect-topright {
+	top: 150;
+	left: auto;
+	bottom: auto;
+	right: 250;
+}
+.redirect-bottomright {
+	top: auto;
+	left: auto;
+	bottom: 150;
+	right: 250;
 }
 
 .title-screen {
