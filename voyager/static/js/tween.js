@@ -116,12 +116,21 @@ $(window).scroll(function(event) {
 });
 
 // console.log(window.innerHeight);
-$(".member-picture").css("width", function() {
+$(".grid-picture").css("width", function() {
     return window.innerHeight / 3 + "px";
 })
-$(".member-picture").css("height", function() {
+$(".grid-picture").css("height", function() {
     return window.innerHeight / 3 + "px";
 })
+
+// $(window).scroll(function() {
+//     var position = $(this).scrollTop();
+//     fifth_div = window.innerHeight * 4;
+//     if (position > fifth_div) {
+//         // alert("works bith");
+//     };
+// });
+
 
 
 
