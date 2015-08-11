@@ -123,20 +123,94 @@ $(".grid-picture").css("height", function() {
     return window.innerHeight / 3 + "px";
 })
 
-// $(window).scroll(function() {
-//     var position = $(this).scrollTop();
-//     fifth_div = window.innerHeight * 4;
-//     if (position > fifth_div) {
-//         // alert("works bith");
-//     };
-// });
+function sideDisplay(target_id) {
+    var current = $(".current");
+    TweenMax.to(".current", 0.5, {
+        backgroundColor: "gray"
+    });
+    current.removeClass("current");
+    TweenMax.to(target_id, 0.5, {
+        backgroundColor: "white"
+    });
+    $(target_id).addClass("current")
+}
 
+function inRange(min, target, max) {
+    return min <= target && target < max;
+}
 
+function sideDisplayLogic() {
+    var target_value = $(window).scrollTop();
+    var window_height = window.innerHeight;
+    if (target_value < window_height) {
+        sideDisplay("#side-home");
+    } else if (inRange(window_height, target_value, window_height * 2)) {
+        sideDisplay("#side-clients");
+    } else if (inRange(window_height * 2, target_value, window_height * 3)) {
+        sideDisplay("#side-members");
+    } else if (inRange(window_height * 3, target_value, window_height * 4)) {
+        sideDisplay("#side-business");
+    } else {
+        sideDisplay("#side-redirect");
+    }
+}
 
+function sideNavLaunch() {
+    sideDisplayLogic();
+    $(window).scroll(function() {
+        sideDisplayLogic();
+    });
 
+    $("#side-home").click(function() {
+        TweenMax.to(window, 1, {
+            scrollTo: {
+                y: 0
+            },
+            ease: Power2.easeOut
+        });
+    });
+
+    $("#side-clients").click(function() {
+        TweenMax.to(window, 1, {
+            scrollTo: {
+                y: window.innerHeight
+            },
+            ease: Power2.easeOut
+        });
+    });
+
+    $("#side-members").click(function() {
+        TweenMax.to(window, 1, {
+            scrollTo: {
+                y: window.innerHeight * 2
+            },
+            ease: Power2.easeOut
+        });
+    });
+
+    $("#side-business").click(function() {
+        TweenMax.to(window, 1, {
+            scrollTo: {
+                y: window.innerHeight * 3
+            },
+            ease: Power2.easeOut
+        });
+    });
+
+    $("#side-redirect").click(function() {
+        TweenMax.to(window, 1, {
+            scrollTo: {
+                y: window.innerHeight * 4
+            },
+            ease: Power2.easeOut
+        });
+    });
+    
+}
 
 companyAnimation();
 buttonAnimation(".about-selector");
 buttonFocus();
 buttonAnimation(".navbar-selector");
 navbarLaunch();
+sideNavLaunch();
