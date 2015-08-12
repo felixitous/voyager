@@ -3,8 +3,79 @@ body {
 	font-family: 'Cabin', sans-serif;
 }
 
+.generic-whitespace {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+
+}
+
 .white {
 	color: white;
+}
+
+.footer-wrapper {
+	/*position: relative;*/
+	width: 100%;
+	height: 200px;
+	background-color: #303030;
+}
+
+.footer-column {
+	color: white;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.follow-row {
+	margin: 7px;
+	height: 25px;
+	width: 100%;
+	/*background-color: blue;*/
+}
+
+.follow-icon {
+	height: 100%;
+	width: 25px;
+	/*background-color: white;*/
+	background-size: cover;
+	float: left;
+}
+
+.follow-link {
+	width: calc(100% - 40px);
+	float: right;
+}
+
+.signature {
+	position: absolute;
+	right: 0; bottom: 0;
+	font-size: 10px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	width: 200px;
+	color: white;
+	background-color: #202020;
+}
+
+.signature-wrapper {
+	position: relative;
+	background-color: #202020;
+	height: 20px;
+	width: 100%;
+}
+
+.link-redirect {
+	text-decoration: none;
+	color: white;
+}
+
+.link-redirect:hover {
+	color: white;
+	cursor: pointer;
+    text-decoration: underline;
 }
 
 .black-background {
@@ -96,7 +167,80 @@ body {
 	background-color: black;
 	height: 100%;
 	width: 100%;
-	opacity: 0.3;
+	opacity: 0.2;
+}
+
+.executive-member {
+	position: relative;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 50px;
+	/*background-color: gray;*/
+}
+
+.pl-members {
+	position: relative;
+	/*height: 400px;*/
+	width: 100%;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.pl-picture-box {
+	position: relative;
+	height: 350px;
+	width: 260px;
+	/*background-color: blue;*/
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.pl-picture {
+	height: 260px;
+	width: 260px;
+	background-size: cover;
+}
+
+.pl-description {
+	margin: auto;
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+	/*background-color: red;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 80px;
+	width: 100%;
+}
+
+.major-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.executive-picture {
+	float: left;
+	height: 300px;
+	width: 300px;
+	background-size: cover;
+}
+
+
+.executive-text {
+	width: calc(100% - 400px);
+	/*background-color: blue;*/
+	/*margin-top: 20px;*/
+	/*margin-bottom: 20px;*/
+	margin: auto;
+	position: absolute;
+	right: 0; top: 0; bottom: 0;
+	margin-left: 50px;
+	margin-right: 50px;
+	/*float: right;*/
+	height: 200px;
+	text-align: center;
+	overflow: scroll;
 }
 
 .company-container {
@@ -190,7 +334,7 @@ body {
 
 
 .mission-title {
-	color: white;
+	color: black;
 	text-align: center;
 	margin-top: 40px;
 }
@@ -200,7 +344,7 @@ body {
 	height: 1px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	background-color: white;
+	background-color: black;
 }
 
 .career-whitespace {
@@ -235,7 +379,7 @@ body {
 
 .about-launch {
 	width: 100%;
-	background-color: black;
+	background-color: white;
 	position: relative;
 }
 
@@ -356,7 +500,7 @@ body {
 
 .page-title {
 	position: relative;
-	color: white;
+	color: black;
 	font-size: 400%;
 	margin-top: 20px;
 }
