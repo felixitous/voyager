@@ -12,7 +12,7 @@ function companyAnimation() {
 };
 
 function buttonAnimation(selector) {
-    selectedTarget = $("meta[name=title").attr("content");
+    selectedTarget = $("meta[name=title]").attr("content");
 
     $(selector).mouseenter(function() {
         if (!$(this).is(selectedTarget)) {
@@ -34,7 +34,7 @@ function buttonAnimation(selector) {
 };
 
 function buttonFocus() {
-    shadeTarget = $("meta[name=title").attr("content");
+    shadeTarget = $("meta[name=title]").attr("content");
     TweenMax.to($(shadeTarget), 0.2, {
         backgroundColor: "white",
         color: "black"
