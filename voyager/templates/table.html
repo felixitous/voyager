@@ -1,0 +1,16 @@
+<table class="u-full-width table-style">
+	<tr>
+		<th> Name </th>
+		<th> Company </th>
+		<th> Position </th>
+		<th> Location </th>
+	</tr>
+	<% _.each(members, function(member){ %>
+	<tr>
+		<td> <%= member.name %> </td>
+		<td> <%= member.company %> </td>
+		<td> <%= member.position %> </td>
+		<td> <%= member.city %> </td>
+	</tr>
+	<% }); %>
+</table>

@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: white;
 	font-family: 'Cabin', sans-serif;
 }
 
@@ -375,8 +375,8 @@ body {
 
 .career-picture {
 	background-image: url("../images/careers.jpeg");
-	opacity: 0.3;
-	position: absolute;
+	/*opacity: 0.3;*/
+	position: relative;
 }
 
 .about-launch {
@@ -387,9 +387,9 @@ body {
 
 .career-launch {
 	width: 100%;
-	background-color: black;
-	position: absolute;
-	top: 450px;
+	background-color: white;
+	position: relative;
+	/*top: 450px;*/
 }
 
 .about-alumni {
@@ -485,7 +485,7 @@ body {
 }
 
 .table-style {
-	color: white;
+	color: black;
 }
 
 .page-container {
@@ -622,9 +622,13 @@ body {
 
 .redirect-display {
 	background-color: black;
+	overflow: scroll;
+	text-align: center;
+	/*min-width: 400px;*/
+	/*display: inline;*/
 }
 
-.redirect-box {
+/*.redirect-box {
 	height: 200px;
 	width: 400px;
 	border: 2px solid white;
@@ -633,7 +637,28 @@ body {
 	color: white;
 	top: 0; bottom: 0; left: 0; right: 0;
 }
+*/
 
+.redirect-title {
+	margin: auto;
+	position: absolute;
+	color: white;
+	top: 0; bottom: 0; left: 0; right: 0;
+	height: 40px;
+	/*width: 300px;*/
+}
+
+.redirect-box {
+	height: 50%;
+	width: 50% !important;
+	margin: 0 auto;
+	/*left: calc((100% - 400px)/2);*/
+	margin-left: 0 !important;
+	/*border: 1px solid white;*/
+	position: relative;
+	/*min-width: 400px;*/
+
+}
 .redirect-topleft {
 	top: 150;
 	left: 250;

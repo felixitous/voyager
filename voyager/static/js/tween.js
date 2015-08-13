@@ -123,6 +123,17 @@ $(".grid-picture").css("height", function() {
     return window.innerHeight / 3 + "px";
 })
 
+
+$(window).resize(function() {
+    $(".grid-picture").css("width", function() {
+        return window.innerHeight / 3 + "px";
+    })
+    $(".grid-picture").css("height", function() {
+        return window.innerHeight / 3 + "px";
+    })
+    // alert("something");
+});
+
 function sideDisplay(target_id) {
     var current = $(".current");
     TweenMax.to(".current", 0.5, {

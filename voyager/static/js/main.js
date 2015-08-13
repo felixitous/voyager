@@ -1,5 +1,15 @@
 var navbar = new NavbarView();
 navbar.render();
 
-var carousel = new CarouselView();
-carousel.render("#instagram-template");
+renderTarget = $("meta[name=title]").attr("content");
+if (renderTarget == "#navbar-careers") {
+	var table = new TableView();
+	table.render(data);
+}
+
+if (renderTarget == "#navbar-home") {
+	var carousel = new CarouselView();
+	carousel.render("#instagram-template");
+}
+
+
