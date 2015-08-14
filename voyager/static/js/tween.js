@@ -18,7 +18,7 @@ function buttonAnimation(selector) {
         if (!$(this).is(selectedTarget)) {
             TweenMax.to(this, 0.2, {
                 backgroundColor: "white",
-                color: "black"
+                color: "#282828 "
             });
         };
     });
@@ -26,7 +26,7 @@ function buttonAnimation(selector) {
     $(selector).mouseleave(function() {
         if (!$(this).is(selectedTarget)) {
             TweenMax.to(this, 0.2, {
-                backgroundColor: "black",
+                backgroundColor: "#282828",
                 color: "white"
             });
         };
@@ -37,7 +37,7 @@ function buttonFocus() {
     shadeTarget = $("meta[name=title]").attr("content");
     TweenMax.to($(shadeTarget), 0.2, {
         backgroundColor: "white",
-        color: "black"
+        color: "#282828"
     });
 }
 
@@ -116,21 +116,27 @@ function navbarLaunch() {
 // });
 
 // console.log(window.innerHeight);
-$(".grid-picture").css("width", function() {
-    return window.innerHeight / 3 + "px";
-})
-$(".grid-picture").css("height", function() {
-    return window.innerHeight / 3 + "px";
-})
+function homeGridPictureResize(target, divisor) {
+    $(target).css("width", function() {
+        return window.innerHeight / divisor + "px";
+    })
+    $(target).css("height", function() {
+        return window.innerHeight / divisor + "px";
+    })
+}
 
+
+$(".picture-frame").css("width", window.innerHeight);
+// $(".text-frame").css("width", window.innerWidth - window.innerHeight);
+
+
+
+homeGridPictureResize(".grid-picture", 3);
+homeGridPictureResize(".grid-member-picture", 4);
 
 $(window).resize(function() {
-    $(".grid-picture").css("width", function() {
-        return window.innerHeight / 3 + "px";
-    })
-    $(".grid-picture").css("height", function() {
-        return window.innerHeight / 3 + "px";
-    })
+    homeGridPictureResize(".grid-picture", 3);
+    homeGridPictureResize(".grid-member-picture", 4);
     // alert("something");
 });
 
@@ -220,7 +226,7 @@ function sideNavLaunch() {
 }
 
 companyAnimation();
-buttonAnimation(".about-selector");
+// buttonAnimation(".about-selector");
 buttonFocus();
 buttonAnimation(".navbar-selector");
 navbarLaunch();

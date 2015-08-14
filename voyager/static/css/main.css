@@ -272,15 +272,17 @@ body {
 }
 
 .picture-frame {
-	width: 60%;
+	width: 56%;
+
 	height: 100%;
 	background-color: black;
 	position: absolute;
+	/*overflow: hidden;*/
 	/*text-align: center;*/
 }
 
 .logo-frame {
-	width: 60%;
+	width: 56%;
 	height: 100%;
 	background-color: black;
 	position: absolute;
@@ -291,21 +293,25 @@ body {
 
 .text-frame {
 	/*height: 50px;*/
-	height: 180px;
+	/*height: 180px;*/
+	width: 44%;
 	/*guiding lines to see placement*/
 	/*border: 2px solid white;*/
-	width: 44%;
+	/*width: 44%;*/
 	text-align: center;
 	background-color: black;
 	position: absolute;
 	color: white;
-	margin: auto;
+	/*margin: auto;*/
 	right: 0; top: 0; bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .text-frame-logo {
 	/*height: 50px;*/
-	height: 220px;
+	/*height: 220px;*/
 	/*guiding lines to see placement*/
 	/*border: 2px solid white;*/
 	width: 44%;
@@ -313,8 +319,11 @@ body {
 	background-color: black;
 	position: absolute;
 	color: white;
-	margin: auto;
 	left: 0; top: 0; bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 
 }
 
@@ -326,6 +335,16 @@ body {
 	/*border: 1px solid black;*/
 	/*margin: 0 auto;*/
 	float: left;
+	background-color: white;
+	/*display: inline-block;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.grid-member-picture {
+	/*border: 1px solid black;*/
+	/*margin: 0 auto;*/
+	float: right;
 	background-color: white;
 	/*display: inline-block;*/
 	background-repeat: no-repeat;
@@ -426,13 +445,13 @@ body {
 	/*width: 12%;*/
 	/*height: 100%;*/
 	position: fixed;
-	background-color: black;
+	background-color: #282828;
 	z-index: 2;
 }
 
 .navbar-span-list {
 	position: relative;
-	background-color: black;
+	background-color: #282828;
 	width: 40px;
 	height: 40px;
 	overflow: hidden;
@@ -518,7 +537,7 @@ body {
 	max-width: 160px;
 	max-height: 100%;
 	margin: 10px;
-	background-color: black;
+	background-color: #282828 ;
 	content: url("../images/VClogo.png");
 
 }
@@ -538,6 +557,7 @@ body {
 	line-height: 50px;
 	color: white;
 	display: inline-block;
+	background-color: #282828;
 	/*padding-left: 15px;*/
 	/*padding-right: 15px;*/
 }
