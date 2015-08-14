@@ -273,10 +273,10 @@ body {
 
 .picture-frame {
 	width: 56%;
-
 	height: 100%;
 	background-color: black;
 	position: absolute;
+	z-index: 1;
 	/*overflow: hidden;*/
 	/*text-align: center;*/
 }
@@ -293,7 +293,7 @@ body {
 
 .text-frame {
 	/*height: 50px;*/
-	/*height: 180px;*/
+	height: 180px;
 	width: 44%;
 	/*guiding lines to see placement*/
 	/*border: 2px solid white;*/
@@ -302,11 +302,8 @@ body {
 	background-color: black;
 	position: absolute;
 	color: white;
-	/*margin: auto;*/
+	margin: auto;
 	right: 0; top: 0; bottom: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
 
 .text-frame-logo {
