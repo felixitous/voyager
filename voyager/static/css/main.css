@@ -151,7 +151,7 @@ body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	opacity: 0.5;
+	opacity: 0.3;
 }
 
 .carousel-smolder {
@@ -274,7 +274,7 @@ body {
 .picture-frame {
 	width: 56%;
 	height: 100%;
-	background-color: black;
+	background-color: gray;
 	position: absolute;
 	z-index: 1;
 	/*overflow: hidden;*/
@@ -284,7 +284,7 @@ body {
 .logo-frame {
 	width: 56%;
 	height: 100%;
-	background-color: black;
+	background-color: gray;
 	position: absolute;
 	right: 0;
 }
@@ -299,7 +299,7 @@ body {
 	/*border: 2px solid white;*/
 	/*width: 44%;*/
 	text-align: center;
-	background-color: black;
+	background-color: gray;
 	position: absolute;
 	color: white;
 	margin: auto;
@@ -313,7 +313,7 @@ body {
 	/*border: 2px solid white;*/
 	width: 44%;
 	text-align: center;
-	background-color: black;
+	background-color: gray;
 	position: absolute;
 	color: white;
 	left: 0; top: 0; bottom: 0;
@@ -325,7 +325,7 @@ body {
 }
 
 .member-display {
-	background-color: black !important;
+	background-color: gray !important;
 }
 
 .grid-picture {
@@ -642,8 +642,8 @@ body {
 }
 
 .redirect-display {
-	background-color: black;
-	overflow: scroll;
+	background-color: gray;
+	overflow: hidden;
 	text-align: center;
 	/*min-width: 400px;*/
 	/*display: inline;*/
@@ -660,13 +660,24 @@ body {
 }
 */
 
-.redirect-title {
+.redirect-title-box {
 	margin: auto;
 	position: absolute;
 	color: white;
 	top: 0; bottom: 0; left: 0; right: 0;
-	height: 40px;
+	border-radius: 5px;
+	/*height: 40px;*/
+	height: 70%;
+	width: 70%;
+	background-color: blue;
 	/*width: 300px;*/
+}
+
+.redirect-title {
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	height: 40px;
 }
 
 .redirect-box {
