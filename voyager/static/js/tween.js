@@ -125,18 +125,26 @@ function homeGridPictureResize(target, divisor) {
     })
 }
 
-
+function companyGridPictureResize(target, divisor) {
+    var square_height = window.innerWidth / divisor + "px";
+    $(target).css("width", square_height)
+    $(target).css("height", square_height)
+    $(".logo-frame").css("height", square_height)
+    $(".text-frame-logo").css("height", function() {
+        return window.innerHeight - window.innerWidth / divisor;
+    });
+}
 // $(".picture-frame").css("width", window.innerHeight);
 // $(".text-frame").css("width", window.innerWidth - window.innerHeight);
 
 
 
 homeGridPictureResize(".grid-picture", 3);
-homeGridPictureResize(".grid-member-picture", 4);
+companyGridPictureResize(".grid-member-picture", 7);
 
 $(window).resize(function() {
     homeGridPictureResize(".grid-picture", 3);
-    homeGridPictureResize(".grid-member-picture", 4);
+    companyGridPictureResize(".grid-member-picture", 7);
     // alert("something");
 });
 
@@ -160,6 +168,7 @@ function sideDisplayLogic() {
     var target_value = $(window).scrollTop();
     var window_height = window.innerHeight;
     if (target_value < window_height) {
+        // alert("something")
         sideDisplay("#side-home");
     } else if (inRange(window_height, target_value, window_height * 2)) {
         sideDisplay("#side-clients");
@@ -172,10 +181,30 @@ function sideDisplayLogic() {
     }
 }
 
+
+function scrollLock() {
+    var target_value = $(window).scrollTop();
+    var window_height = window.innerHeight;
+    if (target_value < window_height) {
+        // alert(last_scroll - target_value);
+        sideDisplay("#side-home");
+    } else if (inRange(window_height, target_value, window_height * 2)) {
+        sideDisplay("#side-clients");
+    } else if (inRange(window_height * 2, target_value, window_height * 3)) {
+        sideDisplay("#side-members");
+    } else if (inRange(window_height * 3, target_value, window_height * 4)) {
+        sideDisplay("#side-business");
+    } else {
+        sideDisplay("#side-redirect");
+    }
+}
+
+
 function sideNavLaunch() {
     sideDisplayLogic();
     $(window).scroll(function() {
         sideDisplayLogic();
+        // scrollLock();
     });
 
     $("#side-home").click(function() {
@@ -225,6 +254,9 @@ function sideNavLaunch() {
     
 }
 
+
+
+// scrollLock();
 companyAnimation();
 // buttonAnimation(".about-selector");
 buttonFocus();
