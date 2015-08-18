@@ -119,10 +119,57 @@
 	background-image: url("../images/facebook-logo.png")
 }
 
-
-
 .surveymonkey-picture {
 	background-image: url("../images/surveymonkey.png")
 }
+
+.instagram-logo {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+	content: url("../images/instagram-logo.png");
+	margin: 0 auto;
+	left: 0; right: 0;
+}
+
+.pinterest-logo {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+	content: url("../images/pinterest-logo.png");
+	margin: 0 auto;
+	left: 0; right: 0;
+}
+
+.amazon-logo {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+	content: url("../images/amazon-logo.png");
+	margin: 0 auto;
+	left: 0; right: 0;
+}
+
+.valve-logo {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+	content: url("../images/valve-logo.png");
+	margin: 0 auto;
+	left: 0; right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

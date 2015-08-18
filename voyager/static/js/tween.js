@@ -43,7 +43,7 @@ function buttonFocus() {
 
 function navbarAppear() {
     TweenMax.to(wholeNavbarTarget, 0.2, {
-        height: window.innerHeight
+        height: "450px"
     });
     TweenMax.to(wholeNavbarTarget, 0.3, {
         delay: 0.2,
@@ -123,6 +123,11 @@ function homeGridPictureResize(target, divisor) {
     $(target).css("height", function() {
         return window.innerHeight / divisor + "px";
     })
+    $(".picture-frame").css("width", window.innerHeight);
+    $(".text-frame").css("height", window.innerHeight);
+    // $(".text-frame").css("line-height", window.innerHeight + "px");
+    $(".text-frame").css("width", window.innerWidth  - window.innerHeight);
+
 }
 
 function companyGridPictureResize(target, divisor) {
@@ -134,28 +139,29 @@ function companyGridPictureResize(target, divisor) {
         return window.innerHeight - window.innerWidth / divisor;
     });
 }
-// $(".picture-frame").css("width", window.innerHeight);
-// $(".text-frame").css("width", window.innerWidth - window.innerHeight);
 
 
 
 homeGridPictureResize(".grid-picture", 3);
-companyGridPictureResize(".grid-member-picture", 7);
+companyGridPictureResize(".grid-member-picture", 5);
 
 $(window).resize(function() {
     homeGridPictureResize(".grid-picture", 3);
-    companyGridPictureResize(".grid-member-picture", 7);
+    companyGridPictureResize(".grid-member-picture", 5);
     // alert("something");
 });
 
 function sideDisplay(target_id) {
     var current = $(".current");
-    TweenMax.to(".current", 0.5, {
-        backgroundColor: "gray"
+    TweenMax.to(".current", 0.2, {
+        backgroundColor: "gray",
+        borderWidth: "0px"
+
     });
     current.removeClass("current");
-    TweenMax.to(target_id, 0.5, {
-        backgroundColor: "white"
+    TweenMax.to(target_id, 0.2, {
+        backgroundColor: "white",
+        borderWidth: "2px"
     });
     $(target_id).addClass("current")
 }
@@ -255,6 +261,7 @@ function sideNavLaunch() {
 }
 
 
+// Mckinsey, Cisco, Nest, Google, Box, Pimco, EY, Rdio, Altman-Landry, litman, department of treasury, IBM, Wells Fargo, KKR, Facebook, NBC, ZS Associates, Citrix
 
 // scrollLock();
 companyAnimation();

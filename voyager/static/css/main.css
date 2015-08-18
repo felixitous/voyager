@@ -92,7 +92,7 @@ body {
 
 .arrow-wrapper-left {
 	background-color: transparent;
-	border: 2px solid white;
+	border: 2px solid black;
 	border-radius: 36px;
 	width: 70px;
 	height: 70px;
@@ -103,7 +103,7 @@ body {
 
 .arrow-wrapper-right {
 	background-color: transparent;
-	border: 2px solid white;
+	border: 2px solid black;
 	border-radius: 36px;
 	width: 70px;
 	height: 70px;
@@ -125,7 +125,7 @@ body {
 	height: 0; 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-left: 20px solid white;
+	border-left: 20px solid black;
 	position: relative;
 	margin: auto;
 	margin-right: 22px;
@@ -137,7 +137,7 @@ body {
 	height: 0; 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent; 
-	border-right: 20px solid white; 
+	border-right: 20px solid black; 
 	position: relative;
 	margin: auto;
 	margin-left: 22px;
@@ -155,7 +155,7 @@ body {
 }
 
 .carousel-smolder {
-	opacity: 0.6;
+	opacity: 0;
 }
 
 .company {
@@ -276,9 +276,9 @@ body {
 .picture-frame {
 	width: 56%;
 	height: 100%;
-	background-color: #404040;
+	background-color: #096589;
 	position: absolute;
-	z-index: 1;
+	/*z-index: 1;*/
 	/*overflow: hidden;*/
 	/*text-align: center;*/
 }
@@ -294,19 +294,22 @@ body {
 
 
 .text-frame {
-	/*height: 50px;*/
-	height: 180px;
-	width: 44%;
-	/*guiding lines to see placement*/
-	/*border: 2px solid white;*/
-	/*width: 44%;*/
 	text-align: center;
-	background-color: #404040;
+	background-color: #096589;
 	position: absolute;
 	color: white;
 	margin: auto;
 	right: 0; top: 0; bottom: 0;
 }
+
+.text-wrapper {
+	height: 180px;
+	position: absolute;
+	margin: auto;
+	margin-left: 20px; margin-right: 20px;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+
 
 .text-frame-logo {
 	/*height: 50px;*/
@@ -328,7 +331,7 @@ body {
 }
 
 .member-display {
-	background-color: #404040 !important;
+	background-color: #096589 !important;
 }
 
 .grid-picture {
@@ -420,6 +423,11 @@ body {
 .main-title {
 	color: white;
 	font-size: 500%;
+	font-weight: bold;
+}
+
+.panel-title {
+	font-weight: bold;
 }
 
 .title-logo {
@@ -428,16 +436,7 @@ body {
 	width: 500px;
 	height: 100px;
 	margin: 0 auto;
-	margin-bottom: 30px;
-}
-
-.instagram-logo {
-	position: absolute;
-	max-height: 100%;
-	max-width: 100%;
-	content: url("../images/instagram-logo.png");
-	margin: 0 auto;
-	left: 0; right: 0;
+	margin-bottom: 0px;
 }
 
 
@@ -470,7 +469,11 @@ body {
 .selector {
 	height: 8px;
 	width: 8px;
-	border-radius: 4px;
+	border-radius: 8px;
+	/*border: 2px solid black;*/
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
 	background-color: gray;
 	margin: auto;
 	left: 0; right: 0;
@@ -551,7 +554,8 @@ body {
 }
 
 .navbar-selector {
-	font-weight: bold;
+	/*font-weight: bold;*/
+	font-size: 150%;
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
@@ -590,6 +594,12 @@ body {
 	font-size: 200%;
 }
 
+.sub-title-black {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size: 200%;
+}
+
 .title-divs {
 	position: relative;
 	height: 100%;
@@ -605,8 +615,11 @@ body {
 	width: 100%;
 }
 
-.float-left {
-	/*float: left;*/
+.title-logo-background {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-color: white;
 }
 
 .float-right {
@@ -645,7 +658,7 @@ body {
 }
 
 .redirect-display {
-	background-color: gray;
+	background-color: #C2B8B2;
 	overflow: hidden;
 	text-align: center;
 	/*min-width: 400px;*/
@@ -667,13 +680,29 @@ body {
 	margin: auto;
 	position: absolute;
 	color: white;
-	top: 0; bottom: 0; left: 0; right: 0;
+	/*top: 0; bottom: 0; left: 0; right: 0;*/
 	border-radius: 5px;
 	/*height: 40px;*/
 	height: 70%;
 	width: 70%;
 	background-color: blue;
 	/*width: 300px;*/
+}
+
+.topleft {
+	right: 40; bottom: 40;
+}
+
+.topright {
+	left: 40; bottom: 40;
+}
+
+.bottomleft {
+	top: 40; right: 40;
+}
+
+.bottomright {
+	top: 40; left: 40;
 }
 
 .redirect-title {
@@ -691,6 +720,7 @@ body {
 	margin-left: 0 !important;
 	/*border: 1px solid white;*/
 	position: relative;
+
 	/*min-width: 400px;*/
 
 }
