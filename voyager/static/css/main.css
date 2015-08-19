@@ -159,12 +159,15 @@ body {
 }
 
 .company {
-	height: 250px;
-	width: 250px;
+	/*height: 250px;*/
+	/*width: 250px;*/
 	/*border: 2px solid black;*/
 	margin: 10px;
 	display: inline-block;
 	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+
 }
 
 .company-overlay {
@@ -175,11 +178,39 @@ body {
 }
 
 .executive-member {
+	/*height: 400px;*/
+	position: relative !important;
+	background-color: gray;
 	position: relative;
-	height: 300px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.executive-picture {
+	/*float: left;*/
+	/*height: 300px;*/
+	background-size: cover;
+	background-color: black;
+}
+
+.executive-text {
+	/*position: absolute;*/
+	background-color: white;
+	/*font-weight: bold;*/
+	font-size: 200%;
+	line-height: 60px;
+	height: 60px;
 	width: 100%;
-	margin-bottom: 50px;
-	/*background-color: gray;*/
+	overflow: hidden;
+}
+
+.executive-box {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	/*background-color: black;*/
 }
 
 .pl-members {
@@ -189,8 +220,6 @@ body {
 	margin-bottom: 50px;
 	text-align: center;
 }
-
-.
 
 .pl-picture-box {
 	position: relative;
@@ -225,34 +254,12 @@ body {
 	font-weight: bold;
 }
 
-.executive-picture {
-	float: left;
-	height: 300px;
-	width: 300px;
-	background-size: cover;
-}
-
-
-.executive-text {
-	width: calc(100% - 400px);
-	/*background-color: blue;*/
-	/*margin-top: 20px;*/
-	/*margin-bottom: 20px;*/
-	margin: auto;
-	position: absolute;
-	right: 0; top: 0; bottom: 0;
-	margin-left: 50px;
-	margin-right: 50px;
-	/*float: right;*/
-	height: 200px;
-	text-align: center;
-	overflow: scroll;
-}
-
 .company-container {
 	width: 100%;
 	text-align: center;
 }
+
+
 .about-selector {
 	border: 3px solid white;
 	width: 45%;
@@ -302,12 +309,35 @@ body {
 	right: 0; top: 0; bottom: 0;
 }
 
+.about-frame {
+	max-width: 100% !important;
+	height: 100%;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+
 .text-wrapper {
 	height: 180px;
 	position: absolute;
 	margin: auto;
 	margin-left: 20px; margin-right: 20px;
 	top: 0; bottom: 0; left: 0; right: 0;
+	/*overflow: scroll;*/
+}
+
+.about-mission-text-height {
+	height: 270px;
+}
+
+.about-history-text-height {
+	height: 482px;
+}
+
+.about-culture-text-height {
+	height: 290px;
 }
 
 
@@ -362,7 +392,8 @@ body {
 .mission-title {
 	color: black;
 	text-align: center;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
+	margin-bottom: 20px;
 }
 
 .line-break {
@@ -391,6 +422,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0 30%;
+	overflow: hidden;
 }
 
 .about-picture {
@@ -428,6 +460,13 @@ body {
 
 .panel-title {
 	font-weight: bold;
+}
+
+.executive-panel-title {
+	font-weight: bold;
+	/*margin-bottom: 0px !important;*/
+	font-size: 350%;
+	text-align: center;
 }
 
 .title-logo {
@@ -525,10 +564,15 @@ body {
 }
 
 .page-title {
-	position: relative;
-	color: black;
-	font-size: 400%;
-	margin-top: 20px;
+	margin: auto;
+	position: absolute;
+	width: 250px;
+	height: 100px;
+	top: 0; bottom: 0; left: 0; right: 0;
+	color: white;
+	font-size: 600%;
+	/*margin-top: 20px;*/
+
 }
 
 /*.subtitle {
@@ -607,6 +651,12 @@ body {
 	/*border: 2px solid black;*/
 	background-color: white;
 	overflow: hidden;
+}
+
+.about-panels {
+	position: relative;
+	width: 100%;
+	overflow: auto;
 }
 
 .carousel-divs {
@@ -724,30 +774,9 @@ body {
 	/*min-width: 400px;*/
 
 }
-.redirect-topleft {
-	top: 150;
-	left: 250;
-	bottom: auto;
-	right: auto;
-}
 
-.redirect-bottomleft {
-	top: auto;
-	left: 250;
-	bottom: 150;
-	right: auto;
-}
-.redirect-topright {
-	top: 150;
-	left: auto;
-	bottom: auto;
-	right: 250;
-}
-.redirect-bottomright {
-	top: auto;
-	left: auto;
-	bottom: 150;
-	right: 250;
+.margin-kill {
+	margin: 0;
 }
 
 .title-screen {

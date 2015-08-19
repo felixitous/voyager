@@ -260,6 +260,21 @@ function sideNavLaunch() {
     
 }
 
+$(".executive-member").css("width", function() {
+    return  $(".page-container").width() / 3 - 20;
+});
+
+$(".executive-picture").css("height", function() {
+    return $(".executive-member").width();
+});
+
+$(".company").css("width", function() {
+    return $(".company-container").width() / 5 - 23;
+});
+
+$(".company").css("height", function() {
+    return $(".company-container").width() / 5 - 23;
+});
 
 // Mckinsey, Cisco, Nest, Google, Box, Pimco, EY, Rdio, Altman-Landry, litman, department of treasury, IBM, Wells Fargo, KKR, Facebook, NBC, ZS Associates, Citrix
 

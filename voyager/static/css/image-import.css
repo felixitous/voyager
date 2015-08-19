@@ -123,6 +123,30 @@
 	background-image: url("../images/surveymonkey.png")
 }
 
+.cisco-picture {
+	background-image: url("../images/cisco-logo.png")
+}
+
+.wells-picture {
+	background-image: url("../images/wells-logo.png")
+}
+
+.dot-picture {
+	background-image: url("../images/DoT.png")
+}
+
+.zs-picture {
+	background-image: url("../images/zs-logo.png")
+}
+
+.rdio-picture {
+	background-image: url("../images/rdio.png")
+}
+
+.nest-picture {
+	background-image: url("../images/nest-logo.png")
+}
+
 .instagram-logo {
 	position: absolute;
 	max-height: 100%;
