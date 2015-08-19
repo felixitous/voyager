@@ -126,7 +126,7 @@ function homeGridPictureResize(target, divisor) {
     $(".picture-frame").css("width", window.innerHeight);
     $(".text-frame").css("height", window.innerHeight);
     // $(".text-frame").css("line-height", window.innerHeight + "px");
-    $(".text-frame").css("width", window.innerWidth  - window.innerHeight);
+    $(".text-frame").css("width", window.innerWidth - window.innerHeight);
 
 }
 
@@ -257,11 +257,11 @@ function sideNavLaunch() {
             ease: Power2.easeOut
         });
     });
-    
+
 }
 
 $(".executive-member").css("width", function() {
-    return  $(".page-container").width() / 3 - 20;
+    return $(".page-container").width() / 3 - 20;
 });
 
 $(".executive-picture").css("height", function() {
@@ -276,10 +276,41 @@ $(".company").css("height", function() {
     return $(".company-container").width() / 5 - 23;
 });
 
+function executiveDescriptionDisplay() {
+    $(".executive-member").mouseenter(function() {
+        TweenMax.to($(".executive-text", this), 0.3, {
+            backgroundColor: "#404040",
+            color: "white"
+        }); 
+       TweenMax.to($(".executive-description", this), 0.2, {
+            backgroundColor: "#404040",
+            color: "white",
+            opacity: 1,
+            display: "block"
+        });
+
+
+    });
+    $(".executive-member").mouseleave(function() {
+        TweenMax.to($(".executive-text", this), 0.3, {
+            backgroundColor: "white",
+            color: "black"
+            // display: "none"
+        });
+       TweenMax.to($(".executive-description", this), 0.2, {
+            backgroundColor: "white",
+            color: "black",
+            opacity: 0,
+            display: "none"
+        });
+    });
+}
+
 // Mckinsey, Cisco, Nest, Google, Box, Pimco, EY, Rdio, Altman-Landry, litman, department of treasury, IBM, Wells Fargo, KKR, Facebook, NBC, ZS Associates, Citrix
 
 // scrollLock();
 companyAnimation();
+executiveDescriptionDisplay();
 // buttonAnimation(".about-selector");
 buttonFocus();
 buttonAnimation(".navbar-selector");
