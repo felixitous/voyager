@@ -141,7 +141,6 @@ function companyGridPictureResize(target, divisor) {
 }
 
 
-
 homeGridPictureResize(".grid-picture", 3);
 companyGridPictureResize(".grid-member-picture", 5);
 
@@ -278,7 +277,7 @@ $(".company").css("height", function() {
 
 function executiveDescriptionDisplay() {
     $(".executive-member").mouseenter(function() {
-        TweenMax.to($(".executive-text", this), 0.3, {
+        TweenMax.to($(".executive-text", this), 0, {
             backgroundColor: "#404040",
             color: "white"
         }); 
@@ -292,10 +291,9 @@ function executiveDescriptionDisplay() {
 
     });
     $(".executive-member").mouseleave(function() {
-        TweenMax.to($(".executive-text", this), 0.3, {
+        TweenMax.to($(".executive-text", this), 0, {
             backgroundColor: "white",
             color: "black"
-            // display: "none"
         });
        TweenMax.to($(".executive-description", this), 0.2, {
             backgroundColor: "white",
