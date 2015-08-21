@@ -1,8 +1,16 @@
 var CarouselView = Backbone.View.extend({
-    el: ".current-carousel",
+    initialize: function(options) {
+        this.options = options || {};
+
+        // this.el = this.options.target;
+    },
+    // el: this.options,
     render: function(target) {
+        // console.log(target);
         var template = _.template($(target).html());
+        // $(this.options.target).html(template);
         this.$el.html(template);
+
     },
     events: {
         'click .arrow-wrapper-right': 'nextSlideRight',
@@ -10,45 +18,44 @@ var CarouselView = Backbone.View.extend({
     },
 
     nextSlideRight: function(ev) {
-    	$(".retired").remove();
         var value = $(ev.currentTarget).data('value');
-        var target = "#" + value + "-template";
-        $(".carousel-divs").removeClass('current-carousel').addClass("retired");
-        $("<div class=\"carousel-divs current-carousel\"></div>").appendTo(".carousel-display");
-    	var view_target = this;
-        TweenMax.to($(".retired"), 1, {
-            left: "-" + window.innerWidth,
-            onComplete: function() {view_target.remove()}
-        });
-        TweenMax.fromTo($(".current-carousel"), 1, {
-            left: window.innerWidth
+        var nextSlide = "." + value + "-carousel";
+        console.log(this.options.target);
+        TweenMax.fromTo($(this.options.target), 1, {
+        	zIndex: 1
+            // onComplete: function() {
+            //     view_target.remove()
+            // }
         }, {
-            left: 0
+        	left: "-" + window.innerWidth,
+        	zIndex: 1
         });
 
-        var carousel = new CarouselView();
-        carousel.render(target);
+        TweenMax.fromTo($(nextSlide), 1, {
+            left: window.innerWidth,
+            zIndex: 1
+        }, {
+            left: 0,
+            zIndex: 1
+        });
     },
 
     nextSlideLeft: function(ev) {
-    	$(".retired").remove();
         var value = $(ev.currentTarget).data('value');
-        var target = "#" + value + "-template";
-        $(".carousel-divs").removeClass('current-carousel').addClass("retired");
-        $("<div class=\"carousel-divs current-carousel\"></div>").prependTo(".carousel-display");
-    	var view_target = this;
-        TweenMax.to($(".retired"), 1, {
-            left: window.innerWidth,
-            onComplete: function() {view_target.remove()}
-        });
-        TweenMax.fromTo($(".current-carousel"), 1, {
-            left: "-" + window.innerWidth
+        var nextSlide = "." + value + "-carousel";
+        TweenMax.fromTo($(this.options.target), 1, {
+        	zIndex: 1
         }, {
-            left: 0
+            left: window.innerWidth,
+            zIndex: 1
         });
 
-        var carousel = new CarouselView();
-        carousel.render(target);
-
+        TweenMax.fromTo($(nextSlide), 1, {
+            left: "-" + window.innerWidth,
+            zIndex: 1
+        }, {
+            left: 0,
+            zIndex: 1
+        });
     }
 });
