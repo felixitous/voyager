@@ -597,9 +597,14 @@ body {
 
 .table-style {
 	color: black;
+	font-family: 'Lato', sans-serif;
 }
 
-.page-container {
+.cabin-font {
+	font-family: 'Cabin', sans-serif !important;
+}
+
+	.page-container {
 	width: 80%;
 	position: relative;
 	/*overflow: auto;*/

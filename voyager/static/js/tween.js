@@ -260,7 +260,8 @@ function sideNavLaunch() {
 }
 
 $(".executive-member").css("width", function() {
-    return $(".page-container").width() / 3 - 60;
+    // return $(".page-container").width() / 3 - 60;
+    return 324
 });
 
 $(".executive-picture").css("height", function() {

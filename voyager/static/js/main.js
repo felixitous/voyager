@@ -3,8 +3,10 @@ navbar.render();
 
 renderTarget = $("meta[name=title]").attr("content");
 if (renderTarget == "#navbar-careers") {
-	var table = new TableView();
-	table.render(data);
+	var table_2015 = new TableView({ el : "#table-container-2015" });
+	table_2015.render(data);
+	var table_2014 = new TableView({ el : "#table-container-2014" });
+	table_2014.render(data_2014);
 }
 
 if (renderTarget == "#navbar-home") {
