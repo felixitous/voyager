@@ -260,7 +260,7 @@ function sideNavLaunch() {
 }
 
 $(".executive-member").css("width", function() {
-    return $(".page-container").width() / 3 - 20;
+    return $(".page-container").width() / 3 - 60;
 });
 
 $(".executive-picture").css("height", function() {
@@ -268,39 +268,58 @@ $(".executive-picture").css("height", function() {
 });
 
 $(".company").css("width", function() {
-    return $(".company-container").width() / 5 - 23;
+    return $(".company-container").width() / 6 - 23;
 });
 
 $(".company").css("height", function() {
-    return $(".company-container").width() / 5 - 23;
+    return $(".company-container").width() / 6 - 23;
 });
+
 
 function executiveDescriptionDisplay() {
     $(".executive-member").mouseenter(function() {
-        TweenMax.to($(".executive-text", this), 0, {
-            backgroundColor: "#404040",
-            color: "white"
-        }); 
-       TweenMax.to($(".executive-description", this), 0.2, {
-            backgroundColor: "#404040",
-            color: "white",
+        // TweenMax.to($(".executive-text", this), 0, {
+        //     backgroundColor: "#404040",
+        //     color: "white"
+        // }); 
+        TweenMax.to($(".executive-description", this), 0.2, {
+            // backgroundColor: "#404040",
+            // color: "white",
             opacity: 1,
             display: "block"
         });
 
+        TweenMax.to($(".background-overlay"), 0.2, {
+            display: "block",
+            opacity: 0.3
+        });
+
+        TweenMax.to(this, 0, {
+            zIndex: 4
+        });
+
+
 
     });
     $(".executive-member").mouseleave(function() {
-        TweenMax.to($(".executive-text", this), 0, {
-            backgroundColor: "white",
-            color: "black"
-        });
+        // TweenMax.to($(".executive-text", this), 0, {
+        //     backgroundColor: "white",
+        //     color: "black"
+        // });
        TweenMax.to($(".executive-description", this), 0.2, {
-            backgroundColor: "white",
-            color: "black",
+            // backgroundColor: "white",
+            // color: "black",
             opacity: 0,
             display: "none"
         });
+
+        TweenMax.to($(".background-overlay"), 0.2, {
+            display: "none",
+            opacity: 0
+        });
+       TweenMax.to(this, 0, {
+            zIndex: 1
+       });
     });
 }
 
