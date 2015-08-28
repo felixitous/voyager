@@ -8,7 +8,9 @@ var NavbarView = Backbone.View.extend({
 	events: {
 		'click #navbar-about' : 'aboutRender',
 		'click #navbar-home' : 'homeRender',
-		'click #navbar-careers' : 'careerRender'
+		'click #navbar-careers' : 'careerRender',
+		'click #navbar-services' : 'serviceRender',
+		'click #navbar-recruiting' : 'recruitRender'
 	},
 
 	aboutRender: function(ev) {
@@ -21,6 +23,14 @@ var NavbarView = Backbone.View.extend({
 
 	careerRender: function(ev) {
 		window.location.href = window.location.origin + '/careers';
+	},
+
+	serviceRender: function(ev) {
+		window.location.href = window.location.origin + '/services';
+	},
+
+	recruitRender: function(ev) {
+		window.location.href = window.location.origin + '/recruiting';
 	}
 
 });

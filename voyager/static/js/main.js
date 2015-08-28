@@ -34,4 +34,3 @@ if (renderTarget == "#navbar-home") {
 	carousel.render("#instagram-template");
 }
 
-

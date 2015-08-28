@@ -147,6 +147,15 @@
 	background-image: url("../images/nest-logo.png")
 }
 
+.services-picture {
+	background-image: url("../images/services.jpeg")
+}
+
+.recruiting-picture {
+	background-image: url("../images/recruiting.jpeg");
+}
+
+
 .instagram-logo {
 	position: absolute;
 	max-height: 100%;

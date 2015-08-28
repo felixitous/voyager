@@ -12,3 +12,9 @@ def about(request):
 
 def careers(request):
 	return render(request, 'careers.html')
+
+def services(request):
+	return render(request, 'services.html')
+
+def recruiting(request):
+	return render(request, 'recruiting.html')
