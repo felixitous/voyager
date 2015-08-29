@@ -324,6 +324,7 @@ function executiveDescriptionDisplay() {
     });
 }
 
+
 // Mckinsey, Cisco, Nest, Google, Box, Pimco, EY, Rdio, Altman-Landry, litman, department of treasury, IBM, Wells Fargo, KKR, Facebook, NBC, ZS Associates, Citrix
 
 // scrollLock();

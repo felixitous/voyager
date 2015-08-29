@@ -844,13 +844,22 @@ body {
 	height: 50%;
 	width: 50% !important;
 	margin: 0 auto;
-	/*left: calc((100% - 400px)/2);*/
 	margin-left: 0 !important;
-	/*border: 1px solid white;*/
 	position: relative;
+}
 
-	/*min-width: 400px;*/
 
+.text-align-right {
+	text-align: right;
+}
+
+.subject-line input {
+	width: 90%;
+}
+
+.message-line textarea {
+	width: 100%;
+	height: 200px;
 }
 
 .margin-kill {

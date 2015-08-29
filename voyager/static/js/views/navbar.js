@@ -10,7 +10,8 @@ var NavbarView = Backbone.View.extend({
 		'click #navbar-home' : 'homeRender',
 		'click #navbar-careers' : 'careerRender',
 		'click #navbar-services' : 'serviceRender',
-		'click #navbar-recruiting' : 'recruitRender'
+		'click #navbar-recruiting' : 'recruitRender',
+		'click #navbar-contact' : 'contactRender'
 	},
 
 	aboutRender: function(ev) {
@@ -31,6 +32,10 @@ var NavbarView = Backbone.View.extend({
 
 	recruitRender: function(ev) {
 		window.location.href = window.location.origin + '/recruiting';
+	},
+
+	contactRender: function(ev) {
+		window.location.href = window.location.origin + '/contact';
 	}
 
 });

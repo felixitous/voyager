@@ -26,4 +26,5 @@ urlpatterns = [
     url(r'^careers/', views.careers, name='career'),
     url(r'^services/', views.services, name='service'),
     url(r'^recruiting/', views.recruiting, name='recruit'),
+    url(r'^contact/', views.contact, name="contact"),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

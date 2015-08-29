@@ -1,0 +1,29 @@
+{% include "header.html" %}
+<meta name="title" content="#navbar-contact">
+<body>
+	<div class="picture recruiting-picture">
+		<h2 class="page-title"> Contact </h2>
+	</div>
+	<div class="generic-whitespace"></div>
+	<h3 class="executive-panel-title"> Say Hello! </h3>
+	<!-- {{ form }} -->
+	<div class="page-container">
+		<div class="line-break"></div>
+		<!-- {{ form.subject.label_tag }} -->
+		<form action="/contact/" method="post">
+			{% csrf_token %}
+			<div class="six columns subject-line">
+				{{ form.subject }}
+			</div>
+			<div class="six columns subject-line text-align-right">
+				{{ form.sender }}
+			</div>
+			<div class="message-line">
+				{{ form.message }}
+			</div>
+			<input type="submit" value="Send">
+		</form>
+		<div class="generic-whitespace"></div>
+	</div>
+</body>
+{% include "footer.html" %}
