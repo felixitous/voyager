@@ -1,19 +1,18 @@
 {% load staticfiles %}
 <meta charset="UTF-8">
-
-<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" href="static/images/favicon.ico">
-<title> Voyager Consulting </title>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/ico" href="../static/images/favicon.ico">
+	<title> Voyager Consulting </title>
+</head>
 <script type="text/javascript" src="{% static "js/jquery.min.js" %}"></script>
 <link rel="stylesheet" type="text/css" href="{% static "css/normalize.css" %}" />
 <link rel="stylesheet" type="text/css" href="{% static "css/skeleton.css" %}" />
 <link rel="stylesheet" type="text/css" href="{% static "css/image-import.css" %}" />
 <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}" />
-
 <!-- NavBar Personal Design -->
 <div id="navbar-container"></div>
 <div class="background-overlay"></div>
-
 <script type="text/template" id="navbar-template">
 	{% include "header/navbar.html" %}
 </script>

@@ -542,6 +542,7 @@ body {
 	height: 100px;
 	margin: 0 auto;
 	margin-bottom: 0px;
+	/*z-index: 0;*/
 }
 
 
