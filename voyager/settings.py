@@ -97,7 +97,7 @@ USE_TZ = True
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'felixmbx@gmail.com'
-EMAIL_HOST_PASSWORD = '626awefjio;'
+EMAIL_HOST_PASSWORD = 'irayhgjnwdkjvlnp'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
