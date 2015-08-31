@@ -51,6 +51,11 @@ body {
 	width: 80%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer-column h4 {
+	font-family: Gibson;
 }
 
 .follow-row {
@@ -376,13 +381,68 @@ body {
 
 .service-subject-frame {
 	max-width: 100% !important;
-	height: 40%;
+	height: 300px;
 	border: 2px solid black;
 	display: inline-block;
 	margin: 0;
 	position: relative;
-	overflow: hidden;
+	display: block;
+	/*overflow: hidden;*/
 
+}
+
+.service-subject-wrapper {
+	position: relative;
+	/*height: 500px;*/
+	/*height: 600px;*/
+	overflow: auto;
+}
+
+.services-box {
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	background-color: black;
+	height: 500px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(179,179,179,1);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(179,179,179,1);
+	box-shadow: 0px 0px 10px 3px rgba(179,179,179,1);
+}
+
+.service-box-title {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 200%;
+	background-color: white;
+	/*border: 2px solid black;*/
+}
+
+.service-box-picture {
+	width: 100%;
+	height: 250px;
+	background-color: #336699;
+}
+
+.service-box-description {
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+
+.service-box-description p {
+	font-family: 'Lato', sans-serif;
+}
+
+.services-box-container {
+	width: 70%;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
 }
 
 .text-wrapper {
@@ -802,7 +862,8 @@ body {
 
 .redirect-display {
 	/*background-color: #F8F8F8;*/
-	background-color: #F6E7D2;
+	/*background-color: #F6E7D2;*/
+	background-color: #ecf0f1;
 	overflow: hidden;
 	text-align: center;
 	/*min-width: 400px;*/

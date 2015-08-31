@@ -289,6 +289,10 @@ $(".company").css("height", function() {
     return $(".company-container").width() / 6 - 24;
 });
 
+$(".services-box").css("width", function() {
+    return $(".services-box-container").width() / 3 - 50;
+});
+
 function redirectHover() {
     $(".redirect-title-box").mouseenter(function() {
         TweenMax.to($(".redirect-overlay", this), 0.2, {
