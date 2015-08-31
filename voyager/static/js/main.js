@@ -45,3 +45,14 @@ if (renderTarget == "#navbar-contact") {
     $("#id_sender").attr('placeholder', "Email");
     $("#id_message").attr('placeholder', "Message");
 }
+
+if (renderTarget = "#navbar-apply") {
+    $("#id_name").attr('placeholder', "Name");
+    $("#id_email").attr('placeholder', "Email");
+    $("#id_year").attr('placeholder', "Year such as Freshman, Sophomore, etc");
+    $("#id_major").attr('placeholder', "Your Intended or Current Major");
+
+}
+
+
+

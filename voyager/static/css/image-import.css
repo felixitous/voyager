@@ -159,6 +159,16 @@
 	background-image: url("../images/contact.jpeg");
 }
 
+.apply-picture {
+	background-image: url("../images/apply.jpeg");
+}
+
+.vc-logo-16-picture {
+	background-image: url("../images/vc-logo-16.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
 .nba-picture {
 	background-image: url("../images/NBA.jpg");
 	/*background-size: cover;*/

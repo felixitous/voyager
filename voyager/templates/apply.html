@@ -1,5 +1,39 @@
 {% include "header.html" %}
 
+<meta name="title" content="#navbar-apply">
+<body>
+	<div class="picture apply-picture">
+		<h2 class="page-title"> Apply </h2>
+		<div class="header-overlay"></div>
+	</div>
 
+	<div class="generic-whitespace"></div>
+	<div class="logo-picture-box vc-logo-16-picture"></div>
+	<!-- <div class="generic-whitespace"></div> -->
+
+	<div class="page-container">
+		<p class="apply-description">
+			We are currently working on our application portal. Let us
+			know a little bit about yourself and we'll get back to you
+			when our portal is open!
+		</p>
+		<form id="apply-form" action="/apply/" method="post">
+			{% csrf_token %}
+			<div class="six columns subject-line">
+				{{ form.name }}
+			</div>
+			<div class="six columns subject-line text-align-right">
+				{{ form.year }}
+			</div>
+			<div class="six columns subject-line">
+				{{ form.email }}
+			</div>
+			<div class="six columns subject-line text-align-right">
+				{{ form.major }}
+			</div>
+			<input type="submit" value="Share!">
+		</form>
+	</div>
+</body>
 
 {% include "footer.html" %}
