@@ -282,11 +282,11 @@ $(".executive-picture").css("height", function() {
 });
 
 $(".company").css("width", function() {
-    return $(".company-container").width() / 6 - 23;
+    return $(".company-container").width() / 6 - 24;
 });
 
 $(".company").css("height", function() {
-    return $(".company-container").width() / 6 - 23;
+    return $(".company-container").width() / 6 - 24;
 });
 
 function redirectHover() {
