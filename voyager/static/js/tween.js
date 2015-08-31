@@ -298,7 +298,7 @@ function redirectHover() {
 
     $(".redirect-title-box").mouseleave(function() {
         TweenMax.to($(".redirect-overlay", this), 0.2, {
-            opacity: 0.2
+            opacity: 0.3
         });
     });
 }
