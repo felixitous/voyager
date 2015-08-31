@@ -1,8 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
 
+@font-face {
+    font-family: Gibson;
+    src: url(../gibson-bold.ttf);
+}
+
+
 body {
 	background-color: white;
-	font-family: 'Cabin', sans-serif;
+	/*font-family: 'Cabin', sans-serif;*/
+	font-family: 'Gibson'
 }
 
 .generic-whitespace {
@@ -349,7 +356,7 @@ body {
 .text-frame {
 	text-align: center;
 	/*background-color: #779CAB;*/
-	background-color: #01B6AD;
+	background-color: #336699;
 	position: absolute;
 	color: white;
 	margin: auto;
@@ -715,6 +722,13 @@ body {
 	font-size: 200%;
 }
 
+.sub-title-gibson-black {
+	color: black;
+	font-family: Gibson;
+	font-size: 240%;
+	margin-bottom: 0;
+}
+
 .sub-title-black {
 	color: black;
 	font-family: 'Lato', sans-serif;
@@ -786,7 +800,7 @@ body {
 }
 
 .redirect-display {
-	/*background-color: #C2B8B2;*/
+	/*background-color: #F8F8F8;*/
 	background-color: #F6E7D2;
 	overflow: hidden;
 	text-align: center;
@@ -814,8 +828,18 @@ body {
 	/*height: 40px;*/
 	height: 70%;
 	width: 70%;
-	background-color: #336699;
+	background-color: black;
+	cursor: pointer;
 	/*width: 300px;*/
+}
+
+.redirect-overlay {
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	opacity: 0.2;
 }
 
 .topleft {
@@ -847,6 +871,10 @@ body {
 	margin: 0 auto;
 	margin-left: 0 !important;
 	position: relative;
+}
+
+.sub-title-container {
+
 }
 
 

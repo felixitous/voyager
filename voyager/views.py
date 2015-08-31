@@ -43,3 +43,6 @@ def contact(request):
     else:
         form = ContactForm()
         return render(request, 'contact.html', {'form': form})
+
+def apply(request):
+    return render(request, 'apply.html')

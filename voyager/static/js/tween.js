@@ -186,6 +186,19 @@ function sideDisplayLogic() {
     }
 }
 
+$(".topleft").click(function() {
+    window.location.href = window.location.origin + '/services';
+});
+$(".topright").click(function() {
+    window.location.href = window.location.origin + '/about';
+});
+$(".bottomleft").click(function() {
+    window.location.href = window.location.origin + '/apply';
+});
+$(".bottomright").click(function() {
+    window.location.href = window.location.origin + '/about';
+});
+
 
 function scrollLock() {
     var target_value = $(window).scrollTop();
@@ -276,6 +289,20 @@ $(".company").css("height", function() {
     return $(".company-container").width() / 6 - 23;
 });
 
+function redirectHover() {
+    $(".redirect-title-box").mouseenter(function() {
+        TweenMax.to($(".redirect-overlay", this), 0.2, {
+            opacity: 0
+        });
+    });
+
+    $(".redirect-title-box").mouseleave(function() {
+        TweenMax.to($(".redirect-overlay", this), 0.2, {
+            opacity: 0.2
+        });
+    });
+}
+
 
 function executiveDescriptionDisplay() {
     $(".executive-member").mouseenter(function() {
@@ -307,7 +334,7 @@ function executiveDescriptionDisplay() {
         //     backgroundColor: "white",
         //     color: "black"
         // });
-       TweenMax.to($(".executive-description", this), 0.2, {
+        TweenMax.to($(".executive-description", this), 0.2, {
             // backgroundColor: "white",
             // color: "black",
             opacity: 0,
@@ -318,9 +345,9 @@ function executiveDescriptionDisplay() {
             display: "none",
             opacity: 0
         });
-       TweenMax.to(this, 0, {
+        TweenMax.to(this, 0, {
             zIndex: 1
-       });
+        });
     });
 }
 
@@ -328,6 +355,7 @@ function executiveDescriptionDisplay() {
 // Mckinsey, Cisco, Nest, Google, Box, Pimco, EY, Rdio, Altman-Landry, litman, department of treasury, IBM, Wells Fargo, KKR, Facebook, NBC, ZS Associates, Citrix
 
 // scrollLock();
+redirectHover();
 companyAnimation();
 executiveDescriptionDisplay();
 // buttonAnimation(".about-selector");

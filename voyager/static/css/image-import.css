@@ -159,6 +159,27 @@
 	background-image: url("../images/contact.jpeg");
 }
 
+.nba-picture {
+	background-image: url("../images/NBA.jpg");
+	/*background-size: cover;*/
+	background-size: cover;
+}
+
+.ucberkeley-picture {
+	background-image: url("../images/ucberkeley.jpg");
+	background-size: cover;
+	/*opacity: 0.3;*/
+}
+
+.apply-box-picture {
+	background-image: url("../images/applypicture.jpg");
+	background-size: cover;
+}
+
+.voyager-group-picture {
+	background-image: url("../images/voyager-consulting.jpg");
+	background-size: cover;
+}
 
 .instagram-logo {
 	position: absolute;
