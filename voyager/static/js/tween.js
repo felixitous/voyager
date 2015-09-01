@@ -131,7 +131,7 @@ function homeGridPictureResize(target, divisor) {
 }
 
 function companyGridPictureResize(target, divisor) {
-    var square_height = window.innerWidth / divisor + "px";
+    var square_height = Math.floor(window.innerWidth / divisor) + "px";
     $(target).css("width", square_height)
     $(target).css("height", square_height)
     $(".logo-frame").css("height", square_height)
