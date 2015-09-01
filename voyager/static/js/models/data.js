@@ -4,6 +4,61 @@ var data = [{
     "position": "Investment Banking Analyst Intern - Technology",
     "city": "San Francisco, CA"
 }, {
+	"name": "Savan Patel",
+	"company": "Altman Vilandrie & Company",
+	"position": "Summer Analyst",
+	"city": "San Francisco, CA"
+}, {
+    "name": "Giselle Fang",
+    "company": "Altman Vilandrie & Company",
+    "position": "Summer Analyst",
+    "city": "San Francisco, CA"
+}, {
+	"name": "Sumedh Bhattacharya",
+	"company": "IBM",
+	"position": "Software Development Intern",
+	"city": "San Jose, CA"
+}, {
+	"name": "Lilac Peterson",
+	"company": "US Department of the Treasury",
+	"position": "Intern Shared Services Division",
+	"city": "Washington D.C."
+}, {
+	"name": "Gwin Zhou",
+	"company": "LitiNomics",
+	"position": "Summer Analyst",
+	"city": "Mountain View, CA"
+}, {
+	"name": "Amit Patankar",
+	"company": "Google",
+	"position": "Software Engineer",
+	"city": "Mountain View, CA"
+}, {
+	"name": "Crystal Jain",
+	"company": "Apple",
+	"position": "Engineering Program Manager",
+	"city": "Cupertino, CA"
+}, {
+	"name": "Joanna Chow",
+	"company": "Deloitte",
+	"position": "Advisory Intern",
+	"city": "San Francisco, CA"
+}, {
+	"name": "Olivia Gu",
+	"company": "Facebook",
+	"position": "Finance & Strategy Intern",
+	"city": "Menlo Park, CA"
+}, {
+	"name": "Megha Bindal",
+	"company": "Oracle",
+	"position": "Corporate Marketing Intern",
+	"city": "Redwood City, CA"
+}, {
+	"name": "Tommy Nyugen",
+	"company": "YuMe",
+	"position": "Business Development Intern",
+	"city": "Redwood City, CA"
+}, {
     "name": "Robert Hollis",
     "company": "Wells Fargo Investment Bank",
     "position": "Public Finance Analyst/Higher Education & Nonprofit",
@@ -33,12 +88,7 @@ var data = [{
     "company": "BlackRock",
     "position": "Product and Strategy Analyst",
     "city": "San Francisco, CA"	
-}, {
-	"name": "Amit Patankar",
-    "company": "Excelerate",
-    "position": "CEO",
-    "city": "Irvine, CA"	
-}, {
+},  {
 	"name": "Felix Liu",
     "company": "SurveyMonkey",
     "position": "Software Engineer Intern",

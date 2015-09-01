@@ -293,6 +293,40 @@ $(".services-box").css("width", function() {
     return $(".services-box-container").width() / 3 - 50;
 });
 
+$("#apply-form").submit(function(event) {
+    // alert("fuck");
+    TweenMax.to(".response-alert", 0.4, {
+        display: "block",
+        opacity: 1
+    });
+
+    // TweenMax.to(".response-alert", 0.1, {
+    //     display: "none",
+    //     delay: 0.7,
+    //     opacity: 0
+    // });
+    // event.preventDefault();
+    return
+});
+
+$("#contact-form").submit(function(event) {
+    // alert("fuck");
+    TweenMax.to(".response-alert", 0.4, {
+        display: "block",
+        opacity: 1
+    });
+
+    // TweenMax.to(".response-alert", 0.1, {
+    //     display: "none",
+    //     delay: 0.7,
+    //     opacity: 0
+    // });
+    // event.preventDefault();
+    return
+});
+
+
+
 function redirectHover() {
     $(".redirect-title-box").mouseenter(function() {
         TweenMax.to($(".redirect-overlay", this), 0.2, {

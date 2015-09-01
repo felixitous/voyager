@@ -18,6 +18,10 @@
 	background-image: url("../images/members/savan.jpg");
 }
 
+.matt-picture {
+	background-image: url("../images/members/matt.jpg");
+}
+
 .felix-picture {
 	background-image: url("../images/members/felix.jpg");
 }
@@ -175,6 +179,61 @@
 	background-size: cover;
 }
 
+.manufacturing-picture {
+	background-image: url("../images/manufacturing.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+.media-picture {
+	background-image: url("../images/media.jpeg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.tech-picture {
+	background-image: url("../images/tech.jpeg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.healthcare-picture {
+	background-image: url("../images/healthcare.jpeg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.retail-picture {
+	background-image: url("../images/retail.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.public-picture {
+	background-image: url("../images/public.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.consumer-picture {
+	background-image: url("../images/consumer.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.travel-picture {
+	background-image: url("../images/travel.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
 .ucberkeley-picture {
 	background-image: url("../images/ucberkeley.jpg");
 	background-size: cover;
@@ -195,6 +254,61 @@
 	background-position: center;
 
 }
+
+.goldengate-picture {
+	background-image: url("../images/goldengate.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.impact-picture {
+	background-image: url("../images/impact.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+.voyager-culture-picture {
+	background-image: url("../images/voyager-culture.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.market-research-picture {
+	background-image: url("../images/market-research.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.coach-ad-picture {
+	background-image: url("../images/shoes-camera.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+.business-model-picture {
+	background-image: url("../images/business-model.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.product-research-picture {
+	background-image: url("../images/product-research.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.operations-picture {
+	background-image: url("../images/operations.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.pricing-picture {
+	background-image: url("../images/pricing.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
 
 .instagram-logo {
 	position: absolute;

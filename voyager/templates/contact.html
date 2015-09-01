@@ -1,15 +1,21 @@
 {% include "header.html" %}
 <meta name="title" content="#navbar-contact">
 <body>
+	<div class="response-alert">
+		<div class="response-title">
+			Thank You! We have received your response. You'll be hearing back from us shortly and redirected to the main page
+		</div>
+	</div>
 	<div class="picture contact-picture">
-		<h2 class="page-title"> Contact </h2>
+		<h2 class="page-title contact-header-title"> Contact </h2>
 		<div class="header-overlay"></div>
 	</div>
-	<div class="generic-whitespace"></div>
-	<h3 class="executive-panel-title"> Say Hello! </h3>
+	<div class="title-wrapper style-light-blue">
+		<div class="executive-panel-title"> Say Hello! </div>
+	</div>
 	<!-- {{ form }} -->
+	<div class="generic-whitespace"></div>
 	<div class="page-container">
-		<div class="line-break"></div>
 		<!-- {{ form.subject.label_tag }} -->
 		<form id="contact-form" action="/contact/" method="post">
 			{% csrf_token %}

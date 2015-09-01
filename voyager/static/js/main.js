@@ -16,10 +16,10 @@ if (renderTarget == "#navbar-careers") {
 if (renderTarget == "#navbar-home") {
 
     var carousel = new CarouselView({
-        el: ".pinterest-carousel",
-        target: ".pinterest-carousel"
+        el: ".valve-carousel",
+        target: ".valve-carousel"
     });
-    carousel.render("#pinterest-template");
+    carousel.render("#valve-template");
 
     var carousel = new CarouselView({
         el: ".amazon-carousel",
@@ -28,10 +28,10 @@ if (renderTarget == "#navbar-home") {
     carousel.render("#amazon-template");
 
     var carousel = new CarouselView({
-        el: ".valve-carousel",
-        target: ".valve-carousel"
+        el: ".pinterest-carousel",
+        target: ".pinterest-carousel"
     });
-    carousel.render("#valve-template");
+    carousel.render("#pinterest-template");
 
     var carousel = new CarouselView({
         el: ".instagram-carousel",
