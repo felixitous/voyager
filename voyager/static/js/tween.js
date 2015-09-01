@@ -137,7 +137,7 @@ function companyGridPictureResize(target, divisor) {
     $(target).css("height", square_height)
     $(".logo-frame").css("height", square_height)
     $(".text-frame-logo").css("height", function() {
-        return window.innerHeight - window.innerWidth / divisor;
+        return window.innerHeight - $(".member-display").innerWidth() / divisor;
     });
 }
 
