@@ -127,7 +127,6 @@ function homeGridPictureResize(target, divisor) {
     $(".text-frame").css("height", window.innerHeight);
     // $(".text-frame").css("line-height", window.innerHeight + "px");
     $(".text-frame").css("width", window.innerWidth - window.innerHeight);
-    console.log(window.innerWidth);
     if (window.innerWidth < 1130) {
         $(".picture-frame").css("width", window.innerHeight * 0.666667);
         $(".text-frame").css("width", window.innerWidth - window.innerHeight * 0.666667);
