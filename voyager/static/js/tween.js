@@ -129,12 +129,12 @@ function homeGridPictureResize(target, divisor) {
     $(".text-frame").css("width", window.innerWidth - window.innerHeight);
     console.log(window.innerWidth);
     if (window.innerWidth < 1130) {
-        $(".picture-frame").css("width", window.innerHeight * 0.66666);
-        $(".text-frame").css("width", window.innerWidth - window.innerHeight * 0.66666);
+        $(".picture-frame").css("width", window.innerHeight * 0.666667);
+        $(".text-frame").css("width", window.innerWidth - window.innerHeight * 0.666667);
     }
     if (window.innerWidth < 798) {
-        $(".picture-frame").css("width", window.innerHeight * 0.33333);
-        $(".text-frame").css("width", window.innerWidth - window.innerHeight * 0.33333);
+        $(".picture-frame").css("width", window.innerHeight * 0.333334);
+        $(".text-frame").css("width", window.innerWidth - window.innerHeight * 0.333334);
     }
 }
 
