@@ -506,6 +506,7 @@ body {
 
 .services-box {
 	display: inline-block;
+	/*width: 334px;*/
 	margin-bottom: 40px;
 	margin-left: 20px;
 	margin-right: 20px;

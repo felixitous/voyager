@@ -113,7 +113,7 @@
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 952px) {
     .three.columns                  { width: 25%;            }
 }
 
