@@ -5,11 +5,21 @@
     src: url(../gibson-bold.ttf);
 }
 
+/*@font-face {
+	font-family: Roboto;
+	src: url(../Roboto-Thin.ttf);
+}*/
+
+@font-face {
+	font-family: Lato-Bold;
+	src: url(../Lato-Regular.ttf);
+}
+
 
 body {
 	background-color: white;
 	/*font-family: 'Cabin', sans-serif;*/
-	font-family: 'Gibson'
+	font-family: 'Lato-Bold'
 }
 
 .generic-whitespace {
@@ -87,7 +97,7 @@ body {
 }
 
 .footer-column h4 {
-	font-family: Gibson;
+	font-family: Lato-Bold;
 }
 
 .follow-row {
@@ -476,6 +486,10 @@ body {
 	padding-right: 157px;
 }
 
+.career-header-title {
+	padding-right: 55px;
+}
+
 .title-wrapper {
 	background-color: #177b57;
 	color: white;
@@ -828,7 +842,8 @@ body {
 }
 
 .cabin-font {
-	font-family: 'Cabin', sans-serif !important;
+	/*font-family: 'Cabin', sans-serif !important;*/
+	font-family: Lato-Bold;
 }
 
 .page-container {
@@ -925,7 +940,7 @@ body {
 
 .sub-title-gibson-black {
 	color: black;
-	font-family: Gibson;
+	font-family: Lato-Bold;
 	font-size: 240%;
 	margin-bottom: 0;
 }
