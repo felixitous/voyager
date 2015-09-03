@@ -308,9 +308,9 @@ $(".services-box").css("width", function() {
 
 
 $(".about-frame").each(function() {
-    text_height = $(".text-wrapper", this).height();
+    text_height = $(".about-wrapper", this).height();
     if (text_height) {
-        $(".text-wrapper", this).css("margin-top", function() {
+        $(".about-wrapper", this).css("margin-top", function() {
             return ($(".about-frame").height() - text_height) / 2 + "px"; 
         });
     };

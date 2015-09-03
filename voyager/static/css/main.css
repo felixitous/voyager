@@ -577,12 +577,16 @@ body {
 }
 
 .text-wrapper {
-	/*height: 150px;*/
-	/*position: absolute;*/
-	/*margin: auto;*/
+	height: 150px;
+	position: absolute;
+	margin: auto;
 	margin-left: 20px; margin-right: 20px;
-	/*top: 0; bottom: 0; left: 0; right: 0;*/
+	top: 0; bottom: 0; left: 0; right: 0;
 	/*overflow: scroll;*/
+}
+
+.about-wrapper {
+	margin-left: 20px; margin-right: 20px;
 }
 
 .paragraph-wrap {
