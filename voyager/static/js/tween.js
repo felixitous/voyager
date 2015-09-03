@@ -306,6 +306,18 @@ $(".services-box").css("width", function() {
     };
 });
 
+
+$(".about-frame").each(function() {
+    text_height = $(".text-wrapper", this).height();
+    if (text_height) {
+        $(".text-wrapper", this).css("margin-top", function() {
+            return ($(".about-frame").height() - text_height) / 2 + "px"; 
+        });
+    };
+});
+
+
+
 $("#apply-form").submit(function(event) {
     // alert("fuck");
     TweenMax.to(".response-alert", 0.4, {
