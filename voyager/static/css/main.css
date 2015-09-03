@@ -539,7 +539,7 @@ body {
 	height: 80px;
 	background-color: white;
 	position: relative;
-	overflow: auto !important;
+	overflow: hidden !important;
 }
 
 .service-box-description p {

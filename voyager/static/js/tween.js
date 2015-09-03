@@ -300,11 +300,10 @@ $(".company").css("height", function() {
 $(".services-box").css("width", function() {
     target_width = $(".services-box-container").width() / 3 - 50;
     if (target_width < 282) {
-        return 288;
+        return 291;
     } else {
         return target_width;
     };
-    // return $(".services-box-container").width() / 3 - 50;
 });
 
 $("#apply-form").submit(function(event) {
