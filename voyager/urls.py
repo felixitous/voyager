@@ -23,9 +23,13 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.index, name='index'),
     url(r'^about/', views.about, name='about'),
+    url(r'^about\.php/', views.about, name='about'),
+    url(r'^careers\.php/', views.careers, name='career'),
     url(r'^careers/', views.careers, name='career'),
     url(r'^services/', views.services, name='service'),
+    url(r'^services\.php/', views.services, name='service'),
     url(r'^recruiting/', views.recruiting, name='recruit'),
     url(r'^contact/', views.contact, name="contact"),
+    url(r'^contact\.php/', views.contact, name="contact"),
     url(r'^apply/', views.apply, name="apply"),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
