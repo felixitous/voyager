@@ -378,14 +378,14 @@ function executiveDescriptionDisplay() {
         //     backgroundColor: "#404040",
         //     color: "white"
         // }); 
-        TweenMax.to($(".executive-description", this), 0.2, {
+        TweenMax.to($(".executive-description", this), 0.1, {
             // backgroundColor: "#404040",
             // color: "white",
             opacity: 1,
             display: "block"
         });
 
-        TweenMax.to($(".background-overlay"), 0.2, {
+        TweenMax.to($(".background-overlay"), 0.1, {
             display: "block",
             opacity: 0.3
         });
@@ -402,14 +402,14 @@ function executiveDescriptionDisplay() {
         //     backgroundColor: "white",
         //     color: "black"
         // });
-        TweenMax.to($(".executive-description", this), 0.2, {
+        TweenMax.to($(".executive-description", this), 0, {
             // backgroundColor: "white",
             // color: "black",
             opacity: 0,
             display: "none"
         });
 
-        TweenMax.to($(".background-overlay"), 0.2, {
+        TweenMax.to($(".background-overlay"), 0, {
             display: "none",
             opacity: 0
         });
