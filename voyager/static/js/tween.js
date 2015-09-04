@@ -148,13 +148,30 @@ function companyGridPictureResize(target, divisor) {
     });
 }
 
+function aboutDescription() {
+    $(".about-frame").each(function() {
+        text_height = $(".about-wrapper", this).height();
+        if (text_height) {
+            $(".about-wrapper", this).css("margin-top", function() {
+                margin_top = ($(".about-frame").height() - text_height) / 2;
+                if (margin_top < 0) {
+                    return 0
+                }
+                return margin_top + "px"; 
+            });
+        };
+    });
+}
+
 
 homeGridPictureResize(".grid-picture", 3);
 companyGridPictureResize(".grid-member-picture", 5);
+aboutDescription();
 
 $(window).resize(function() {
     homeGridPictureResize(".grid-picture", 3);
     companyGridPictureResize(".grid-member-picture", 5);
+    aboutDescription();
     // alert("something");
 });
 
@@ -305,18 +322,6 @@ $(".services-box").css("width", function() {
         return target_width;
     };
 });
-
-
-$(".about-frame").each(function() {
-    text_height = $(".about-wrapper", this).height();
-    if (text_height) {
-        $(".about-wrapper", this).css("margin-top", function() {
-            return ($(".about-frame").height() - text_height) / 2 + "px"; 
-        });
-    };
-});
-
-
 
 $("#apply-form").submit(function(event) {
     // alert("fuck");

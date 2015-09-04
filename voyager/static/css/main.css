@@ -587,6 +587,7 @@ body {
 
 .about-wrapper {
 	margin-left: 20px; margin-right: 20px;
+	overflow: visible;
 }
 
 .paragraph-wrap {
@@ -605,19 +606,6 @@ body {
 	margin: auto;
 	/*background-color: black;*/
 }
-
-.about-mission-text-height {
-	/*height: 390px;*/
-}
-
-.about-history-text-height {
-	height: 410px;
-}
-
-.about-culture-text-height {
-	height: 420px;
-}
-
 
 .text-frame-logo {
 	/*height: 50px;*/
