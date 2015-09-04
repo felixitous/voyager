@@ -13,6 +13,11 @@ if (renderTarget == "#navbar-careers") {
     table_2014.render(data_2014);
 }
 
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
+
 if (renderTarget == "#navbar-home") {
 
     var carousel = new CarouselView({
