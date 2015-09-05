@@ -297,6 +297,7 @@ function sideNavLaunch() {
 
 }
 
+
 $(".executive-member").css("width", function() {
     // return $(".page-container").width() / 3 - 60;
     return 324
@@ -354,7 +355,6 @@ $("#contact-form").submit(function(event) {
     // event.preventDefault();
     return
 });
-
 
 
 function redirectHover() {
@@ -419,10 +419,22 @@ function executiveDescriptionDisplay() {
     });
 }
 
+function mainPageAnimation() {
+    $(document).ready(function() {
+        TweenMax.fromTo(".title-container", 0.7, {
+            opacity: 0,
+            display: "none"
+        }, {
+            opacity: 1,
+            display: "block",
+            delay: 0.3
+        });
+    });
+}
 
-// Mckinsey, Cisco, Nest, Google, Box, Pimco, EY, Rdio, Altman-Landry, litman, department of treasury, IBM, Wells Fargo, KKR, Facebook, NBC, ZS Associates, Citrix
 
 // scrollLock();
+mainPageAnimation();
 redirectHover();
 companyAnimation();
 executiveDescriptionDisplay();
