@@ -420,7 +420,8 @@ function executiveDescriptionDisplay() {
 }
 
 function mainPageAnimation() {
-    $(document).ready(function() {
+    $(window).load(function() {
+        // alert("aoweijfaowiejf");
         TweenMax.fromTo(".title-container", 0.7, {
             opacity: 0,
             display: "none"
@@ -430,6 +431,8 @@ function mainPageAnimation() {
             delay: 0.3
         });
     });
+    // $(document).ready(function() {
+    // });
 }
 
 
