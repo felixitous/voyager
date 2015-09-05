@@ -427,8 +427,7 @@ function mainPageAnimation() {
             display: "none"
         }, {
             opacity: 1,
-            display: "block",
-            delay: 0.3
+            display: "block"
         });
     });
     // $(document).ready(function() {
