@@ -157,7 +157,7 @@ function aboutDescription() {
                 if (margin_top < 0) {
                     return 0
                 }
-                return margin_top + "px"; 
+                return margin_top + "px";
             });
         };
     });
@@ -422,12 +422,18 @@ function executiveDescriptionDisplay() {
 function mainPageAnimation() {
     $(window).load(function() {
         // alert("aoweijfaowiejf");
-        TweenMax.fromTo(".title-container", 0.7, {
+        TweenMax.to(".load-screen", 0, {
+            opacity: 0,
+            display: "none"
+        });
+
+        TweenMax.fromTo(".title-container", 1, {
             opacity: 0,
             display: "none"
         }, {
             opacity: 1,
-            display: "block"
+            display: "block",
+            delay: 0.2
         });
     });
     // $(document).ready(function() {

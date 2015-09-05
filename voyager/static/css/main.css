@@ -5,10 +5,38 @@
     src: url(../gibson-bold.ttf);
 }
 
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 /*@font-face {
 	font-family: Roboto;
 	src: url(../Roboto-Thin.ttf);
 }*/
+
+.load-screen {
+	background-color: black;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+
+.load-circle {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+	background-color: black;
+	border: 1px solid white;
+	height: 40px;
+	width: 40px;
+	background-image: url("../images/load-logo.png");
+	background-position: center;
+	background-size: cover;
+	-webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
 
 @font-face {
 	font-family: Lato-Bold;
