@@ -419,14 +419,18 @@ function executiveDescriptionDisplay() {
     });
 }
 
-function mainPageAnimation() {
+function loadScreen() {
     $(window).load(function() {
-        // alert("aoweijfaowiejf");
         TweenMax.to(".load-screen", 0, {
             opacity: 0,
             display: "none"
         });
+    });
+}
 
+function mainPageAnimation() {
+    $(window).load(function() {
+        // alert("aoweijfaowiejf");
         TweenMax.fromTo(".title-container", 1, {
             opacity: 0,
             display: "none"
@@ -436,12 +440,11 @@ function mainPageAnimation() {
             delay: 0.2
         });
     });
-    // $(document).ready(function() {
-    // });
 }
 
 
 // scrollLock();
+loadScreen();
 mainPageAnimation();
 redirectHover();
 companyAnimation();
