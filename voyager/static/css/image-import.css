@@ -167,6 +167,22 @@
 	background-image: url("../images/apply.jpeg");
 }
 
+.margarita-prof-picture {
+	background-image: url("../images/members/margarita.png");
+}
+
+.alishan-picture {
+	background-image: url("../images/members/alishan.png");
+}
+
+.tommy-picture {
+	background-image: url("../images/members/tommy.png");
+}
+
+.david-picture {
+	background-image: url("../images/members/david.png");
+}
+
 .vc-logo-16-picture {
 	background-image: url("../images/vc-logo-16.jpg");
 	background-position: center;
