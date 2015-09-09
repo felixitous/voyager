@@ -374,13 +374,7 @@ function redirectHover() {
 
 function executiveDescriptionDisplay() {
     $(".executive-member").mouseenter(function() {
-        // TweenMax.to($(".executive-text", this), 0, {
-        //     backgroundColor: "#404040",
-        //     color: "white"
-        // }); 
         TweenMax.to($(".executive-description", this), 0.1, {
-            // backgroundColor: "#404040",
-            // color: "white",
             opacity: 1,
             display: "block"
         });
@@ -398,13 +392,7 @@ function executiveDescriptionDisplay() {
 
     });
     $(".executive-member").mouseleave(function() {
-        // TweenMax.to($(".executive-text", this), 0, {
-        //     backgroundColor: "white",
-        //     color: "black"
-        // });
         TweenMax.to($(".executive-description", this), 0, {
-            // backgroundColor: "white",
-            // color: "black",
             opacity: 0,
             display: "none"
         });
@@ -415,6 +403,17 @@ function executiveDescriptionDisplay() {
         });
         TweenMax.to(this, 0, {
             zIndex: 1
+        });
+    });
+
+    $(window).scroll(function() {
+        TweenMax.to($(".background-overlay"), 0, {
+            display: "none",
+            opacity: 0
+        });
+        TweenMax.to($(".executive-description"), 0, {
+            opacity: 0,
+            display: "none"
         });
     });
 }
