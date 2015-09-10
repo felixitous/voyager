@@ -636,6 +636,25 @@ body {
 	/*background-color: black;*/
 }
 
+.application-portal {
+	height: 70px;
+	width: 500px;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 5px;
+	line-height: 70px;
+	text-align: center;
+
+}
+
+.application-portal:hover {
+	cursor: pointer;
+}
+
+.application-portal p {
+	font-size: 200%;
+}
+
 .text-frame-logo {
 	/*height: 50px;*/
 	/*height: 220px;*/

@@ -441,9 +441,44 @@ function mainPageAnimation() {
     });
 }
 
+function applicationButton() {
+    if (window.innerWidth < 650) {
+        TweenMax.to(".application-portal", 0.2, {
+            width: "300px"
+        });
+    } else {
+       TweenMax.to(".application-portal", 0.2, {
+           width: "500px"
+       }); 
+    }
+    $(".application-portal").click(function() {
+        window.location.href = "https://voyager-consulting.workable.com/jobs/115040";
+    });
+
+    $(".application-portal").mouseenter(function() {
+        TweenMax.to(this, 0.5, {
+            backgroundColor: "black",
+            color: "white"
+        });
+    });
+
+    $(".application-portal").mouseleave(function() {
+        TweenMax.to(this, 0.5, {
+            backgroundColor: "white",
+            color: "black"
+        });
+    });
+
+}
+
+
+$( window ).resize(function() {
+    applicationButton();
+});
 
 // scrollLock();
 loadScreen();
+applicationButton();
 mainPageAnimation();
 redirectHover();
 companyAnimation();
