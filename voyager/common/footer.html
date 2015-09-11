@@ -34,7 +34,6 @@
 	</div>
 </div>
 
-
 <script type="text/javascript" src="{% static "js/underscore.js" %}"></script>
 <script type="text/javascript" src="{% static "js/backbone.js" %}"></script>
 <script type="text/javascript" src="{% static "js/tweenmax.min.js" %}"></script>
@@ -46,3 +45,6 @@
 <script type="text/javascript" src="{% static "js/views/table.js" %}"></script>
 <script type="text/javascript" src="{% static "js/main.js" %}"></script>
 <script type="text/javascript" src="{% static "js/tween.js" %}"></script>
+{% if careers %}
+	<script type="text/javascript" src="{% static "js/careers.js" %}"></script>
+{% endif %}

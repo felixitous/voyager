@@ -16,7 +16,7 @@ def about(request):
 
 
 def careers(request):
-    return render(request, 'careers.html')
+    return render(request, 'careers.html', { 'careers' : True })
 
 
 def services(request):

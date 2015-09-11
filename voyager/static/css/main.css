@@ -867,6 +867,10 @@ body {
 	margin-top: 14px;
 }
 
+.tester {
+	display: none;
+}
+
 .navbar-container {
 	width: 100%;
 	position: relative;
@@ -881,7 +885,17 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-.cabin-font {
+.table-style th:hover {
+	/*color: white;*/
+	cursor: pointer;
+	border-bottom: 2px solid black;
+}
+
+.black-bottom {
+	border-bottom: 2px solid black;
+}
+
+.lato-bold {
 	/*font-family: 'Cabin', sans-serif !important;*/
 	font-family: Lato-Bold;
 }
