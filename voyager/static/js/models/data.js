@@ -49,6 +49,11 @@ var data = [{
 	"position": "Finance & Strategy Intern",
 	"city": "Menlo Park, CA"
 }, {
+	"name": "Alishan Patel",
+	"company": "M&A Capital, LLC",
+	"position": "Investment Banking Summer Analyst",
+	"city": "Los Angeles, CA"
+}, {
 	"name": "Megha Bindal",
 	"company": "Oracle",
 	"position": "Corporate Marketing Intern",
@@ -68,6 +73,11 @@ var data = [{
     "company": "ZS Associates",
     "position": "Business Associate",
     "city": "San Francisco, CA"	
+}, {
+	"name": "Philmon Tanuri",
+	"company": "McKinsey & Co",
+	"position": "Business Analyst Intern",
+	"city": "Jakarta, Indonesia"
 }, {
     "name": "Stephan Liu",
     "company": "Goldman Sachs",
