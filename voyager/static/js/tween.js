@@ -419,8 +419,15 @@ function executiveDescriptionDisplay() {
 }
 
 function loadScreen() {
+    $(".load-screen").click(function() {
+        TweenMax.to(".load-screen", 0.2, {
+            opacity: 0,
+            display: "none"
+        });
+    });
+
     $(window).load(function() {
-        TweenMax.to(".load-screen", 0, {
+        TweenMax.to(".load-screen", 0.2, {
             opacity: 0,
             display: "none"
         });
