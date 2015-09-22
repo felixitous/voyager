@@ -14,10 +14,10 @@
 	height: 300px;
 	left: 0; right: 0;
 	margin: auto;
-	top: 50;
+	top: 0;
 	background-size: cover;
 	background-position: center;
-	/*border-radius: 300px;*/
+	border-radius: 300px;
 	opacity: 0;
 }
 

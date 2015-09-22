@@ -4,7 +4,8 @@ TweenMax.to(".personal-picture", 0.7, {
 });
 
 TweenMax.to(".personal-picture", 1, {
-    borderRadius: "150px",
+    // borderRadius: "150px",
+    top: 50,
     ease: Power4.easeOut
 });
 
