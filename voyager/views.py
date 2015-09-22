@@ -63,3 +63,18 @@ def apply(request):
     else:
         form = InterestForm()
         return render(request, 'apply.html', {'form': form})
+
+def savan(request):
+    return render(request, 'members/savanpatel.html')
+
+def philmon(request):
+    return render(request, 'members/philmontanuri.html')
+
+def ted(request):
+    return render(request, 'members/tedxiao.html')
+
+def olivia(request):
+    return render(request, 'members/oliviagu.html')
+
+def felix(request):
+    return render(request, 'members/felixliu.html')

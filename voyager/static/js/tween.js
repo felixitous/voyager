@@ -479,8 +479,28 @@ function applicationButton() {
 }
 
 
-$( window ).resize(function() {
+$(window).resize(function() {
     applicationButton();
+});
+
+$(".savan-picture").click(function() {
+    window.location.href = '/savanpatel'
+});
+
+$(".felix-picture").click(function() {
+    window.location.href = '/felixliu'
+});
+
+$(".ted-picture").click(function() {
+    window.location.href = '/tedxiao'
+});
+
+$(".philmon-picture").click(function() {
+    window.location.href = '/philmontanuri'
+});
+
+$(".olivia-picture").click(function() {
+    window.location.href = '/oliviagu'
 });
 
 // scrollLock();
