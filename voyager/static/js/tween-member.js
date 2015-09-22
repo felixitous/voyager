@@ -9,6 +9,6 @@ TweenMax.to(".personal-picture", 1, {
 });
 
 TweenMax.to(".personal-text", 1, {
-	bottom: 0,
+	top: 380,
 	ease: Power4.easeOut
 });
