@@ -945,6 +945,7 @@ body {
 	/*float: left;*/
 	width: 170px;
 	height: 73.5px;
+	/*height: 100px;*/
 	max-width: 170px;
 	max-height: 100%;
 	margin-top: 10px;
@@ -953,7 +954,7 @@ body {
 	/*margin: 10px;*/
 	background-color: #282828;
 	/*content: url("../images/VClogo.png");*/
-	content: url("../images/voyager-logo.png");
+	/*content: url("../images/voyager-logo.png");*/
 }
 
 .navbar-selectors {
