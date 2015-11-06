@@ -177,15 +177,15 @@ $(window).resize(function() {
 
 function sideDisplay(target_id) {
     var current = $(".current");
-    TweenMax.to(".current", 0.2, {
+    TweenMax.to(".current", 0.4, {
         backgroundColor: "gray",
-        borderWidth: "0px"
+        borderColor: "transparent"
 
     });
     current.removeClass("current");
-    TweenMax.to(target_id, 0.2, {
+    TweenMax.to(target_id, 0.4, {
         backgroundColor: "white",
-        borderWidth: "2px"
+        borderColor: "black"
     });
     $(target_id).addClass("current")
 }
