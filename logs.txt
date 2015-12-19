@@ -1,0 +1,465 @@
+Retrieving logs...
+============= i-5941f380 ==============
+-------------------------------------
+/var/log/eb-version-deployment.log
+-------------------------------------
+2015-11-18 01:19:35,831 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-us-west-2-968626286401,resources/environments/e-mpcir3eiea/_runtime/versions/manifest_1447809410205> from bucket elasticbeanstalk-us-west-2-968626286401 and prefix resources/environments/e-mpcir3eiea/_runtime/versions/
+2015-11-18 01:19:35,880 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-11-18 01:19:37,275 [INFO] Downloaded version label 8c85 from s3 key <Key: elasticbeanstalk-us-west-2-968626286401,resources/environments/e-mpcir3eiea/_runtime/_versions/voyager/8c85>
+2015-11-18 01:38:21,969 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-mpcir3eiea/_runtime/versions/manifest_1447810697955
+2015-11-18 01:38:22,020 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-11-18 01:38:23,533 [INFO] Downloaded version label 8c85 from s3 key <Key: elasticbeanstalk-us-west-2-968626286401,resources/environments/e-mpcir3eiea/_runtime/_versions/voyager/8c85>
+2015-11-18 01:44:28,568 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-mpcir3eiea/_runtime/versions/manifest_1447811027286
+2015-11-18 01:44:28,619 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-11-18 01:44:30,198 [INFO] Downloaded version label 695ad from s3 key <Key: elasticbeanstalk-us-west-2-968626286401,resources/environments/e-mpcir3eiea/_runtime/_versions/voyager/695ad>
+2015-11-18 01:47:45,866 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-mpcir3eiea/_runtime/versions/manifest_1447811225505
+2015-11-18 01:47:46,288 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-11-18 01:47:48,542 [INFO] Downloaded version label 4958 from s3 key <Key: elasticbeanstalk-us-west-2-968626286401,resources/environments/e-mpcir3eiea/_runtime/_versions/voyager/4958>
+2015-11-18 02:08:52,102 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-mpcir3eiea/_runtime/versions/manifest_1447812527805
+2015-11-18 02:08:52,151 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-11-18 02:08:53,810 [INFO] Downloaded version label 92fe from s3 key <Key: elasticbeanstalk-us-west-2-968626286401,resources/environments/e-mpcir3eiea/_runtime/_versions/voyager/92fe>
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Wed Nov 18 01:51:20.505919 2015] [:error] [pid 3583] [client 127.0.0.1:51503] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:51:25.512045 2015] [:error] [pid 3550] [client 127.0.0.1:51504] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:51:30.518084 2015] [:error] [pid 3549] [client 127.0.0.1:51505] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:51:35.524079 2015] [:error] [pid 3551] [client 127.0.0.1:51506] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:51:40.526470 2015] [:error] [pid 3550] [client 127.0.0.1:51507] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:51:45.527634 2015] [:error] [pid 3552] [client 127.0.0.1:51508] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:51:50.530643 2015] [:error] [pid 3551] [client 127.0.0.1:51509] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:51:55.536656 2015] [:error] [pid 3585] [client 127.0.0.1:51510] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:00.542771 2015] [:error] [pid 3552] [client 127.0.0.1:51511] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:05.548305 2015] [:error] [pid 3583] [client 127.0.0.1:51512] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:10.554251 2015] [:error] [pid 3574] [client 127.0.0.1:51513] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:15.560202 2015] [:error] [pid 3550] [client 127.0.0.1:51514] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:20.566295 2015] [:error] [pid 3552] [client 127.0.0.1:51515] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:25.572458 2015] [:error] [pid 3551] [client 127.0.0.1:51516] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:30.578091 2015] [:error] [pid 3550] [client 127.0.0.1:51517] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:35.584048 2015] [:error] [pid 3549] [client 127.0.0.1:51518] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:40.589805 2015] [:error] [pid 3551] [client 127.0.0.1:51519] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:45.595745 2015] [:error] [pid 3585] [client 127.0.0.1:51520] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:50.601919 2015] [:error] [pid 3549] [client 127.0.0.1:51521] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:52:55.603894 2015] [:error] [pid 3583] [client 127.0.0.1:51522] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:53:00.610075 2015] [:error] [pid 3585] [client 127.0.0.1:51523] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:54:17.114794 2015] [:error] [pid 3574] [client 172.31.35.158:8587] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:54:29.072548 2015] [:error] [pid 3585] [client 172.31.35.158:8605] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:54:32.867358 2015] [:error] [pid 3585] [client 172.31.35.158:8605] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:54:37.524046 2015] [:error] [pid 3585] [client 172.31.35.158:8605] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:58:44.436438 2015] [:error] [pid 3585] [client 172.31.35.158:8717] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:58:48.345360 2015] [:error] [pid 3585] [client 172.31.35.158:8717] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 01:58:50.674585 2015] [:error] [pid 3585] [client 172.31.35.158:8717] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:08:57.710206 2015] [mpm_prefork:notice] [pid 3544] AH00169: caught SIGTERM, shutting down
+[Wed Nov 18 02:08:58.759782 2015] [suexec:notice] [pid 4048] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Nov 18 02:08:58.768897 2015] [so:warn] [pid 4048] AH01574: module wsgi_module is already loaded, skipping
+[Wed Nov 18 02:08:58.771258 2015] [auth_digest:notice] [pid 4048] AH01757: generating secret for digest authentication ...
+[Wed Nov 18 02:08:58.771801 2015] [lbmethod_heartbeat:notice] [pid 4048] AH02282: No slotmem from mod_heartmonitor
+[Wed Nov 18 02:08:58.771834 2015] [:warn] [pid 4048] mod_wsgi: Compiled for Python/2.7.9.
+[Wed Nov 18 02:08:58.771837 2015] [:warn] [pid 4048] mod_wsgi: Runtime using Python/2.7.10.
+[Wed Nov 18 02:08:58.773521 2015] [mpm_prefork:notice] [pid 4048] AH00163: Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 configured -- resuming normal operations
+[Wed Nov 18 02:08:58.773534 2015] [core:notice] [pid 4048] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Nov 18 02:09:01.364131 2015] [:error] [pid 4054] [client 127.0.0.1:51627] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:06.369600 2015] [:error] [pid 4052] [client 127.0.0.1:51628] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:11.370669 2015] [:error] [pid 4053] [client 127.0.0.1:51629] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:16.376661 2015] [:error] [pid 4078] [client 127.0.0.1:51630] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:21.382716 2015] [:error] [pid 4052] [client 127.0.0.1:51631] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:26.388831 2015] [:error] [pid 4056] [client 127.0.0.1:51632] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:31.394854 2015] [:error] [pid 4078] [client 127.0.0.1:51633] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:36.400886 2015] [:error] [pid 4055] [client 127.0.0.1:51634] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:41.406924 2015] [:error] [pid 4056] [client 127.0.0.1:51635] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:46.412997 2015] [:error] [pid 4054] [client 127.0.0.1:51636] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:51.419272 2015] [:error] [pid 4055] [client 127.0.0.1:51637] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:09:56.422188 2015] [:error] [pid 4053] [client 127.0.0.1:51638] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:01.428201 2015] [:error] [pid 4054] [client 127.0.0.1:51640] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:06.430923 2015] [:error] [pid 4052] [client 127.0.0.1:51641] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:11.433055 2015] [:error] [pid 4053] [client 127.0.0.1:51642] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:16.438707 2015] [:error] [pid 4078] [client 127.0.0.1:51643] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:21.444694 2015] [:error] [pid 4052] [client 127.0.0.1:51644] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:26.450716 2015] [:error] [pid 4056] [client 127.0.0.1:51645] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:31.456703 2015] [:error] [pid 4052] [client 127.0.0.1:51646] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:36.462660 2015] [:error] [pid 4054] [client 127.0.0.1:51647] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:41.468649 2015] [:error] [pid 4096] [client 127.0.0.1:51649] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:46.474584 2015] [:error] [pid 4056] [client 127.0.0.1:51650] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:51.480637 2015] [:error] [pid 4095] [client 127.0.0.1:51651] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:10:56.486566 2015] [:error] [pid 4054] [client 127.0.0.1:51652] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:01.491518 2015] [:error] [pid 4055] [client 127.0.0.1:51653] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:06.496710 2015] [:error] [pid 4056] [client 127.0.0.1:51654] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:11.502009 2015] [:error] [pid 4053] [client 127.0.0.1:51655] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:16.507901 2015] [:error] [pid 4078] [client 127.0.0.1:51656] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:21.514001 2015] [:error] [pid 4096] [client 127.0.0.1:51657] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:26.519962 2015] [:error] [pid 4055] [client 127.0.0.1:51658] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:31.525457 2015] [:error] [pid 4097] [client 127.0.0.1:51659] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:36.531488 2015] [:error] [pid 4078] [client 127.0.0.1:51660] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:41.537504 2015] [:error] [pid 4056] [client 127.0.0.1:51661] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:46.543547 2015] [:error] [pid 4055] [client 127.0.0.1:51662] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:51.549522 2015] [:error] [pid 4054] [client 127.0.0.1:51663] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:11:56.552769 2015] [:error] [pid 4078] [client 127.0.0.1:51664] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:01.558390 2015] [:error] [pid 4053] [client 127.0.0.1:51665] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:06.564361 2015] [:error] [pid 4055] [client 127.0.0.1:51666] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:11.569880 2015] [:error] [pid 4052] [client 127.0.0.1:51667] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:16.576007 2015] [:error] [pid 4095] [client 127.0.0.1:51668] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:21.582085 2015] [:error] [pid 4056] [client 127.0.0.1:51669] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:26.588134 2015] [:error] [pid 4097] [client 127.0.0.1:51670] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:31.594083 2015] [:error] [pid 4096] [client 127.0.0.1:51671] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:36.600097 2015] [:error] [pid 4095] [client 127.0.0.1:51672] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:41.606268 2015] [:error] [pid 4055] [client 127.0.0.1:51673] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:46.611891 2015] [:error] [pid 4097] [client 127.0.0.1:51674] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:51.617794 2015] [:error] [pid 4078] [client 127.0.0.1:51675] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:12:56.623812 2015] [:error] [pid 4095] [client 127.0.0.1:51676] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:01.629967 2015] [:error] [pid 4052] [client 127.0.0.1:51677] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:06.636125 2015] [:error] [pid 4097] [client 127.0.0.1:51678] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:11.641920 2015] [:error] [pid 4053] [client 127.0.0.1:51679] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:16.648074 2015] [:error] [pid 4054] [client 127.0.0.1:51680] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:21.654046 2015] [:error] [pid 4055] [client 127.0.0.1:51681] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:26.659275 2015] [:error] [pid 4096] [client 127.0.0.1:51682] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:31.665335 2015] [:error] [pid 4056] [client 127.0.0.1:51683] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:36.669903 2015] [:error] [pid 4054] [client 127.0.0.1:51684] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:41.675777 2015] [:error] [pid 4097] [client 127.0.0.1:51685] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:46.681929 2015] [:error] [pid 4096] [client 127.0.0.1:51686] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:51.686366 2015] [:error] [pid 4095] [client 127.0.0.1:51687] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:13:56.692429 2015] [:error] [pid 4054] [client 127.0.0.1:51688] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:14:01.698484 2015] [:error] [pid 4053] [client 127.0.0.1:51689] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:16:46.552061 2015] [:error] [pid 4054] [client 172.31.7.250:47586] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager
+[Wed Nov 18 02:16:46.699949 2015] [:error] [pid 4054] [client 172.31.7.250:47586] Target WSGI script not found or unable to stat: /opt/python/current/app/voyager/voyager, referer: http://voyager.elasticbeanstalk.com/
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2015-11-18 01:19:43,823 CRIT Supervisor running as root (no user in config file)
+2015-11-18 01:19:43,849 INFO RPC interface 'supervisor' initialized
+2015-11-18 01:19:43,849 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-11-18 01:19:43,849 INFO supervisord started with pid 2635
+2015-11-18 01:19:44,851 INFO spawned: 'httpd' with pid 2713
+2015-11-18 01:19:45,852 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-11-18 01:47:56,649 INFO stopped: httpd (exit status 0)
+2015-11-18 01:47:57,654 INFO spawned: 'httpd' with pid 3544
+2015-11-18 01:47:58,688 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-11-18 02:08:57,721 INFO stopped: httpd (exit status 0)
+2015-11-18 02:08:58,726 INFO spawned: 'httpd' with pid 4048
+2015-11-18 02:08:59,760 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+127.0.0.1 (-) - - [18/Nov/2015:01:51:20 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:51:25 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:51:30 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:51:35 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:51:40 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:51:45 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:51:50 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:51:55 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:00 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:05 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:10 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:15 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:20 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:25 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:30 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:35 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:40 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:45 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:50 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:52:55 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:01:53:00 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+172.31.35.158 (50.141.28.232) - - [18/Nov/2015:01:54:17 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+172.31.35.158 (50.141.28.232) - - [18/Nov/2015:01:54:29 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+172.31.35.158 (50.141.28.232) - - [18/Nov/2015:01:54:32 +0000] "GET /voyager/ HTTP/1.1" 404 206 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+172.31.35.158 (50.141.28.232) - - [18/Nov/2015:01:54:37 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+::1 (-) - - [18/Nov/2015:01:55:33 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [18/Nov/2015:01:55:37 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [18/Nov/2015:01:55:38 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [18/Nov/2015:01:55:42 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [18/Nov/2015:01:55:57 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.35.158 (50.141.28.232) - - [18/Nov/2015:01:58:44 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+172.31.35.158 (50.141.28.232) - - [18/Nov/2015:01:58:48 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+172.31.35.158 (50.141.28.232) - - [18/Nov/2015:01:58:50 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+::1 (-) - - [18/Nov/2015:01:59:51 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [18/Nov/2015:01:59:56 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [18/Nov/2015:01:59:57 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [18/Nov/2015:01:59:58 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:01 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:06 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:11 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:16 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:21 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:26 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:31 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:36 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:41 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:46 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:51 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:09:56 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:01 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:06 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:11 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:16 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:21 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:26 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:31 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:36 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:41 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:46 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:51 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:10:56 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:01 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:06 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:11 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:16 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:21 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:26 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:31 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:36 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:41 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:46 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:51 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:11:56 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:01 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:06 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:11 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:16 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:21 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:26 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:31 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:36 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:41 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:46 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:51 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:12:56 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:01 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:06 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:11 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:16 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:21 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:26 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:31 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:36 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:41 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:46 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:51 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:13:56 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Nov/2015:02:14:01 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+172.31.7.250 (50.141.28.232) - - [18/Nov/2015:02:16:46 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+172.31.7.250 (50.141.28.232) - - [18/Nov/2015:02:16:46 +0000] "GET /favicon.ico HTTP/1.1" 404 209 "http://voyager.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+    inflating: /opt/python/ondeck/app/voyager/static/images/wells-logo.png  
+    inflating: /opt/python/ondeck/app/voyager/static/images/zs-logo.png  
+     creating: /opt/python/ondeck/app/voyager/static/js/
+    inflating: /opt/python/ondeck/app/voyager/static/js/backbone.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/jquery.min.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/main.js  
+     creating: /opt/python/ondeck/app/voyager/static/js/models/
+    inflating: /opt/python/ondeck/app/voyager/static/js/models/data.js  
+   extracting: /opt/python/ondeck/app/voyager/static/js/models/table_model.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/scrollto.min.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/tween-member.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/tween.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/tweenmax.min.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/underscore.js  
+     creating: /opt/python/ondeck/app/voyager/static/js/views/
+    inflating: /opt/python/ondeck/app/voyager/static/js/views/carousel.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/views/navbar.js  
+    inflating: /opt/python/ondeck/app/voyager/static/js/views/table.js  
+     creating: /opt/python/ondeck/app/voyager/templates/
+    inflating: /opt/python/ondeck/app/voyager/templates/about.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/apply.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/careers.html  
+     creating: /opt/python/ondeck/app/voyager/templates/carousel/
+    inflating: /opt/python/ondeck/app/voyager/templates/carousel/amazon.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/carousel/instagram.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/carousel/pinterest.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/carousel/valve.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/contact.html  
+     creating: /opt/python/ondeck/app/voyager/templates/header/
+    inflating: /opt/python/ondeck/app/voyager/templates/header/navbar.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/index.html  
+     creating: /opt/python/ondeck/app/voyager/templates/members/
+    inflating: /opt/python/ondeck/app/voyager/templates/members/felixliu.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/members/oliviagu.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/members/philmontanuri.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/members/savanpatel.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/members/tedxiao.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/recruiting.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/services.html  
+    inflating: /opt/python/ondeck/app/voyager/templates/table.html  
+    inflating: /opt/python/ondeck/app/voyager/urls.py  
+    inflating: /opt/python/ondeck/app/voyager/views.py  
+    inflating: /opt/python/ondeck/app/voyager/wsgi.py  
+[2015-11-18T02:08:55.053Z] INFO  [3914]  - [Application update/AppDeployStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2015-11-18T02:08:55.463Z] INFO  [3914]  - [Application update/AppDeployStage0/AppDeployPreHook/03deploy.py] : Completed activity. Result:
+  Requirement already satisfied (use --upgrade to upgrade): Django==1.8.3 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+  Requirement already satisfied (use --upgrade to upgrade): dj-database-url==0.3.0 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+  Requirement already satisfied (use --upgrade to upgrade): dj-static==0.0.6 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+  Requirement already satisfied (use --upgrade to upgrade): gunicorn==19.3.0 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+  Requirement already satisfied (use --upgrade to upgrade): static3==0.6.1 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+  Requirement already satisfied (use --upgrade to upgrade): wsgiref==0.1.2 in /usr/lib64/python2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+[2015-11-18T02:08:55.463Z] INFO  [3914]  - [Application update/AppDeployStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2015-11-18T02:08:56.944Z] INFO  [3914]  - [Application update/AppDeployStage0/AppDeployPreHook/04configen.py] : Completed activity. Result:
+  2015-11-18 02:08:56,939 ERROR    The specified WSGIPath of "voyager/voyager/wsgi.py" was not found in the source bundle
+[2015-11-18T02:08:56.944Z] INFO  [3914]  - [Application update/AppDeployStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2015-11-18T02:08:56.945Z] INFO  [3914]  - [Application update/AppDeployStage0/EbExtensionPostBuild] : Starting activity...
+[2015-11-18T02:08:57.178Z] INFO  [3914]  - [Application update/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2015-11-18T02:08:57.178Z] INFO  [3914]  - [Application update/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2015-11-18T02:08:57.194Z] INFO  [3914]  - [Application update/AppDeployStage0/EbExtensionPostBuild] : Completed activity.
+[2015-11-18T02:08:57.194Z] INFO  [3914]  - [Application update/AppDeployStage0/InfraCleanEbextension] : Starting activity...
+[2015-11-18T02:08:57.196Z] INFO  [3914]  - [Application update/AppDeployStage0/InfraCleanEbextension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2015-11-18T02:08:57.196Z] INFO  [3914]  - [Application update/AppDeployStage0] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy stage 0 completed
+[2015-11-18T02:08:57.196Z] INFO  [3914]  - [Application update/AppDeployStage1] : Starting activity...
+[2015-11-18T02:08:57.196Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployEnactHook] : Starting activity...
+[2015-11-18T02:08:57.196Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2015-11-18T02:14:06.709Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 4048, uptime 0:00:03
+  2015-11-18 02:14:06,704 WARNING  Apache is running, but root page is not responding in 5mins.
+[2015-11-18T02:14:06.709Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2015-11-18T02:14:06.804Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2015-11-18T02:14:06.804Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2015-11-18T02:14:06.804Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployPostHook] : Starting activity...
+[2015-11-18T02:14:06.804Z] INFO  [3914]  - [Application update/AppDeployStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2015-11-18T02:14:06.804Z] INFO  [3914]  - [Application update/AppDeployStage1] : Completed activity. Result:
+  Application version switch - Command CMD-AppDeploy stage 1 completed
+[2015-11-18T02:14:06.805Z] INFO  [3914]  - [Application update/AddonsAfter] : Starting activity...
+[2015-11-18T02:14:06.805Z] INFO  [3914]  - [Application update/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2015-11-18T02:14:06.805Z] INFO  [3914]  - [Application update/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2015-11-18T02:14:06.897Z] INFO  [3914]  - [Application update/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2015-11-18T02:14:06.897Z] INFO  [3914]  - [Application update/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2015-11-18T02:14:06.897Z] INFO  [3914]  - [Application update/AddonsAfter] : Completed activity.
+[2015-11-18T02:14:06.897Z] INFO  [3914]  - [Application update] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy succeeded
+[2015-11-18T02:16:57.321Z] INFO  [4202]  - [CMD-TailLogs - stage ] : Starting activity...
+[2015-11-18T02:16:57.586Z] INFO  [4202]  - [CMD-TailLogs - stage /AddonsBefore] : Starting activity...
+[2015-11-18T02:16:57.586Z] INFO  [4202]  - [CMD-TailLogs - stage /AddonsBefore] : Completed activity.
+[2015-11-18T02:16:57.586Z] INFO  [4202]  - [CMD-TailLogs - stage /TailLogs] : Starting activity...
+[2015-11-18T02:16:57.586Z] INFO  [4202]  - [CMD-TailLogs - stage /TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+[2015-11-18T01:59:17.947Z] DEBUG [3716]  : Checking if the command processor should execute...
+[2015-11-18T01:59:17.949Z] DEBUG [3716]  : Checking whether the command is applicable to instance (i-5941f380)..
+[2015-11-18T01:59:17.949Z] INFO  [3716]  : Command is applicable to this instance (i-5941f380)..
+[2015-11-18T01:59:17.949Z] DEBUG [3716]  : Checking if the received command stage is valid..
+[2015-11-18T01:59:17.949Z] INFO  [3716]  : No stage_num in command. Valid stage..
+[2015-11-18T01:59:17.949Z] INFO  [3716]  : Received command CMD-TailLogs: {"execution_data":"{\"aws_access_key_id\":\"ASIAIJE32BUS4FWYR46A\",\"signature\":\"oiy2aX+SpDjbUuZoJP46GYU1el4=\",\"security_token\":\"AQoDYXdzEIP\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/wEaoAJCxZblu+ugzzFE3xrAxEwvn5t5b2GvHClWkidtFbPxMZyHa7HGWBO7IEmJd7CGn7NuMSr04brXpUU+wKvCY7g3dFsi7NcfyWcDFo2jHuNwEvwATMHhjKdj4TNcimf2Y1b\\\/ny7pWRgBM0vVHdRNNMkspD+bDtIHwkEfmDnPJvzV9R09DEEs0917C4D1QdDvS7IJgVBGTM\\\/AvBCuRByp0tFPQGd+cqN3U\\\/71RkRIB5Vs8aWNVQld+JFV4j2QHTv0t8P9sQ5hzLsek3UVTuXeEMjUUcYF9uArX+QgkhERliDiC0IudKi87z1GzTY8\\\/iHpS930MPqf54m7SJyC5gGu0EmRlbLeCJOC0vwv2kzlcZLY9V4vvG\\\/1lCn4QT7hjn4g\\\/WUg87avsgU=\",\"policy\":\"eyJleHBpcmF0aW9uIjoiMjAxNS0xMS0xOFQwMjoyOToxNi44MFoiLCJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXRpbWVfc3RhbXAiLCIiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LW1ldGEtcHVibGlzaF9tZWNoYW5pc20iLCIiXSxbInN0YXJ0cy13aXRoIiwiJGtleSIsInJlc291cmNlc1wvZW52aXJvbm1lbnRzXC9sb2dzXC8iXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LW1ldGEtYmF0Y2hfaWQiLCIiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LW1ldGEtZmlsZV9uYW1lIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1zZWN1cml0eS10b2tlbiIsIiJdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi05Njg2MjYyODY0MDEiXSxbImVxIiwiJGFjbCIsInByaXZhdGUiXV19\"}","instance_ids":["i-5941f380"],"data":"f8dc4019-8d97-11e5-bb00-3f005f46c075","command_name":"CMD-TailLogs","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"f8dc4019-8d97-11e5-bb00-3f005f46c075","command_timeout":"600"}
+[2015-11-18T01:59:17.949Z] INFO  [3716]  : Command processor should execute command.
+[2015-11-18T01:59:17.949Z] DEBUG [3716]  : Storing current stage..
+[2015-11-18T01:59:17.949Z] DEBUG [3716]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-11-18T01:59:17.949Z] INFO  [3716]  : Executing CMD-TailLogs - stage 
+[2015-11-18T01:59:17.950Z] INFO  [3716]  : Executing command: CMD-TailLogs...
+[2015-11-18T01:59:17.950Z] DEBUG [3716]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-11-18T01:59:17.950Z] DEBUG [3716]  : Refreshing metadata..
+[2015-11-18T01:59:18.267Z] DEBUG [3716]  : Refreshed environment metadata.
+[2015-11-18T01:59:18.267Z] DEBUG [3716]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-11-18T01:59:18.268Z] DEBUG [3716]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-11-18T01:59:18.268Z] INFO  [3716]  : Found enabled addons: ["logpublish"].
+[2015-11-18T01:59:18.269Z] INFO  [3716]  : Updating Command definition of addon logpublish.
+[2015-11-18T01:59:18.269Z] DEBUG [3716]  : Loaded definition of Command CMD-TailLogs.
+[2015-11-18T01:59:18.269Z] INFO  [3716]  : Executing command CMD-TailLogs activities...
+[2015-11-18T01:59:18.269Z] DEBUG [3716]  : Setting environment variables..
+[2015-11-18T01:59:18.270Z] INFO  [3716]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-11-18T01:59:18.270Z] DEBUG [3716]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-11-18T01:59:18.270Z] INFO  [3716]  : Running stage 0 of command CMD-TailLogs...
+[2015-11-18T01:59:18.270Z] DEBUG [3716]  : Loaded 1 actions for stage 0.
+[2015-11-18T01:59:18.270Z] INFO  [3716]  : Running 1 of 1 actions: TailLogs...
+[2015-11-18T01:59:18.475Z] INFO  [3716]  : Running AddonsAfter for command CMD-TailLogs...
+[2015-11-18T01:59:18.475Z] INFO  [3716]  : Command CMD-TailLogs succeeded!
+[2015-11-18T01:59:18.475Z] INFO  [3716]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-5941f380] Successfully finished tailing 6 log(s)","severity":"INFO","timestamp":1447811958475}]}]}
+[2015-11-18T02:08:51.099Z] DEBUG [3914]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-11-18T02:08:51.100Z] DEBUG [3914]  : Checking if the command processor should execute...
+[2015-11-18T02:08:51.101Z] DEBUG [3914]  : Checking whether the command is applicable to instance (i-5941f380)..
+[2015-11-18T02:08:51.101Z] INFO  [3914]  : Command is applicable to this instance (i-5941f380)..
+[2015-11-18T02:08:51.101Z] DEBUG [3914]  : Checking if the received command stage is valid..
+[2015-11-18T02:08:51.101Z] INFO  [3914]  : No stage_num in command. Valid stage..
+[2015-11-18T02:08:51.102Z] INFO  [3914]  : Received command CMD-AppDeploy: {"execution_data":"{\"leader_election\":\"true\"}","instance_ids":["i-5941f380"],"data":"manifest_1447812527805","command_name":"CMD-AppDeploy","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"4b643836-8d99-11e5-afe6-4350732cb6d7","command_timeout":"600"}
+[2015-11-18T02:08:51.102Z] INFO  [3914]  : Command processor should execute command.
+[2015-11-18T02:08:51.102Z] DEBUG [3914]  : Storing current stage..
+[2015-11-18T02:08:51.102Z] DEBUG [3914]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-11-18T02:08:51.102Z] INFO  [3914]  : Executing Application update
+[2015-11-18T02:08:51.102Z] INFO  [3914]  : Executing command: CMD-AppDeploy...
+[2015-11-18T02:08:51.102Z] DEBUG [3914]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-11-18T02:08:51.102Z] DEBUG [3914]  : Refreshing metadata..
+[2015-11-18T02:08:51.369Z] DEBUG [3914]  : Refreshed environment metadata.
+[2015-11-18T02:08:51.369Z] DEBUG [3914]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-11-18T02:08:51.369Z] DEBUG [3914]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-11-18T02:08:51.370Z] INFO  [3914]  : Found enabled addons: ["logpublish"].
+[2015-11-18T02:08:51.371Z] INFO  [3914]  : Updating Command definition of addon logpublish.
+[2015-11-18T02:08:51.371Z] DEBUG [3914]  : Loaded definition of Command CMD-AppDeploy.
+[2015-11-18T02:08:51.371Z] INFO  [3914]  : Executing command CMD-AppDeploy activities...
+[2015-11-18T02:08:51.371Z] DEBUG [3914]  : Setting environment variables..
+[2015-11-18T02:08:51.371Z] INFO  [3914]  : Running AddonsBefore for command CMD-AppDeploy...
+[2015-11-18T02:08:51.371Z] DEBUG [3914]  : Running stages of Command CMD-AppDeploy from stage 0 to stage 1...
+[2015-11-18T02:08:51.371Z] INFO  [3914]  : Running stage 0 of command CMD-AppDeploy...
+[2015-11-18T02:08:51.371Z] INFO  [3914]  : Running leader election...
+[2015-11-18T02:08:51.683Z] INFO  [3914]  : Instance is Leader.
+[2015-11-18T02:08:51.683Z] DEBUG [3914]  : Loaded 7 actions for stage 0.
+[2015-11-18T02:08:51.683Z] INFO  [3914]  : Running 1 of 7 actions: InfraWriteConfig...
+[2015-11-18T02:08:51.685Z] INFO  [3914]  : Running 2 of 7 actions: InfraWriteApp1...
+[2015-11-18T02:08:51.688Z] INFO  [3914]  : Running 3 of 7 actions: InfraWriteApp2...
+[2015-11-18T02:08:53.846Z] INFO  [3914]  : Running 4 of 7 actions: EbExtensionPreBuild...
+[2015-11-18T02:08:54.143Z] INFO  [3914]  : Running 5 of 7 actions: AppDeployPreHook...
+[2015-11-18T02:08:56.944Z] INFO  [3914]  : Running 6 of 7 actions: EbExtensionPostBuild...
+[2015-11-18T02:08:57.194Z] INFO  [3914]  : Running 7 of 7 actions: InfraCleanEbextension...
+[2015-11-18T02:08:57.196Z] INFO  [3914]  : Running stage 1 of command CMD-AppDeploy...
+[2015-11-18T02:08:57.196Z] DEBUG [3914]  : Loaded 2 actions for stage 1.
+[2015-11-18T02:08:57.196Z] INFO  [3914]  : Running 1 of 2 actions: AppDeployEnactHook...
+[2015-11-18T02:14:06.804Z] INFO  [3914]  : Running 2 of 2 actions: AppDeployPostHook...
+[2015-11-18T02:14:06.804Z] INFO  [3914]  : Running AddonsAfter for command CMD-AppDeploy...
+[2015-11-18T02:14:06.897Z] INFO  [3914]  : Command CMD-AppDeploy succeeded!
+[2015-11-18T02:14:06.898Z] INFO  [3914]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"Your WSGIPath refers to a file that does not exist.","severity":"ERROR","timestamp":1447812536}]}]}
+[2015-11-18T02:16:57.319Z] DEBUG [4202]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-11-18T02:16:57.319Z] DEBUG [4202]  : Checking if the command processor should execute...
+[2015-11-18T02:16:57.321Z] DEBUG [4202]  : Checking whether the command is applicable to instance (i-5941f380)..
+[2015-11-18T02:16:57.321Z] INFO  [4202]  : Command is applicable to this instance (i-5941f380)..
+[2015-11-18T02:16:57.321Z] DEBUG [4202]  : Checking if the received command stage is valid..
+[2015-11-18T02:16:57.321Z] INFO  [4202]  : No stage_num in command. Valid stage..
+[2015-11-18T02:16:57.321Z] INFO  [4202]  : Received command CMD-TailLogs: {"execution_data":"{\"aws_access_key_id\":\"ASIAJTE6CMCKWMJJVDDQ\",\"signature\":\"OFZ55yaAPQPRRYfO8tomw55KwVk=\",\"security_token\":\"AQoDYXdzEIP\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/wEaoAJiNtT5ECGb2z67KxJVpdOLorGgmzkL9dKH9GNttIfG8MScQY1zTNvNBZGRp0MRVkK2jretDropqIm+LEqYY4\\\/uKTIa+CuGQIxe130toLI4gvt8yvyApBgZcH5u21TrvFIKoKFGEW5r5\\\/0x54lJVDV2rv54\\\/P0Z9L3V6iqAayHd4JTVF0Fv9q6XKnJR\\\/PnC6u\\\/Q5OkAFaGXSEWfliiGZthN5ra7jz2tHC7HsjU\\\/Xf5gw3uFFu7UuulExRSGGzOLjGNARq1yIidCbAR1NBtYfhLbhDtOxiOwZjiGqBeYglmJ0Yz70pn9QxkjAILMk28yRX9wTn26ukicH7NtlV5H\\\/tw\\\/h4YLaP\\\/0VoBrnoYu0rMQFPghUNBt2470NL5bZf7CnxQgl7+vsgU=\",\"policy\":\"eyJleHBpcmF0aW9uIjoiMjAxNS0xMS0xOFQwMjo0Njo1NS4zNzdaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotc2VjdXJpdHktdG9rZW4iLCIiXSxbInN0YXJ0cy13aXRoIiwiJENvbnRlbnQtVHlwZSIsIiJdLFsiZXEiLCIkYnVja2V0IiwiZWxhc3RpY2JlYW5zdGFsay11cy13ZXN0LTItOTY4NjI2Mjg2NDAxIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl1dfQ==\"}","instance_ids":["i-5941f380"],"data":"70430af8-8d9a-11e5-9485-2f2729fbd09f","command_name":"CMD-TailLogs","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"70430af8-8d9a-11e5-9485-2f2729fbd09f","command_timeout":"600"}
+[2015-11-18T02:16:57.321Z] INFO  [4202]  : Command processor should execute command.
+[2015-11-18T02:16:57.321Z] DEBUG [4202]  : Storing current stage..
+[2015-11-18T02:16:57.321Z] DEBUG [4202]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-11-18T02:16:57.321Z] INFO  [4202]  : Executing CMD-TailLogs - stage 
+[2015-11-18T02:16:57.321Z] INFO  [4202]  : Executing command: CMD-TailLogs...
+[2015-11-18T02:16:57.321Z] DEBUG [4202]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-11-18T02:16:57.321Z] DEBUG [4202]  : Refreshing metadata..
+[2015-11-18T02:16:57.583Z] DEBUG [4202]  : Refreshed environment metadata.
+[2015-11-18T02:16:57.583Z] DEBUG [4202]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-11-18T02:16:57.584Z] DEBUG [4202]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-11-18T02:16:57.584Z] INFO  [4202]  : Found enabled addons: ["logpublish"].
+[2015-11-18T02:16:57.585Z] INFO  [4202]  : Updating Command definition of addon logpublish.
+[2015-11-18T02:16:57.585Z] DEBUG [4202]  : Loaded definition of Command CMD-TailLogs.
+[2015-11-18T02:16:57.585Z] INFO  [4202]  : Executing command CMD-TailLogs activities...
+[2015-11-18T02:16:57.585Z] DEBUG [4202]  : Setting environment variables..
+[2015-11-18T02:16:57.585Z] INFO  [4202]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-11-18T02:16:57.586Z] DEBUG [4202]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-11-18T02:16:57.586Z] INFO  [4202]  : Running stage 0 of command CMD-TailLogs...
+[2015-11-18T02:16:57.586Z] DEBUG [4202]  : Loaded 1 actions for stage 0.
+[2015-11-18T02:16:57.586Z] INFO  [4202]  : Running 1 of 1 actions: TailLogs...
+
+
+

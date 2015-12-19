@@ -4,12 +4,15 @@ from django.template import RequestContext, loader
 from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
 from .forms import ContactForm, InterestForm
+from django.middleware.gzip import GZipMiddleware
+
+gzip_middleware = GZipMiddleware()
 # logger = logging.getLogger(__name__)
 
 
 def index(request):
-    return render(request, 'index.html')
-
+    response = render(request, 'index.html')
+    return gzip_middleware.process_response(request, response)
 
 def about(request):
     return render(request, 'about.html')
