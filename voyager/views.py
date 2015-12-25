@@ -5,11 +5,13 @@ from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
 from .forms import ContactForm, InterestForm
 from django.middleware.gzip import GZipMiddleware
+from django.views.decorators.cache import cache_control
 
 gzip_middleware = GZipMiddleware()
 # logger = logging.getLogger(__name__)
 
 
+@cache_control(must_revalidate=True, max_age=3600)
 def index(request):
     response = render(request, 'index.html')
     return gzip_middleware.process_response(request, response)
