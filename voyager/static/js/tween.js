@@ -435,16 +435,13 @@ function loadScreen() {
 }
 
 function mainPageAnimation() {
-    $(window).load(function() {
-        // alert("aoweijfaowiejf");
-        TweenMax.fromTo(".title-container", 1, {
-            opacity: 0,
-            display: "none"
-        }, {
-            opacity: 1,
-            display: "block",
-            delay: 0.2
-        });
+    TweenMax.fromTo(".title-container", 1, {
+        opacity: 0,
+        display: "none"
+    }, {
+        opacity: 1,
+        display: "block",
+        delay: 0.2
     });
 }
 

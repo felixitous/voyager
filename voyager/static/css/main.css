@@ -59,6 +59,7 @@
 body {
 	background-color: white;
 	/*font-family: 'Cabin', sans-serif;*/
+	margin: 0 !important;
 	font-family: 'Lato-Bold'
 }
 
