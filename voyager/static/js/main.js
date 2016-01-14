@@ -59,5 +59,20 @@ if (renderTarget = "#navbar-apply") {
 
 }
 
+$(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+        aspectRatio: 2,
+        googleCalendarApiKey: 'AIzaSyAQC1R4CN8I5hAjfz8fkmLRx3Xu5iSEUps',
+        events: {
+            googleCalendarId: '5hssou802rg82f0bp3aeu4c3s4@group.calendar.google.com'
+        }
+        // put your options and callbacks here
+    })
+
+});
+
 
 
