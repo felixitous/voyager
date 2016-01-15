@@ -65,8 +65,9 @@ $(document).ready(function() {
         aspectRatio: 2,
         googleCalendarApiKey: 'AIzaSyAQC1R4CN8I5hAjfz8fkmLRx3Xu5iSEUps',
         events: {
-            googleCalendarId: '5hssou802rg82f0bp3aeu4c3s4@group.calendar.google.com'
-        }
+            googleCalendarId: 'frkmrhm1e8utsu47fetpimit5c@group.calendar.google.com'
+        },
+        eventColor: '#48154A'
     })
 
 });
