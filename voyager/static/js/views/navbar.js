@@ -40,8 +40,8 @@ var NavbarView = Backbone.View.extend({
 	},
 
 	applyRender: function(ev) {
-		// window.location.href = window.location.origin + '/apply';
-		window.location.href = "https://voyager-consulting.workable.com/jobs/115040";
+		window.location.href = window.location.origin + '/apply';
+		// window.location.href = "https://voyager-consulting.workable.com/jobs/115040";
 	}
 
 });
