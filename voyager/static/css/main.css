@@ -540,7 +540,7 @@ body {
 }
 
 .title-wrapper {
-	background-color: #177b57;
+	background-color: #666666;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -685,7 +685,7 @@ body {
 	text-align: center;
 	/*background-color: #404040;*/
 	/*background-color: #0A4958;*/
-	background-color: #177b57;
+	background-color: #666666;
 	position: absolute;
 	color: white;
 	top: 0;
