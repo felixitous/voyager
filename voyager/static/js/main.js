@@ -4,13 +4,13 @@ navbar.render();
 renderTarget = $("meta[name=title]").attr("content");
 if (renderTarget == "#navbar-careers") {
     var table_2015 = new TableView({
-        el: "#table-container-2015"
+        el: "#table-container"
     });
     table_2015.render(data);
-    var table_2014 = new TableView({
-        el: "#table-container-2014"
-    });
-    table_2014.render(data_2014);
+    // var table_2014 = new TableView({
+    //     el: "#table-container-2014"
+    // });
+    // table_2014.render(data_2014);
 }
 
 // $( document ).ready(function() {

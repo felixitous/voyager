@@ -29,34 +29,107 @@ function blackBottom(target, comparison) {
 	});
 }
 
+function selectionHighlight(target, comparison) {
+	if (comparison) {
+		$(target).each(function() {
+			target_string = $.trim($(this).text());
+			if (target_string == comparison) {
+				$(this).addClass("span-selected");
+			}
+		});
+	}
+}
+
+function dataSelector(data) {
+	var processed = data;
+	if (selections['year']) {
+		processed = _.groupBy(processed, 'year')[selections['year']]
+		// console.log(temp);
+	}
+
+	if (selections['major']) {
+		processed = _.groupBy(processed, 'major')[selections['major']]
+		// console.log(temp);
+	}
+
+	if (selections['type']) {
+		processed = _.groupBy(processed, 'type')[selections['type']]
+		// console.log(temp);
+	}
+
+	return processed;
+
+}
+
+var selections = {}
+
+
 var TableView = Backbone.View.extend({
 	render: function(data, sorted, target) {
 		var template = _.template($("#table-template").html())({ members : data});
 		this.$el.html(template);
 		if (sorted) {
-			if (this.$el[0].id == "table-container-2015") {
-				blackBottom("#table-container-2015", target);
-			} else {
-				blackBottom("#table-container-2014", target);
-
-			}
+			blackBottom("#table-container", target);
 		}
+		selectionHighlight(".year-span", selections['year']);
+		selectionHighlight(".major-span", selections['major']);
+		selectionHighlight(".type-span", selections['type']);
 	},
 
 	events : {
-		"click th" : "sort"
+		"click th" : "sort",
+		"click .year-span" : "byYear",
+		"click .major-span" : "byMajor",
+		"click .type-span" : "byType"
 	},
 
 	sort: function(ev){
 
 		sorted = true;
 		target_string = $.trim($(ev.target).text());
-		if (this.$el[0].id == "table-container-2015") {
+		if (this.$el[0].id == "table-container") {
 			data = sorter(data, target_string)
 			this.render(data, sorted, target_string);
 		} else {
 			data_2014 = sorter(data_2014, target_string);
 			this.render(data_2014, sorted, target_string);
 		}
+	},
+
+	byYear: function(ev) {
+		// console.log("something");
+		target_string = $.trim($(ev.target).text());
+		if (target_string == selections['year']) {
+			selections['year'] = null
+ 		} else {
+ 			selections['year'] = target_string
+ 		}
+
+ 		console.log(selections);
+ 		this.render(dataSelector(data));
+	},
+
+	byMajor: function(ev) {
+		target_string = $.trim($(ev.target).text());
+		if (target_string == selections['major']) {
+			selections['major'] = null
+ 		} else {
+ 			selections['major'] = target_string
+ 		}
+
+ 		this.render(dataSelector(data));
+
+	},
+
+	byType: function(ev) {
+		target_string = $.trim($(ev.target).text());
+		if (target_string == selections['type']) {
+			selections['type'] = null
+ 		} else {
+ 			selections['type'] = target_string
+ 		}
+
+ 		this.render(dataSelector(data));
+
 	}
 });
