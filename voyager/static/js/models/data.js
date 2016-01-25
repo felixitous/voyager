@@ -7,6 +7,22 @@ var data = [{
 	"major": "Business",
 	"type": "Full-Time"
 }, {
+	"name": "Giselle Fang",
+	"company": "Parthenon",
+	"position": "Associate",
+	"city": "San Francisco, CA",
+	"year": "2016",
+	"major": "Business",
+	"type": "Full-Time"
+}, {
+	"name": "Robbie Hollis",
+	"company": "Cornerstone",
+	"position": "Analyst",
+	"city": "San Francisco, CA",
+	"year": "2016",
+	"major": "Business",
+	"type": "Full-Time"
+}, {
 	"name": "Vedika Prakash",
 	"company": "PricewaterhouseCoopers",
 	"position": "Associate Consultant",
@@ -33,7 +49,7 @@ var data = [{
 }, {
 	"name": "Stephan Liu",
 	"company": "Uber",
-	"position": "Software Engineering",
+	"position": "Software Engineering Intern",
 	"city": "New York, NY",
 	"year": "2016",
 	"major": "Engineering",
@@ -51,13 +67,13 @@ var data = [{
 	"company": "Kaiser Permanente",
 	"position": "Finance IT",
 	"city": "Pleasanton, CA",
-	"year": "2016",
+	"year": "2015",
 	"major": "Business",
 	"type": "Internship"
 }, {
 	"name": "Megha Bindal",
 	"company": "Deutsche Bank",
-	"position": "Sales and Trading",
+	"position": "Sales and Trading Intern",
 	"city": "New York, NY",
 	"year": "2016",
 	"major": "Business",
@@ -65,7 +81,7 @@ var data = [{
 }, {
 	"name": "Krishna Mocherla",
 	"company": "Goldman Sachs",
-	"position": "Investment Banking",
+	"position": "Investment Banking Analyst Intern",
 	"city": "New York, NY",
 	"year": "2016",
 	"major": "Business",
@@ -103,7 +119,7 @@ var data = [{
 	"major": "Engineering",
 	"type": "Internship"
 }, {
-	"name": "Tejas Kanna",
+	"name": "Tejas Kannan",
 	"company": "Microsoft",
 	"position": "Software Engineering Intern",
 	"city": "Redmond, WA",
@@ -281,7 +297,7 @@ var data = [{
 },  {
 	"name": "Felix Liu",
     "company": "SurveyMonkey",
-    "position": "Software Engineer Intern",
+    "position": "Software Engineering Intern",
     "city": "Palo Alto, CA",
     "year": "2015",
     "major": "Engineering",
@@ -297,7 +313,7 @@ var data = [{
 }, {
 	"name": "Ted Xiao",
     "company": "Acupera Software",
-    "position": "Software Engineer Intern",
+    "position": "Software Engineering Intern",
     "city": "San Francisco, CA",
     "year": "2015",
     "major": "Engineering",
@@ -409,7 +425,7 @@ var data = [{
 }, {
 	"name": "Matthew Wong",
 	"company": "Splunk",
-	"position": "Software Engineer Intern",
+	"position": "Software Engineering Intern",
 	"city": "San Francisco, CA",
 	"year": "2014",
 	"major": "Engineering",
@@ -417,7 +433,7 @@ var data = [{
 }, {
 	"name": "Ted Xiao",
 	"company": "FMC Technologies Schilling Robotics",
-	"position": "Software Engineer Intern",
+	"position": "Software Engineering Intern",
 	"city": "Davis, CA",
 	"year": "2014",
 	"major": "Engineering",
@@ -433,7 +449,7 @@ var data = [{
 }, {
 	"name": "Felix Liu",
 	"company": "Gap Inc",
-	"position": "Web Software Engineer Intern",
+	"position": "Web Software Engineering Intern",
 	"city": "San Francisco, CA",
 	"year": "2014",
 	"major": "Engineering",
