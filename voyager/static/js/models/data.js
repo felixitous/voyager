@@ -58,7 +58,7 @@ var data = [{
 	"name": "Felix Liu",
 	"company": "SurveyMonkey",
 	"position": "Software Engineer",
-	"city": "New York, NY",
+	"city": "Palo Alto, CA",
 	"year": "2016",
 	"major": "Engineering",
 	"type": "Full-Time"
@@ -128,7 +128,7 @@ var data = [{
 	"type": "Internship"
 }, {
 	"name": "Sanchit Shorewala",
-	"company": "Countable.us",
+	"company": "Countable .us",
 	"position": "Software Engineering Intern",
 	"city": "San Francisco, CA",
 	"year": "2016",
@@ -216,7 +216,7 @@ var data = [{
 	"type": "Internship"
 }, {
 	"name": "Alishan Patel",
-	"company": "M&A Capital, LLC",
+	"company": "M & A Capital, LLC",
 	"position": "Investment Banking Summer Analyst",
 	"city": "Los Angeles, CA",
 	"year": "2015",

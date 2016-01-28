@@ -72,7 +72,7 @@
 }
 
 .mckinsey-picture {
-	background-image: url("../images/mckinsey-logo.png")
+	background-image: url("../images/mckinsey-logo.png");
 }
 
 .credit-picture {
@@ -111,8 +111,28 @@
 	background-image: url("../images/pwc-logo.png")
 }
 
+.pricewaterhousecoopers-picture {
+	background-image: url("../images/pwc-logo.png")
+}
+
+.deutsche-picture {
+	background-image: url("../images/deutsche-logo.jpg")
+}
+
+.uber-picture {
+	background-image: url("../images/uber-logo.jpg")
+}
+
 .microsoft-picture {
 	background-image: url("../images/microsoft-logo.jpg")
+}
+
+.general-picture {
+	background-image: url("../images/general-logo.png")
+}
+
+.kaiser-picture {
+	background-image: url("../images/kaiser-logo.png")
 }
 
 .linkedin-picture {
@@ -122,6 +142,48 @@
 .acrobat-picture {
 	background-image: url("../images/adobe-logo.png")
 }
+
+.adobe-picture {
+	background-image: url("../images/adobe-logo.png")
+}
+
+.fmc-picture {
+	background-image: url("../images/fmc-logo.png")
+}
+
+.gap-picture {
+	background-image: url("../images/gap-logo.png")
+}
+
+
+.splunk-picture {
+	background-image: url("../images/splunk-logo.png")
+}
+
+.riverbed-picture {
+	background-image: url("../images/riverbed-logo.png")
+}
+
+.pacific-picture {
+	background-image: url("../images/pimco-logo.jpg")
+}
+
+.amazon-picture {
+	background-image: url("../images/amazon-careers-logo.png")
+}
+
+.countable-picture {
+	background-image: url("../images/countable-logo.png")
+}
+
+.altman-picture {
+	background-image: url("../images/altman-logo.jpg")
+}
+
+.ibm-picture {
+	background-image: url("../images/ibm-logo.png")
+}
+
 
 .intel-picture {
 	background-image: url("../images/intel-logo.png")
@@ -147,8 +209,58 @@
 	background-image: url("../images/DoT.png")
 }
 
+.acupera-picture {
+	background-image: url("../images/acupera-logo.jpg")
+}
+
+.ubs-picture {
+	background-image: url("../images/ubs-logo.jpg")
+}
+
+.kohlberg-picture {
+	background-image: url("../images/kkr-logo.png")
+}
+
+.kiva-picture {
+	background-image: url("../images/kiva-logo.png")
+}
+
+.box-picture {
+	background-image: url("../images/box-logo.png")
+}
+
+
+.litinomics-picture {
+	background-image: url("../images/litinomics-logo.png")
+}
+
+.yume-picture {
+	background-image: url("../images/yume-logo.png")
+}
+
+.m-picture {
+	background-image: url("../images/m&a-logo.png")
+}
+
+.oracle-picture {
+	background-image: url("../images/oracle-logo.jpg")
+}
+
+
+.us-picture {
+	background-image: url("../images/DoT.png")
+}
+
 .zs-picture {
 	background-image: url("../images/zs-logo.png")
+}
+
+.parthenon-picture {
+	background-image: url("../images/parthenon-logo.png")
+}
+
+.cornerstone-picture {
+	background-image: url("../images/cornerstone-logo.png")
 }
 
 .rdio-picture {

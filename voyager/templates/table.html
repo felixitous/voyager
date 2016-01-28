@@ -19,6 +19,7 @@
 <table class="u-full-width table-style">
 	<tr class="lato-bold">
 		<th> Name </th>
+		<th> </th>
 		<th> Company </th>
 		<th> Position </th>
 		<th> Location </th>
@@ -26,7 +27,8 @@
 	<% _.each(members, function(member){ %>
 	<tr>
 		<td> <%= member.name %> </td>
-		<td> <%= member.company %> </td>
+		<td> <div class="thumbnail-test"></div></td>
+		<td class="member-company"> <%= member.company %> </td>
 		<td> <%= member.position %> </td>
 		<td> <%= member.city %> </td>
 	</tr>

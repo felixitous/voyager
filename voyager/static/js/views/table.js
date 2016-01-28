@@ -61,6 +61,13 @@ function dataSelector(data) {
 
 }
 
+function companyLogo() {
+	$(".member-company").each(function() {
+		var target = $(this).text().split(" ")[1].toLowerCase() + "-picture";
+		$(this).closest('td').prev('td').find('div').addClass(target)
+	});
+}
+
 var selections = {}
 
 
@@ -74,6 +81,7 @@ var TableView = Backbone.View.extend({
 		selectionHighlight(".year-span", selections['year']);
 		selectionHighlight(".major-span", selections['major']);
 		selectionHighlight(".type-span", selections['type']);
+		companyLogo();
 	},
 
 	events : {
