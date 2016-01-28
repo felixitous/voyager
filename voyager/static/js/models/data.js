@@ -87,6 +87,22 @@ var data = [{
 	"major": "Business",
 	"type": "Internship"
 }, {
+	"name": "Cherry Wang",
+	"company": "Goldman Sachs",
+	"position": "Investment Banking Analyst Intern",
+	"city": "New York, NY",
+	"year": "2016",
+	"major": "Business",
+	"type": "Internship"
+}, {
+	"name": "Cherry Wang",
+	"company": "Goldman Sachs",
+	"position": "Investment Banking Analyst Intern",
+	"city": "New York, NY",
+	"year": "2015",
+	"major": "Business",
+	"type": "Internship"
+}, {
 	"name": "Natalie Rasmus",
 	"company": "Apple",
 	"position": "Finance & Strategy Intern",
@@ -256,7 +272,7 @@ var data = [{
     "type": "Full-Time"
 }, {
 	"name": "Philmon Tanuri",
-	"company": "McKinsey & Co",
+	"company": "McKinsey & Company",
 	"position": "Business Analyst Intern",
 	"city": "Jakarta, Indonesia",
 	"year": "2015",

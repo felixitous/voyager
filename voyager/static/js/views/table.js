@@ -17,11 +17,10 @@ function sorter(data, target_string) {
 }
 
 function blackBottom(target, comparison) {
-	console.log(target);
 	$("th", target).each(function() {
 		$(this).removeClass("black-bottom");
 		target_string = $.trim($(this).text());
-		console.log(target_string);
+		// console.log(target_string);
 		if (target_string == comparison) {
 
 			$(this).addClass("black-bottom");
@@ -95,13 +94,8 @@ var TableView = Backbone.View.extend({
 
 		sorted = true;
 		target_string = $.trim($(ev.target).text());
-		if (this.$el[0].id == "table-container") {
-			data = sorter(data, target_string)
-			this.render(data, sorted, target_string);
-		} else {
-			data_2014 = sorter(data_2014, target_string);
-			this.render(data_2014, sorted, target_string);
-		}
+		sorted_data = sorter(dataSelector(data), target_string)
+		this.render(sorted_data, sorted, target_string);
 	},
 
 	byYear: function(ev) {
