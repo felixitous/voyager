@@ -89,7 +89,7 @@ var data = [{
 }, {
 	"name": "Natalie Rasmus",
 	"company": "Apple",
-	"position": "Finance",
+	"position": "Finance & Strategy Intern",
 	"city": "Cupertino, CA",
 	"year": "2016",
 	"major": "Business",
