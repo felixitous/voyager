@@ -36,84 +36,59 @@ function buttonAnimation(selector) {
 function buttonFocus() {
     shadeTarget = $("meta[name=title]").attr("content");
     TweenMax.to($(shadeTarget), 0.2, {
-        backgroundColor: "white",
-        color: "#282828"
+        backgroundColor: "#006933"
+        // color: "#282828"
     });
 }
+
+
+// Navbar Scroll Appear Re-appear
+var lastScrollTop = 0;
+$(window).scroll(function(event) {
+    var st = $(this).scrollTop();
+    if (st > lastScrollTop) {
+        TweenMax.to($(".navbar"), 0.4, {
+            opacity: 1
+        });
+    } else {
+        TweenMax.to($(".navbar"), 0.4, {
+            opacity: 0
+        });
+    }
+    lastScrollTop = st;
+});
 
 function navbarAppear() {
-    TweenMax.to(wholeNavbarTarget, 0.2, {
-        height: "450px"
-    });
-    TweenMax.to(wholeNavbarTarget, 0.3, {
-        delay: 0.2,
-        width: "180px"
-    });
-    TweenMax.to($(".navbar-container"), 0, {
-        delay: 0.3,
-        display: "block"
-    });
-    TweenMax.to($(".navbar-container"), 0.3, {
-        delay: 0.4,
-        opacity: 1
+    $('.navbar-menu-button').click(function() {
+        TweenMax.to($('.navigation-background'), 0.4, {
+            opacity: 0.7,
+            display: 'block'
+        });
+        TweenMax.to($('.navigation-menu-selection'), 0.7, {
+            opacity: 1,
+            display: 'block'
+        });
     });
 
-    TweenMax.to(this, 0.3, {
-        opacity: 0,
-        display: "none"
+    $('.navigation-background, .close').click(function() {
+        TweenMax.to($('.navigation-background'), 0.4, {
+            opacity: 0,
+            display: 'none'
+        });
+        TweenMax.to($('.navigation-menu-selection'), 0.4, {
+            opacity: 0,
+            display: 'none'
+        });
     });
 }
 
-function navbarDisappear() {
-    TweenMax.to(this, 0.2, {
-        width: "40px"
-    });
-    TweenMax.to(this, 0.3, {
-        delay: 0.2,
-        height: "40px"
-    });
-    TweenMax.to($(".navbar-container"), 0, {
-        opacity: 0,
-        display: "none"
-    });
-    TweenMax.to(target, 0.5, {
-        opacity: 1,
-        display: "block"
-    });
+// arrow toggle yoyo
+TweenMax.to($('.down_arrow'), 1, {
+    fill: '#0C9B51',
+    yoyo: true,
+    repeat: -1
+});
 
-    /* Making sure the width shrinks to the right size */
-    TweenMax.to(this, 0, {
-        delay: 0.3,
-        width: "40px"
-    });
-    TweenMax.to(".navbar-container", 0, {
-        delay: 0.3,
-        display: "none"
-    });
-}
-
-function navbarLaunch() {
-    target = $(".navbar-span-list");
-    wholeNavbarTarget = $(".navbar")
-    target.mouseenter(navbarAppear);
-    wholeNavbarTarget.mouseleave(navbarDisappear);
-}
-
-
-// var lastScrollTop = 0;
-// $(window).scroll(function(event) {
-//     var st = $(this).scrollTop();
-//     if (st > lastScrollTop) {
-//         TweenMax.to($(".navbar"), 0.4, {
-//             opacity: 0
-//         });
-//     } else {
-//         TweenMax.to($(".navbar"), 0.4, {
-//             opacity: 1
-//         });
-//     }
-//     lastScrollTop = st;
-// });
 
 // console.log(window.innerHeight);
 function homeGridPictureResize(target, divisor) {
@@ -509,6 +484,7 @@ companyAnimation();
 executiveDescriptionDisplay();
 // buttonAnimation(".about-selector");
 buttonFocus();
-buttonAnimation(".navbar-selector");
-navbarLaunch();
+// buttonAnimation(".navbar-selector");
+// navbarLaunch();
+navbarAppear();
 sideNavLaunch();

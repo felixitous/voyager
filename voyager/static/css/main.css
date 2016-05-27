@@ -10,1305 +10,1408 @@
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 /*@font-face {
-	font-family: Roboto;
-	src: url(../Roboto-Thin.ttf);
+    font-family: Roboto;
+    src: url(../Roboto-Thin.ttf);
 }*/
 
 #calendar {
-	margin: 40px;
+    margin: 40px;
 }
 
 .load-screen {
-	background-color: black;
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	z-index: 10;
-	opacity: 0.8;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.8;
 }
 
 .load-circle {
-	position: absolute;
-	top: 0; bottom: 0; left: 0; right: 0;
-	margin: auto;
-	background-color: black;
-	border: 1px solid white;
-	height: 40px;
-	width: 40px;
-	background-position: center;
-	background-size: cover;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    background-color: black;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    background-size: cover;
 }
 
 .voyager-load {
-	position: absolute;
-	top: 0; bottom: 0; left: 0; right: 0;
-	margin: auto;
-	height: 200px;
-	width: 200px;
-	-webkit-animation:spin 2s linear infinite;
-	-moz-animation:spin 2s linear infinite;
-	animation:spin 2s linear infinite;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
 }
 
 @font-face {
-	font-family: Lato-Bold;
-	src: url(../Lato-Regular.ttf);
+    font-family: Lato-Bold;
+    src: url(../Lato-Regular.ttf);
 }
 
 
 body {
-	background-color: white;
-	/*font-family: 'Cabin', sans-serif;*/
-	margin: 0 !important;
-	font-family: 'Muli'
+    background-color: white;
+    /*font-family: 'Cabin', sans-serif;*/
+    margin: 0 !important;
+    font-family: 'Muli'
 }
 
 .generic-whitespace {
-	width: 100%;
-	height: 50px;
-	background-color: white;
+    width: 100%;
+    height: 50px;
+    background-color: white;
 }
 
 .arrow-container {
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 
 
 .response-alert {
-	position: fixed;
-	height: 300px;
-	width: 500px;
-	background-color: white;
-	left: 0; right: 0; top: 0; bottom: 0;
-	margin: auto;
-	z-index: 5;
-	border-radius: 5px;
-	border: 2px solid black;
-	display: none;
-	opacity: 0;
+    position: fixed;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    left: 0; right: 0; top: 0; bottom: 0;
+    margin: auto;
+    z-index: 5;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: none;
+    opacity: 0;
 }
 
 .response-title {
-	font-size: 200%;
-	height: 235px;
-	position: absolute;
-	margin: auto;
-	width: 80%;
-	top: 0; bottom: 0; left: 0; right: 0;
-	text-align: center;
+    font-size: 200%;
+    height: 235px;
+    position: absolute;
+    margin: auto;
+    width: 80%;
+    top: 0; bottom: 0; left: 0; right: 0;
+    text-align: center;
 }
 
 .display-appear {
-	display: block;
+    display: block;
 }
 
 .background-overlay {
-	position: fixed;
-	width: 100%;
-	display: none;
-	height: 100%;
-	background-color: black;
-	opacity: 0;
-	z-index: 2;
+    position: fixed;
+    width: 100%;
+    display: none;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    z-index: 2;
 }
 
 .header-overlay {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
 }
 
 .white {
-	color: white;
+    color: white;
 }
 
 .footer-wrapper {
-	width: 100%;
-	overflow: auto;
-	background-color: #303030;
+    width: 100%;
+    overflow: auto;
+    background-color: #303030;
 }
 
 .footer-column {
-	color: white;
-	margin: 0 auto;
-	width: 80%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 .footer-column h4 {
-	font-family: Lato-Bold;
+    font-family: Lato-Bold;
 }
 
 .follow-row {
-	margin: 7px;
-	height: 25px;
-	width: 100%;
+    margin: 7px;
+    height: 25px;
+    width: 100%;
 }
 
 .follow-icon {
-	height: 100%;
-	width: 25px;
-	/*background-color: white;*/
-	background-size: cover;
-	float: left;
+    height: 100%;
+    width: 25px;
+    /*background-color: white;*/
+    background-size: cover;
+    float: left;
 }
 
 .follow-link {
-	width: calc(100% - 40px);
-	float: right;
+    width: calc(100% - 40px);
+    float: right;
 }
 
 .signature {
-	position: absolute;
-	right: 0; bottom: 0;
-	font-size: 10px;
-	height: 20px;
-	text-align: center;
-	line-height: 20px;
-	width: 200px;
-	color: white;
-	background-color: #202020;
+    position: absolute;
+    right: 0; bottom: 0;
+    font-size: 10px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    width: 200px;
+    color: white;
+    background-color: #202020;
 }
 
 .signature-wrapper {
-	position: relative;
-	background-color: #202020;
-	height: 20px;
-	width: 100%;
+    position: relative;
+    background-color: #202020;
+    height: 20px;
+    width: 100%;
 }
 
 .link-redirect {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .link-redirect:hover {
-	color: white;
-	cursor: pointer;
+    color: white;
+    cursor: pointer;
     text-decoration: underline;
 }
 
 .black-background {
-	background-color: black;
+    background-color: black;
 }
 
 .black {
-	color: black !important;
+    color: black !important;
 }
 
 .arrow-wrapper-left {
-	background-color: transparent;
-	border: 2px solid black;
-	border-radius: 36px;
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	top: 70; left: 70;
-	/*z-index: 1;*/
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 36px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 70; left: 70;
+    /*z-index: 1;*/
 }
 
 .arrow-wrapper-right {
-	background-color: transparent;
-	border: 2px solid black;
-	border-radius: 36px;
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	top: 70; right: 70;
-	/*z-index: 1;*/
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 36px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 70; right: 70;
+    /*z-index: 1;*/
 }
 
 .arrow-wrapper-right:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .arrow-wrapper-left:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .arrow-right {
-	width: 0; 
-	height: 0; 
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent;
-	border-left: 20px solid black;
-	position: relative;
-	margin: auto;
-	margin-right: 22px;
-	margin-top: 14px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid black;
+    position: relative;
+    margin: auto;
+    margin-right: 22px;
+    margin-top: 14px;
 }
 
 .arrow-left {
-	width: 0; 
-	height: 0; 
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent; 
-	border-right: 20px solid black; 
-	position: relative;
-	margin: auto;
-	margin-left: 22px;
-	margin-top: 14px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right: 20px solid black; 
+    position: relative;
+    margin: auto;
+    margin-left: 22px;
+    margin-top: 14px;
 }
 
 
 
 .background-smolder {
-	background-color: black;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	opacity: 0.3;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
 }
 
 .carousel-smolder {
-	opacity: 0;
+    opacity: 0.3;
 }
 
 .company {
-	/*height: 250px;*/
-	/*width: 250px;*/
-	/*border: 2px solid black;*/
-	margin: 10px;
-	display: inline-block;
-	background-size: cover;
-	background-position: center;
-	cursor: pointer;
+    /*height: 250px;*/
+    /*width: 250px;*/
+    /*border: 2px solid black;*/
+    margin: 10px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
 
 }
 
 .company-overlay {
-	background-color: black;
-	height: 100%;
-	width: 100%;
-	opacity: 0.2;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
 }
 
 .executive-member {
-	/*height: 400px;*/
-	position: relative !important;
-	background-color: white;
-	margin-right: 5px;
-	margin-left: 5px;
-	margin-bottom: 10px;
-	display: inline-block;
-	/*border: 2px solid black;*/
-	/*z-index: 1;*/
+    /*height: 400px;*/
+    position: relative !important;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    /*border: 2px solid black;*/
+    /*z-index: 1;*/
 }
 
 #contact-form {
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #apply-form {
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .voyager-video {
-	width: 100%;
-	height: 70%;
-	border: none;
+    width: 100%;
+    height: 70%;
+    border: none;
 }
 
 .executive-picture {
-	/*float: left;*/
-	/*height: 300px;*/
-	background-size: cover;
-	background-color: black;
-	cursor: pointer;
+    /*float: left;*/
+    /*height: 300px;*/
+    background-size: cover;
+    background-color: black;
+    cursor: pointer;
 }
 
 .executive-text {
-	/*position: absolute;*/
-	/*z-index: 1;*/
-	background-color: white;
-	/*color: white;*/
-	/*font-weight: bold;*/
-	font-size: 200%;
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    background-color: white;
+    /*color: white;*/
+    /*font-weight: bold;*/
+    font-size: 200%;
 
-	line-height: 60px;
-	/*height: 400px;*/
-	width: 100%;
-	overflow: hidden;
+    line-height: 60px;
+    /*height: 400px;*/
+    width: 100%;
+    overflow: hidden;
 }
 
 .executive-description {
-	background-color: white;
-	/*display: none;*/
-	opacity: 0;
-	display: none;
-	/*color: white;*/
-	/*text-align: left;*/
-	width: 100%;
-	position: absolute;
-	z-index: 1;
+    background-color: white;
+    /*display: none;*/
+    opacity: 0;
+    display: none;
+    /*color: white;*/
+    /*text-align: left;*/
+    width: 100%;
+    position: absolute;
+    z-index: 1;
 }
 
 .executive-description > p {
-	margin-left: 10px; margin-right: 10px;
-	font-family: 'Lato', sans-serif;
+    margin-left: 10px; margin-right: 10px;
+    font-family: 'Lato', sans-serif;
 
 }
 
 .executive-box {
-	position: relative;
-	width: 100%;
-	text-align: center;
-	/*background-color: black;*/
+    position: relative;
+    width: 100%;
+    text-align: center;
+    /*background-color: black;*/
 }
 
 .pl-members {
-	position: relative;
-	/*height: 400px;*/
-	width: 100%;
-	margin-bottom: 50px;
-	text-align: center;
+    position: relative;
+    /*height: 400px;*/
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .pl-picture-box {
-	position: relative;
-	height: 350px;
-	width: 260px;
-	/*background-color: blue;*/
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: 10px;
-	display: inline-block;
+    position: relative;
+    height: 350px;
+    width: 260px;
+    /*background-color: blue;*/
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 .pl-picture {
-	height: 260px;
-	width: 260px;
-	background-size: cover;
+    height: 260px;
+    width: 260px;
+    background-size: cover;
 }
 
 .pl-description {
-	margin: auto;
-	position: absolute;
-	left: 0; right: 0; bottom: 0;
-	/*background-color: red;*/
-	margin-top: 5px;
-	margin-bottom: 5px;
-	height: 80px;
-	width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    /*background-color: red;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 80px;
+    width: 100%;
 }
 
 .major-title {
-	font-size: 20px;
-	font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .company-container {
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 
 .about-selector {
-	border: 3px solid white;
-	width: 45%;
-	font-size: 20px;
-	height: 30px;
-	display: inline-block;
-	text-align: center;
-	border-radius: 5px;
-	margin-left: 2%;
-	margin-right: 2%;
-	color: white;
-	line-height: 30px;
+    border: 3px solid white;
+    width: 45%;
+    font-size: 20px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    line-height: 30px;
 }
 
 .about-title-whitespace {
-	width: 100%;
-	height: 20px;
-	background-color: white;
+    width: 100%;
+    height: 20px;
+    background-color: white;
 }
 
 .paragraph {
-	/*color: white;*/
-	/*margin-bottom: 60px;*/
-	margin-bottom: 10px;
-	font-size: 20px;
-	font-family: 'Lato', sans-serif;
-	width: 90%;
-	margin: auto;
-	text-align: justify;
+    /*color: white;*/
+    /*margin-bottom: 60px;*/
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
 }
 
 .picture-frame {
-	width: 56%;
-	height: 100%;
-	background-color: #404040;
-	position: absolute;
-	/*z-index: 1;*/
-	/*overflow: hidden;*/
-	/*text-align: center;*/
+    width: 56%;
+    height: 100%;
+    background-color: #404040;
+    position: absolute;
+    /*z-index: 1;*/
+    /*overflow: hidden;*/
+    /*text-align: center;*/
 }
 
 .logo-frame {
-	width: 100%;
-	height: 25%;
-	background-color: gray;
-	position: absolute;
-	bottom: 0;
+    width: 100%;
+    height: 25%;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
 }
 
 
 
 .text-frame {
-	text-align: center;
-	/*background-color: #779CAB;*/
-	background-color: #24477f;
-	position: absolute;
-	color: white;
-	margin: auto;
-	right: 0; top: 0; bottom: 0;
+    text-align: center;
+    /*background-color: #779CAB;*/
+    background-color: #197847;
+    position: absolute;
+    color: white;
+    margin: auto;
+    right: 0; top: 0; bottom: 0;
 }
 
 .style-blue {
-	background-color: #24477f !important;
+    background-color: #24477f !important;
 }
 
 .style-green {
-	background-color: #177b57 !important;
+    background-color: #177b57 !important;
 }
 
 .style-red {
-	background-color: #c00 !important;
+    background-color: #c00 !important;
 }
 
 .style-gray {
-	background-color: #404040 !important;
+    background-color: #404040 !important;
 }
 
 .style-purple {
-	background-color: #48154A !important;
+    background-color: #48154A !important;
 }
 
 .style-light-blue {
-	background-color: #000 !important;
+    background-color: #000 !important;
 }
 
 .about-frame {
-	max-width: 100% !important;
-	height: 70%;
-	/*border: 2px solid black;*/
-	display: inline-block;
-	margin: 0;
-	position: relative;
-	overflow: hidden;
+    max-width: 100% !important;
+    height: 70%;
+    /*border: 2px solid black;*/
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .service-subject-frame {
-	max-width: 100% !important;
-	height: 300px;
-	/*border: 2px solid black;*/
-	display: inline-block;
-	margin: 0;
-	position: relative;
-	display: block;
-	text-align: center;
-	line-height: 300px;
-	font-size: 200%;
-	color: white;
-	/*overflow: hidden;*/
+    max-width: 100% !important;
+    height: 300px;
+    /*border: 2px solid black;*/
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 300px;
+    font-size: 200%;
+    color: white;
+    /*overflow: hidden;*/
 }
 
 .service-header-title {
-	padding-right: 70px;
+    padding-right: 70px;
 }
 
 .contact-header-title {
-	padding-right: 70px;
+    padding-right: 70px;
 }
 
 .recruiting-header-title {
-	padding-right: 157px;
+    padding-right: 157px;
 }
 
 .career-header-title {
-	padding-right: 55px;
+    padding-right: 55px;
 }
 
 .title-wrapper {
-	background-color: #666666;
-	color: white;
-	padding-top: 40px;
-	padding-bottom: 40px;
+    background-color: #666666;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .service-overlay {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	opacity: 0.3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
 }
 
 .style-gray {
-	background-color: #666666 !important;
+    background-color: #666666 !important;
 }
 
 .service-text {
-	position: absolute;
-	margin: auto;
-	left: 0; right: 0;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
 }
 
 .service-subject-wrapper {
-	position: relative;
-	/*height: 500px;*/
-	/*height: 600px;*/
-	overflow: auto;
+    position: relative;
+    /*height: 500px;*/
+    /*height: 600px;*/
+    overflow: auto;
 }
 
 .services-box {
-	display: inline-block;
-	/*width: 334px;*/
-	margin-bottom: 40px;
-	margin-left: 20px;
-	margin-right: 20px;
-	position: relative;
-	background-color: black;
-	height: 380px;
-	overflow: hidden;
-	-webkit-box-shadow: 0px 0px 1px 1px rgba(179,179,179,1);
-	-moz-box-shadow: 0px 0px 1px 1px rgba(179,179,179,1);
-	box-shadow: 0px 0px 1px 1px rgba(179,179,179,1);
+    display: inline-block;
+    /*width: 334px;*/
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    background-color: black;
+    height: 380px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(179,179,179,1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(179,179,179,1);
+    box-shadow: 0px 0px 1px 1px rgba(179,179,179,1);
 }
 
 .service-box-title {
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	font-size: 200%;
-	background-color: white;
-	/*border: 2px solid black;*/
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 200%;
+    background-color: white;
+    /*border: 2px solid black;*/
 }
 
 .service-box-picture {
-	width: 100%;
-	height: 250px;
-	background-color: #336699;
+    width: 100%;
+    height: 250px;
+    background-color: #336699;
 }
 
 .service-box-description {
-	width: 100%;
-	height: 80px;
-	background-color: white;
-	position: relative;
-	overflow: hidden !important;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    overflow: hidden !important;
 }
 
 .service-box-description p {
-	font-family: 'Lato', sans-serif;
-	font-size: 110%;
-	margin-top: 12px;
-	margin-left: 5px;
-	margin-right: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .service-box-margin p {
-	margin-top: 25px;
+    margin-top: 25px;
 }
 
 .services-box-container {
-	width: 80%;
-	position: relative;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 50px;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .text-wrapper {
-	height: 150px;
-	position: absolute;
-	margin: auto;
-	margin-left: 20px; margin-right: 20px;
-	top: 0; bottom: 0; left: 0; right: 0;
-	/*overflow: scroll;*/
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    margin-left: 20px; margin-right: 20px;
+    top: 0; bottom: 0; left: 0; right: 0;
+    /*overflow: scroll;*/
 }
 
 .about-wrapper {
-	margin-left: 20px; margin-right: 20px;
-	overflow: visible;
+    margin-left: 20px; margin-right: 20px;
+    overflow: visible;
 }
 
 .paragraph-wrap {
-	width: 90%;
-	margin: auto;
+    width: 90%;
+    margin: auto;
 }
 
 .apply-description {
-	text-align: center;
-	font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .logo-picture-box {
-	height: 300px;
-	width: 300px;
-	margin: auto;
-	/*background-color: black;*/
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    /*background-color: black;*/
 }
 
 .application-portal {
-	height: 70px;
-	width: 500px;
-	margin: auto;
-	border: 2px solid black;
-	border-radius: 5px;
-	line-height: 70px;
-	text-align: center;
+    height: 70px;
+    width: 500px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
 
 }
 
 .application-portal:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .application-portal p {
-	font-size: 200%;
+    font-size: 200%;
 }
 
 .text-frame-logo {
-	/*height: 50px;*/
-	/*height: 220px;*/
-	/*guiding lines to see placement*/
-	/*border: 2px solid white;*/
-	width: 100%;
-	/*height: 50%;*/
-	text-align: center;
-	/*background-color: #404040;*/
-	/*background-color: #0A4958;*/
-	background-color: #666666;
-	position: absolute;
-	color: white;
-	top: 0;
-	bottom: 0;
-/*	display: flex;
-	flex-direction: column;
-	justify-content: center;*/
+    /*height: 50px;*/
+    /*height: 220px;*/
+    /*guiding lines to see placement*/
+    /*border: 2px solid white;*/
+    width: 100%;
+    /*height: 50%;*/
+    text-align: center;
+    /*background-color: #404040;*/
+    /*background-color: #0A4958;*/
+    background-color: #666666;
+    position: absolute;
+    color: white;
+    top: 0;
+    bottom: 0;
+/*  display: flex;
+    flex-direction: column;
+    justify-content: center;*/
 
 
 }
 
 .member-display {
-	/*background-color: #096589 !important;*/
+    /*background-color: #096589 !important;*/
 }
 
 .grid-picture {
-	/*border: 1px solid black;*/
-	/*margin: 0 auto;*/
-	float: left;
-	background-color: white;
-	/*display: inline-block;*/
-	background-repeat: no-repeat;
-	background-size: cover;
+    /*border: 1px solid black;*/
+    /*margin: 0 auto;*/
+    float: left;
+    background-color: white;
+    /*display: inline-block;*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grid-member-picture {
-	/*border: 1px solid black;*/
-	/*margin: 0 auto;*/
-	float: right;
-	background-color: white;
-	/*display: inline-block;*/
-	background-repeat: no-repeat;
-	background-size: cover;
+    /*border: 1px solid black;*/
+    /*margin: 0 auto;*/
+    float: right;
+    background-color: white;
+    /*display: inline-block;*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .float-right {
-	float: right;
+    float: right;
 }
 
 
 .mission-title {
-	color: black;
-	text-align: center;
-	/*margin-top: 40px;*/
-	/*margin-bottom: 20px;*/
-	margin-bottom: 0;
+    color: black;
+    text-align: center;
+    /*margin-top: 40px;*/
+    /*margin-bottom: 20px;*/
+    margin-bottom: 0;
 }
 
 .line-break {
-	width: 100%;
-	height: 1px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	background-color: black;
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: black;
 }
 
 .career-whitespace {
-	width: 100%;
-	height: 20px;
+    width: 100%;
+    height: 20px;
 }
 
-	/*.career-line-break {
-		margin-top: 40px;
-		margin-bottom: 80px;
-	}*/
+    /*.career-line-break {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }*/
 
 .picture {
-	position: relative;
-	height: 450px;
-	width: 100%;
-	background-color: black;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 0 30%;
-	overflow: hidden;
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 30%;
+    overflow: hidden;
 }
 
 .about-picture {
-	background-image: url("../images/about-background.jpg");
-	background-size: cover;
+    background-image: url("../images/about-background.jpg");
+    background-size: cover;
 }
 
 .career-picture {
-	background-image: url("../images/careers.jpeg");
-	/*opacity: 0.3;*/
-	position: relative;
+    background-image: url("../images/careers.jpeg");
+    /*opacity: 0.3;*/
+    position: relative;
 }
 
 .about-launch {
-	width: 100%;
-	background-color: white;
-	position: relative;
-	/*overflow: auto;*/
+    width: 100%;
+    background-color: white;
+    position: relative;
+    /*overflow: auto;*/
 }
 
 .career-launch {
-	width: 100%;
-	background-color: white;
-	position: relative;
-	/*top: 450px;*/
+    width: 100%;
+    background-color: white;
+    position: relative;
+    /*top: 450px;*/
 }
 
 .recruiting-wrapper {
-	width: 80%;
-	position: relative;
+    width: 80%;
+    position: relative;
 }
 
 .about-alumni {
-	background-color: white;
+    background-color: white;
 }
 
 .main-title {
-	color: white;
-	font-size: 500%;
-	font-weight: bold;
+    color: white;
+    font-size: 500%;
+    font-weight: bold;
 }
 
 .panel-title {
-	font-weight: bold;
-	margin-bottom: 0;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 .executive-panel-title {
-	font-weight: bold;
-	/*margin-bottom: 0px !important;*/
-	font-size: 350%;
-	text-align: center;
+    font-weight: bold;
+    /*margin-bottom: 0px !important;*/
+    font-size: 350%;
+    text-align: center;
 }
 
 .title-logo {
-	position: relative;
-	background-color: transparent;
-	width: 500px;
-	height: 100px;
-	margin: 0 auto;
-	margin-bottom: 0px;
-	/*z-index: 0;*/
+    position: relative;
+    background-color: transparent;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    /*z-index: 0;*/
 }
 
 .thumbnail-test {
-	width: 40px;
-	/*height: 30px;*/
-	/*height: 100%;*/
-	height: 40px;
-	margin: 0;
-	padding: 0;
-	background-color: white;
-	display: inline-block;
-	background-size: cover;
+    width: 40px;
+    /*height: 30px;*/
+    /*height: 100%;*/
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: inline-block;
+    background-size: cover;
 }
 
 
 .navbar {
-	/*width: 12%;*/
-	/*height: 100%;*/
-	position: fixed;
-	background-color: #282828;
-	z-index: 2;
+    /*width: 12%;*/
+    /*height: 100%;*/
+    opacity: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #282828;
+    z-index: 2;
 }
 
+    .navbar-menu-button {
+        position: fixed;
+        width: 100px;
+        height: 30px;
+        background-color: transparent;
+        margin-top: 7px;
+        right: 20;
+        border-style: solid;
+        border-color: white;
+        opacity: 0.9;
+        border-radius: 5px;
+        z-index: 3;
+    }
+
+    .navbar-menu-button:hover {
+        cursor: pointer;
+        background-color: #707070;
+        /*opacity: 0.3;*/
+    }
+
+    .navbar-menu-text {
+        color: white;
+        font-size: 20px;
+        margin-left: 22px;
+        /*left: 10;*/
+    }
+
+    .navbar-logo {
+        background-image: url('../images/navbar-logo.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        position: fixed;
+        height: 42px;
+        margin-top: 4px;
+        width: 200px;
+        z-index: 3;
+    }
+
+
+.navigation-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    display: none;
+    z-index: 5;
+
+}
+
+.navigation-menu-selection {
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    background-color: #197847;
+    z-index: 6;
+    border-radius: 7px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    display: none;
+}
+    .navigation-menu-selection .inner h2 {
+        text-align: center;
+        color: white;
+        margin-top: 33px;
+        margin-bottom: 20px;
+        text-decoration: uppercase;
+        font-size: 2.1em;
+    }
+
+    .navigation-menu-selection .links {
+        list-style: none;
+    }
+
+    .navigation-menu-selection .links li {
+        text-align: center;
+        height: 2.7em;
+        font-size: 1.2em;
+        line-height: 2.7em;
+        border-radius: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    .navigation-menu-selection .links li:hover {
+        background-color: #006933;
+    }
+
+        .navigation-menu-selection .links li a {
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+        }
+
+    .navigation-menu-selection .close {
+        position: absolute;
+        background-image: url('../images/close.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #197847;
+        right: 5;
+        top: 5;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 7px;
+    }
+
+
+
+
+
 .navbar-span-list {
-	position: relative;
-	background-color: #282828;
-	width: 40px;
-	height: 40px;
-	overflow: hidden;
+    position: relative;
+    background-color: #282828;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
 }
 
 .side-navigation {
-	z-index: 2;
-	position: fixed;
-	/*background-color: black;*/
-	margin: auto;
-	right: 20; top: 0; bottom: 0;
-	height: 220px;
-	width: 20px;
+    z-index: 2;
+    position: fixed;
+    /*background-color: black;*/
+    margin: auto;
+    right: 20; top: 0; bottom: 0;
+    height: 220px;
+    width: 20px;
 }
 
 .selector {
-	height: 7px;
-	width: 7px;
-	border-radius: 7px;
-	/*border: 2px solid black;*/
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    /*border: 2px solid black;*/
     border-color: transparent;
     border-style: solid;
     border-width: 2px;
-	background-color: gray;
-	margin: auto;
-	left: 0; right: 0;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	cursor: pointer;
+    background-color: gray;
+    margin: auto;
+    left: 0; right: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .selector:hover {
-	background-color: white !important;
+    background-color: white !important;
 }
 
 
 .lines {
-	position: relative;
-	width: 40%;
-	margin: 0 auto;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	border: 1px solid white;
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid white;
 }
 
 .lines-top {
-	margin-top: 14px;
+    margin-top: 14px;
 }
 
 .tester {
-	display: none;
+    display: none;
 }
 
 .navbar-container {
-	width: 100%;
-	position: relative;
-	margin: 0 auto;
-	display: none;
-	opacity: 0;
-	/*overflow: auto;*/
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: none;
+    opacity: 0;
+    /*overflow: auto;*/
 }
 
 .table-style {
-	color: black;
-	font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 .table-style th:hover {
-	/*color: white;*/
-	cursor: pointer;
-	border-bottom: 2px solid black;
+    /*color: white;*/
+    cursor: pointer;
+    border-bottom: 2px solid black;
 }
 
 .black-bottom {
-	border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .lato-bold {
-	/*font-family: 'Cabin', sans-serif !important;*/
-	font-family: Lato-Bold;
+    /*font-family: 'Cabin', sans-serif !important;*/
+    font-family: Lato-Bold;
 }
 
 .page-container {
-	width: 80%;
-	position: relative;
-	/*overflow: auto;*/
-	margin: 0 auto;
+    width: 80%;
+    position: relative;
+    /*overflow: auto;*/
+    margin: 0 auto;
 }
 
 .selector-organizer {
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .page-title {
-	margin: auto;
-	position: absolute;
-	width: 250px;
-	height: 100px;
-	top: 0; bottom: 0; left: 0; right: 0;
-	color: white;
-	font-size: 600%;
-	z-index: 1;
-	/*margin-top: 20px;*/
+    margin: auto;
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    top: 0; bottom: 0; left: 0; right: 0;
+    color: white;
+    font-size: 600%;
+    z-index: 1;
+    /*margin-top: 20px;*/
 
 }
 
 /*.subtitle {
-	font-size: 300%;
+    font-size: 300%;
 }
 */
-.navbar-logo {
-	/*float: left;*/
-	width: 170px;
-	height: 73.5px;
-	/*height: 100px;*/
-	max-width: 170px;
-	max-height: 100%;
-	margin-top: 10px;
-	margin-left: 5px;
-	margin-bottom: 10px;
-	/*margin: 10px;*/
-	background-color: #282828;
-	/*content: url("../images/VClogo.png");*/
-	/*content: url("../images/voyager-logo.png");*/
-}
-
 .navbar-selectors {
-	position: absolute;
-	text-align: center;
-	width: 100%;
-	height: 50px;
-	background-color: black;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
 }
 
 .navbar-selector {
-	/*font-weight: bold;*/
-	font-size: 150%;
-	font-family: 'Lato', sans-serif;
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	color: white;
-	display: inline-block;
-	background-color: #282828;
-	/*padding-left: 15px;*/
-	/*padding-right: 15px;*/
+    /*font-weight: bold;*/
+    font-size: 150%;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    display: inline-block;
+    background-color: #282828;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
 }
 
 .navbar-selector:hover {
-	cursor: pointer;
+    cursor: pointer;
 
 }
 
 .picture-text-overlay {
-	position: absolute;
-	width: 80%;
-	left: 0; right: 0;
-	margin: 0 auto;
-	text-align: center;
-	height: 450px;
-	color: white;
-	overflow: auto;
+    position: absolute;
+    width: 80%;
+    left: 0; right: 0;
+    margin: 0 auto;
+    text-align: center;
+    height: 450px;
+    color: white;
+    overflow: auto;
 }
 
 .picture-text-overlay p {
-	font-size: 200%;
-	position: absolute;
-	top: 30%;
+    font-size: 200%;
+    position: absolute;
+    top: 30%;
 }
 
 .sub-title {
-	color: white;
-	font-family: 'Lato', sans-serif;
-	font-size: 200%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
 }
 
 .sub-title-gibson-black {
-	color: black;
-	font-family: Lato-Bold;
-	font-size: 240%;
-	margin-bottom: 0;
+    color: black;
+    font-family: Lato-Bold;
+    font-size: 240%;
+    margin-bottom: 0;
 }
 
 .sub-title-black {
-	color: black;
-	font-family: 'Lato', sans-serif;
-	font-size: 200%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
 }
 
 .title-divs {
-	position: relative;
-	height: 100%;
-	width: 100%;
-	/*border: 2px solid black;*/
-	background-color: white;
-	overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /*border: 2px solid black;*/
+    background-color: white;
+    overflow: hidden;
 }
 
 .about-panels {
-	position: relative;
-	width: 100%;
-	overflow: auto;
+    position: relative;
+    width: 100%;
+    overflow: auto;
 }
 
 .carousel-divs {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	/*z-index: 1;*/
-	/*display: none;*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*z-index: 1;*/
+    /*display: none;*/
 }
 
 .title-logo-background {
-	position: absolute;
-	width: 100%;
-	height: 300px;
-	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: white;
 }
 
 .float-right {
-	left: 500px;
+    left: 500px;
 }
 
 .whitespace {
-	width: 100%;
-	height: 100px;
+    width: 100%;
+    height: 100px;
 }
 
 .title-container {
-	width: 75%;
-	height: 200px;
-	text-align: center;
-	margin: auto;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
-	display: none;
+    width: 75%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    display: none;
 }
 
 .carousel-container {
-	width: 75%;
-	text-align: center;
-	margin: auto;
-	position: absolute;
-	left: 0; right: 0;
-	padding-top: 50px;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0;
+    padding-top: 50px;
 }
 
 .relative-wrapper {
-	position: relative;
+    position: relative;
 }
 
 .carousel-display {
-	display: inline-block;
+    display: inline-block;
 }
 
 .redirect-display {
-	/*background-color: #F8F8F8;*/
-	/*background-color: #F6E7D2;*/
-	background-color: #ecf0f1;
-	overflow: hidden;
-	text-align: center;
-	/*min-width: 400px;*/
-	/*display: inline;*/
+    /*background-color: #F8F8F8;*/
+    /*background-color: #F6E7D2;*/
+    background-color: #ecf0f1;
+    overflow: hidden;
+    text-align: center;
+    /*min-width: 400px;*/
+    /*display: inline;*/
 }
 
 /*.redirect-box {
-	height: 200px;
-	width: 400px;
-	border: 2px solid white;
-	position: absolute;
-	margin: auto;
-	color: white;
-	top: 0; bottom: 0; left: 0; right: 0;
+    height: 200px;
+    width: 400px;
+    border: 2px solid white;
+    position: absolute;
+    margin: auto;
+    color: white;
+    top: 0; bottom: 0; left: 0; right: 0;
 }
 */
 
 .redirect-title-box {
-	margin: auto;
-	position: absolute;
-	color: white;
-	/*top: 0; bottom: 0; left: 0; right: 0;*/
-	border-radius: 5px;
-	/*height: 40px;*/
-	height: 70%;
-	width: 70%;
-	background-color: black;
-	cursor: pointer;
-	/*width: 300px;*/
+    margin: auto;
+    position: absolute;
+    color: white;
+    /*top: 0; bottom: 0; left: 0; right: 0;*/
+    border-radius: 5px;
+    /*height: 40px;*/
+    height: 70%;
+    width: 70%;
+    background-color: black;
+    cursor: pointer;
+    /*width: 300px;*/
 }
 
 .redirect-overlay {
-	background-color: black;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	opacity: 0.3;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0.3;
 }
 
 .topleft {
-	right: 40; bottom: 40;
+    right: 40; bottom: 40;
 }
 
 .topright {
-	left: 40; bottom: 40;
+    left: 40; bottom: 40;
 }
 
 .bottomleft {
-	top: 40; right: 40;
+    top: 40; right: 40;
 }
 
 .bottomright {
-	top: 40; left: 40;
+    top: 40; left: 40;
 }
 
 .redirect-title {
-	margin: auto;
-	position: absolute;
-	top: 0; bottom: 0; left: 0; right: 0;
-	height: 40px;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 40px;
 }
 
 .redirect-box {
-	height: 50%;
-	width: 50% !important;
-	margin: 0 auto;
-	margin-left: 0 !important;
-	position: relative;
+    height: 50%;
+    width: 50% !important;
+    margin: 0 auto;
+    margin-left: 0 !important;
+    position: relative;
 }
 
 .text-align-right {
-	text-align: right;
+    text-align: right;
 }
 
 .subject-line input {
-	width: 90%;
+    width: 90%;
 }
 
 .message-line textarea {
-	width: 100%;
-	height: 200px;
+    width: 100%;
+    height: 200px;
 }
 
 .margin-kill {
-	margin: 0;
+    margin: 0;
 }
 
 
 .toggle-menu {
-	width: 400px;
-	margin: 0 auto;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .toggle-row {
-	margin-top: 5px;
-	width: 100%;
-	/*height: 30px;*/
-	/*border: 3px solid black;*/
-	text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    /*height: 30px;*/
+    /*border: 3px solid black;*/
+    text-align: center;
 }
 
 .toggle-row span {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .toggle-row span:hover {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 
 .span-selected {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 
 .year-span {
-	margin-left: 5px;
-	margin-right: 5px;
-	width: 25%;
-	display: inline-block;
-	line-height: 34px;
-	height: 32px;
-	text-align: center;
-	position: relative;
-	border: 1px solid black;
-	border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25%;
+    display: inline-block;
+    line-height: 34px;
+    height: 32px;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .major-span {
-	margin-left: 5px;
-	margin-right: 5px;
-	width: 40%;
-	display: inline-block;
-	height: 32px;
-	border: 1px solid black;
-	line-height: 34px;
-	text-align: center;
-	position: relative;
-	border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40%;
+    display: inline-block;
+    height: 32px;
+    border: 1px solid black;
+    line-height: 34px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
 }
 
 .type-span {
-	margin-left: 5px;
-	margin-right: 5px;
-	width: 40%;
-	display: inline-block;
-	line-height: 34px;
-	height: 32px;
-	border: 1px solid black;
-	border-radius: 5px;
-	text-align: center;
-	position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40%;
+    display: inline-block;
+    line-height: 34px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
 }
 
 
 .title-screen {
-	background-color: black;
-	background-image: url("../images/screen1.jpeg");
-	background-size: cover;
+    background-color: black;
+    background-image: url("../images/screen1.jpeg");
+    background-size: cover;
 }
 
 .instagram-screen {
-	background-color: black;
-	background-image: url("../images/clients/instagram.jpg");
-	background-size: cover;
+    background-color: black;
+    background-image: url("../images/clients/instagram.png");
+    background-size: cover;
 }
 
 .pinterest-screen {
-	background-color: black;
-	background-image: url("../images/clients/pinterest.jpg");
-	background-size: cover;
+    background-color: black;
+    background-image: url("../images/clients/pinterest.jpg");
+    background-size: cover;
 }
 
 .amazon-screen {
-	background-color: black;
-	background-image: url("../images/clients/amazon.jpg");
-	background-size: cover;
+    background-color: black;
+    background-image: url("../images/clients/amazon.jpg");
+    background-size: cover;
 }
 
 .valve-screen {
-	background-color: black;
-	background-image: url("../images/clients/valve.jpg");
-	background-size: cover;
+    background-color: black;
+    background-image: url("../images/clients/valve.jpg");
+    background-size: cover;
 }
 
 
 
 .goldman {
-	background-image: url("../images/goldman-sachs.png");
+    background-image: url("../images/goldman-sachs.png");
 }
 
 .bain {
-	background-image: url("../images/bain.jpg");
+    background-image: url("../images/bain.jpg");
 }
 
 .morgan {
-	background-image: url("../images/morgan-stanley.png");
+    background-image: url("../images/morgan-stanley.png");
 }
