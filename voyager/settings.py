@@ -21,8 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 AWS_STORAGE_BUCKET_NAME = 'voyagerconsulting'
-AWS_ACCESS_KEY_ID = 'AKIAJBW26A6DKDW4L6QQ'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AKIAIPGG5KWFONUFSHJA'
+AWS_SECRET_ACCESS_KEY = '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'
 
 AWS_HEADERS = {  # see http://developer.yahoo.com/performance/rules.html#expires
     'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',

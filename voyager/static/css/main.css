@@ -1380,7 +1380,7 @@ body {
 
 .instagram-screen {
     background-color: black;
-    background-image: url("../images/clients/instagram.png");
+    background-image: url("../images/clients/instagram.jpg");
     background-size: cover;
 }
 
@@ -1402,6 +1402,7 @@ body {
     background-size: cover;
 }
 
+/*collectstaic check*/
 
 
 .goldman {
